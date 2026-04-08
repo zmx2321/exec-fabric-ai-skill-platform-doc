@@ -1,6 +1,6 @@
 import { S as __vitePreload, h as ref, s as watch, ad as unrefElement, ae as tryOnScopeDispose, d as defineComponent, C as shallowRef, af as computedAsync, g as computed, ag as useSessionStorage, ah as useLocalStorage, v as watchEffect, ai as watchDebounced, j as onMounted, M as nextTick, Q as onKeyStroke, aj as useRouter, ak as useEventListener, U as useScrollLock, p as inBrowser, al as onBeforeUnmount, o as openBlock, b as createBlock, k as createBaseVNode, Y as withModifiers, l as unref, am as withDirectives, an as vModelText, ao as isRef, c as createElementBlock, n as normalizeClass, e as createCommentVNode, B as renderList, F as Fragment, a as createTextVNode, t as toDisplayString, ap as Teleport, aq as markRaw, ar as createApp, a2 as dataSymbol, a8 as pathToFile, _ as _export_sfc } from "./framework.a3decdff.js";
-import { u as useData, c as createTranslate } from "./theme.6f55ddd5.js";
-const localSearchIndex = { "root": () => __vitePreload(() => import("./@localSearchIndexroot.fc594f09.js"), true ? [] : void 0) };
+import { u as useData, c as createTranslate } from "./theme.2261c750.js";
+const localSearchIndex = { "root": () => __vitePreload(() => import("./@localSearchIndexroot.1be33f8d.js"), true ? [] : void 0) };
 /*!
 * tabbable 6.2.0
 * @license MIT, https://github.com/focus-trap/tabbable/blob/master/LICENSE
