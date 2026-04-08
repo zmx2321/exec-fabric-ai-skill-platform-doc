@@ -2,10 +2,26 @@ export default {
   lang: "zh-CN",
   title: "SmartFlow AI Skill Platform",
   description: "SmartFlow AI Skill Platform / 智流·智能执行平台，An Open & Secure AI Agent Execution Layer。",
+  appearance: {
+    initialValue: "dark",
+    storageKey: "smartflow-doc-theme-appearance",
+  },
   base: "/smart-flow-ai-skill-platform-doc/",
   head: [
     ["link", { rel: "icon", href: "/smart-flow-ai-skill-platform-doc/favicon.ico" }],
     ["meta", { name: "theme-color", content: "#0f766e" }],
+    [
+      "script",
+      {},
+      `(() => {
+        const siteKey = "smartflow-doc-theme-appearance";
+        const globalKey = "vitepress-theme-appearance";
+        const saved = localStorage.getItem(siteKey);
+        const normalized = saved === "light" || saved === "dark" || saved === "auto" ? saved : "dark";
+        localStorage.setItem(siteKey, normalized);
+        localStorage.setItem(globalKey, normalized);
+      })();`,
+    ],
   ],
   markdown: {
     lineNumbers: true,
