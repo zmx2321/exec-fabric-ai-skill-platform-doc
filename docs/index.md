@@ -3,7 +3,7 @@ layout: home
 
 hero:
   image:
-    src: /logo.png
+    src: "/logo.png?v=20260408"
     alt: SmartFlow
   name: 智流 SmartFlow
   text: 可信 AI 执行与治理平台
