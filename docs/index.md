@@ -71,9 +71,9 @@ features:
   <section class="landing-band">
     <div class="landing-section-head">
       <p class="landing-kicker">Identity</p>
-      <h2>项目名与产品名的公开口径</h2>
+      <h2>项目名与产品名</h2>
       <p class="landing-lead">
-        对外文档同时保留项目层和产品层两套命名。前者面向内部技术、开源抽象与未来生态延展，后者面向企业交付、私有部署和真实业务执行。
+        文档同时使用项目名和产品名。前者表达平台的技术定位和长期演进方向，后者用于面向客户和用户的产品表达。
       </p>
     </div>
     <div class="landing-grid landing-grid--two">
@@ -82,7 +82,7 @@ features:
         <h3>SmartFlow AI Skill Platform</h3>
         <p><strong>定位：</strong>An Open &amp; Secure AI Agent Execution Layer</p>
         <p><strong>Slogan：</strong>Make AI Work, Make Work Smart.</p>
-        <p>用于表达内部技术、开源能力与未来生态方向，可理解为从 1.0 底座继续走向 2.0 生态的项目抽象。</p>
+        <p>用于表达平台的技术定位和长期方向，可理解为从 1.0 执行底座逐步走向 2.0 生态协同的项目名。</p>
       </article>
       <article class="mode-card">
         <span class="link-panel-label">Product</span>
@@ -229,9 +229,9 @@ features:
     <div class="cta-card">
       <div>
         <p class="landing-kicker">Contact</p>
-        <h2>如果你在做企业交付、工具产品或本地执行能力接入，这里就是公开说明入口。</h2>
+        <h2>如果你在做企业交付、工具产品或本地执行能力接入，这里可以快速了解 SmartFlow 并进一步沟通。</h2>
         <p class="landing-lead">
-          当前文档站只放公开信息：平台介绍、能力边界、部署方式、版本路线和联系入口。更细的内部经营与实施细节不放在这里。
+          你可以从这里了解平台定位、核心能力、部署方式、版本路线，以及如何联系我继续交流合作。
         </p>
       </div>
       <div class="cta-actions">

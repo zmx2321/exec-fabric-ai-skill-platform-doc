@@ -7,7 +7,7 @@
 - 项目名：`SmartFlow AI Skill Platform`
 - 定位：`An Open & Secure AI Agent Execution Layer`
 - Slogan：`Make AI Work, Make Work Smart.`
-- 说明：用于表达内部技术、开源抽象与未来生态方向，可理解为从 `1.0` 底座逐步走向 `2.0` 生态的项目层命名。
+- 说明：用于表达平台的技术定位和长期演进方向，可理解为从 `1.0` 执行底座逐步走向 `2.0` 生态协同的项目层命名。
 
 ### 产品层口径
 
