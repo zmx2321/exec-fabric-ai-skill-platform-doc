@@ -2,9 +2,6 @@
 layout: home
 
 hero:
-  image:
-    src: "/logo.png?v=20260408"
-    alt: SmartFlow
   name: SmartFlow
   text: 智流·智能执行平台
   tagline: 企业级业务自动化与安全执行系统。复杂工作，简单对话；私有部署，安全省人。
@@ -34,6 +31,36 @@ features:
 ---
 
 <div class="landing-shell">
+  <section class="landing-band landing-band--brand">
+    <div class="landing-brand">
+      <div class="landing-brand__copy">
+        <p class="landing-kicker">Brand Signal</p>
+        <h2>把 Logo 从“摆一个图”改成品牌信号面板</h2>
+        <p class="landing-lead">
+          “智流”对应的是 <strong>智能调度</strong>、<strong>经验资产化</strong> 和 <strong>安全可控执行</strong>。
+          首页不再直接把它当作默认插画，而是把它放进一个更像控制台节点的品牌区，视觉上也更稳定。
+        </p>
+        <div class="landing-brand__chips">
+          <span>智能调度</span>
+          <span>经验资产化</span>
+          <span>安全可控</span>
+          <span>Open &amp; Secure</span>
+        </div>
+      </div>
+      <div class="landing-brand__panel">
+        <div class="landing-brand__screen">
+          <span class="landing-brand__screen-label">SMARTFLOW // BRAND NODE</span>
+          <img src="/logo.png?v=20260408" alt="智流平台 Logo" />
+        </div>
+        <div class="landing-brand__meta">
+          <span class="link-panel-label">Brand</span>
+          <strong>智流·智能执行平台</strong>
+          <p>一个用 AI 调度脚本与执行能力的平台，复杂工作一句话搞定。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="landing-band landing-band--overview">
     <div class="landing-section-head">
       <p class="landing-kicker">Platform Thesis</p>
