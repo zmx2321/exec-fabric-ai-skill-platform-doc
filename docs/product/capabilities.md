@@ -25,29 +25,31 @@ lastUpdated: false
         <a class="cta-button" href="./architecture.html">查看架构说明</a>
       </div>
     </div>
-    <div class="brand-hero__media">
-      <div class="matrix-panel matrix-panel--brand">
+    <div class="brand-hero__media brand-hero__media--compact">
+      <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>SMARTFLOW // CAPABILITY GRID</span>
+          <span>SMARTFLOW // CAPABILITY MAP</span>
           <span>DOC 03</span>
         </div>
         <div class="matrix-panel__canvas">
           <div class="matrix-panel__trace matrix-panel__trace--top"></div>
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
-          <div class="matrix-panel__ring"></div>
-          <div class="matrix-panel__glyph">能</div>
-          <div class="matrix-panel__bolt"></div>
-          <div class="matrix-panel__callout">TRUSTED EXECUTION / PLATFORM CONTROL</div>
+          <div class="matrix-panel__stack">
+            <span>governance: multi_tenant / template_ops / audit</span>
+            <span>execution: plan / confirm / run / trace</span>
+            <span>bridge: skill_registry / cli / local_agent</span>
+          </div>
+          <div class="matrix-panel__callout">CAPABILITY SYSTEM / TRUSTED EXECUTION</div>
         </div>
         <div class="matrix-panel__footer">
-          <span>governance: on</span>
-          <span>audit: on</span>
-          <span>bridge: local ready</span>
+          <span>control: on</span>
+          <span>reuse: growing</span>
+          <span>local: ready</span>
         </div>
       </div>
       <div class="brand-hero__panel">
-        <span class="brand-pill">Platform Logic</span>
+        <span class="brand-pill">Capability Logic</span>
         <strong>重点不是会不会执行，而是能不能在规则里执行。</strong>
         <p>这些能力共同决定平台是否能交付、能扩租户、能沉淀模板、能继续走向产品化。</p>
       </div>
@@ -137,6 +139,11 @@ lastUpdated: false
         <span>Roadmap</span>
         <strong>模板与审计决定能不能继续产品化</strong>
         <p>如果没有模板分发、回滚和日志治理，团队版和企业版都很难成立。</p>
+      </a>
+      <a class="brand-link-card" href="./cli.html">
+        <span>CLI</span>
+        <strong>本地桥接决定能不能把真实脚本接进来</strong>
+        <p>当前已经落地的 <code>register / list / run / agent</code> 命令，就是平台进入本地环境的第一层接口。</p>
       </a>
     </div>
   </section>

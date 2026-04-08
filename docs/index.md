@@ -4,7 +4,7 @@ layout: home
 hero:
   name: SmartFlow
   text: 智流·智能执行平台
-  tagline: 企业级业务自动化与安全执行系统。复杂工作，简单对话；私有部署，安全省人。
+  tagline: 面向多租户治理、可信执行、本地桥接与私有化交付的企业级业务自动化平台。先用免费体验与团队演示承接入口，再逐步走向标准产品、CLI 协同和企业部署。
   actions:
     - theme: brand
       text: 申请免费试用
@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: 产品概览
       link: /product/
+    - theme: alt
+      text: CLI 指引
+      link: /product/cli
     - theme: alt
       text: 部署方式
       link: /product/deployment
@@ -31,7 +34,7 @@ features:
 ---
 
 <div class="landing-shell">
-  <section class="landing-band landing-band--brand">
+  <section class="landing-band landing-band--brand landing-band--brand-story">
     <div class="landing-brand">
       <div class="landing-brand__copy">
         <p class="landing-kicker">Brand Signal</p>
@@ -48,38 +51,44 @@ features:
           <span>安全可控</span>
           <span>Open &amp; Secure</span>
         </div>
+        <div class="landing-brand__quick-grid">
+          <article class="landing-brand__quick-card">
+            <span>入口</span>
+            <strong>试用、演示、企业咨询</strong>
+          </article>
+          <article class="landing-brand__quick-card">
+            <span>底座</span>
+            <strong>治理、执行、CLI、本地桥接</strong>
+          </article>
+        </div>
       </div>
       <div class="landing-brand__panel">
-        <div class="matrix-panel matrix-panel--brand">
-          <div class="matrix-panel__hud">
-            <span>SMARTFLOW // BRAND NODE</span>
+        <article class="landing-brand__signal-card">
+          <div class="landing-brand__signal-head">
+            <span>ENTRY SYSTEM</span>
             <span>SYNC 01</span>
           </div>
-          <div class="matrix-panel__canvas">
-            <div class="matrix-panel__trace matrix-panel__trace--top"></div>
-            <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
-            <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
-            <div class="matrix-panel__ring"></div>
-            <div class="matrix-panel__glyph">智流</div>
-            <div class="matrix-panel__bolt"></div>
-            <div class="matrix-panel__callout">OPEN &amp; SECURE EXECUTION</div>
+          <p class="landing-brand__signal-summary">试用、演示、企业咨询统一承接，治理与执行走同一条可信路径。</p>
+          <div class="landing-brand__signal-list">
+            <div class="landing-brand__signal-item">
+              <strong>入口</strong>
+              <span>免费体验、团队演示、企业咨询</span>
+            </div>
+            <div class="landing-brand__signal-item">
+              <strong>底座</strong>
+              <span>治理、执行、CLI、本地桥接</span>
+            </div>
           </div>
-          <div class="matrix-panel__footer">
-            <span>scheduler: active</span>
-            <span>assets: reusable</span>
-            <span>policy: enforced</span>
+          <div class="landing-brand__signal-tags">
+            <span>Unified Entry</span>
+            <span>Policy Inside</span>
           </div>
-        </div>
-        <div class="landing-brand__meta">
-          <span class="link-panel-label">Primary CTA</span>
-          <strong>智流·智能执行平台</strong>
-          <p>先让访客知道如何开始：体验、试用、演示、升级，而不是只看到“联系我”。</p>
-        </div>
+        </article>
       </div>
     </div>
   </section>
 
-  <section class="landing-band landing-band--overview">
+  <section class="landing-band landing-band--overview landing-band--overview-center">
     <div class="landing-section-head">
       <p class="landing-kicker">Platform Thesis</p>
       <h2>把“会聊天”升级成“会在规则里执行”</h2>
@@ -113,7 +122,7 @@ features:
     </div>
   </section>
 
-  <section class="landing-band">
+  <section class="landing-band landing-band--commercial">
     <div class="landing-section-head">
       <p class="landing-kicker">Commercial Route</p>
       <h2>官网直接服务三层商业路径</h2>
@@ -140,6 +149,7 @@ features:
       </article>
     </div>
     <div class="landing-inline-links">
+      <a href="./product/">查看免费版路径</a>
       <a href="./contact.html#lead-form">申请免费试用</a>
       <a href="./contact.html#lead-form">预约团队版演示</a>
       <a href="./product/editions.html">查看版本路线</a>
@@ -172,7 +182,7 @@ features:
     </div>
   </section>
 
-  <section class="landing-band landing-band--overview">
+  <section id="founder-note" class="landing-band landing-band--overview landing-band--founder">
     <div class="landing-section-head">
       <p class="landing-kicker">Founder Note</p>
       <h2>谁在构建智流，为什么这套平台值得继续聊</h2>
@@ -286,6 +296,7 @@ features:
     <div class="landing-inline-links">
       <a href="./product/deployment.html">查看部署方式</a>
       <a href="./product/scenarios.html">查看应用场景</a>
+      <a href="./product/cli.html">查看 CLI 指引</a>
     </div>
   </section>
 
@@ -337,6 +348,11 @@ features:
         <span class="link-panel-label">Architecture</span>
         <strong>架构说明</strong>
         <p>了解后端、前端、免费入口、平台超管和本地执行之间的关系。</p>
+      </a>
+      <a class="link-panel" href="./product/cli.html">
+        <span class="link-panel-label">CLI</span>
+        <strong>CLI 指引</strong>
+        <p>直接看本地登录、脚本注册、Skill 执行和 Agent 骨架目前已经打通到哪一步。</p>
       </a>
     </div>
   </section>

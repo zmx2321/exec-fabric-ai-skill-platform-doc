@@ -27,8 +27,8 @@ lastUpdated: false
         <a class="cta-button" href="./deployment.html">查看部署方式</a>
       </div>
     </div>
-    <div class="brand-hero__media">
-      <div class="matrix-panel matrix-panel--signal">
+    <div class="brand-hero__media brand-hero__media--compact">
+      <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
           <span>SMARTFLOW // ROADMAP</span>
           <span>DOC 06</span>
@@ -37,20 +37,22 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--top"></div>
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
-          <div class="matrix-panel__ring"></div>
-          <div class="matrix-panel__glyph">路</div>
-          <div class="matrix-panel__bolt"></div>
-          <div class="matrix-panel__callout">DELIVERY / PRODUCT / ECO / INFRA</div>
+          <div class="matrix-panel__stack">
+            <span>1.0: delivery_ready / trusted_execution</span>
+            <span>2.0: team_saas / sellable</span>
+            <span>3.0: ecosystem / extensible</span>
+            <span>4.0: infra / edge_ready</span>
+          </div>
+          <div class="matrix-panel__callout">ROADMAP / PLATFORM IDENTITY SHIFT</div>
         </div>
-        <div class="matrix-panel__stack">
-          <span>1.0 = deliverable</span>
-          <span>2.0 = sellable</span>
-          <span>3.0 = extensible</span>
-          <span>4.0 = governable infrastructure</span>
+        <div class="matrix-panel__footer">
+          <span>now: 1.0</span>
+          <span>next: 2.0</span>
+          <span>long: 4.0</span>
         </div>
       </div>
       <div class="brand-hero__panel">
-        <span class="brand-pill">Roadmap Thesis</span>
+        <span class="brand-pill">Roadmap Signal</span>
         <strong>不是一条“多做点功能”的路线，而是一条“平台身份变化”的路线。</strong>
         <p>每一阶段都围绕交付能力、产品化能力、生态能力和治理能力继续上探。</p>
       </div>

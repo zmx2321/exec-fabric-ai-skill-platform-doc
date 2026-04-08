@@ -25,7 +25,7 @@ lastUpdated: false
         <a class="cta-button" href="./deployment.html">查看部署方式</a>
       </div>
     </div>
-    <div class="brand-hero__media">
+    <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
           <span>SMARTFLOW // ARCH LAYOUT</span>
@@ -143,6 +143,11 @@ lastUpdated: false
         <span>Rule 04</span>
         <strong><code>public</code> 能力只落在 <code>smart-flow-admin</code></strong>
         <p>平台治理和普通租户语义必须分开，避免后续权限和产品表达混乱。</p>
+      </a>
+      <a class="brand-link-card" href="./cli.html">
+        <span>Rule 05</span>
+        <strong><code>smartflow-cli</code> 负责连接本地环境与平台控制面</strong>
+        <p>本地脚本接入、manifest 生成和未来 Agent 常驻执行，都应该沿这条桥接链继续演进。</p>
       </a>
     </div>
   </section>

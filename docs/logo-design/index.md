@@ -5,13 +5,13 @@ lastUpdated: false
 ---
 
 <div class="brand-page-shell">
-  <section class="brand-hero">
+  <section class="brand-hero brand-hero--logo">
     <div>
       <p class="brand-kicker">Brand System</p>
       <h1>智流 Logo 设计方向</h1>
       <p class="brand-lead">
-        这不是单个图标草图，而是一份把“智能调度、经验资产化、安全可控、自动化流转”
-        收成统一品牌语言的设计简报。
+        这不是单个图标草图，而是一份围绕“智能调度、经验资产化、安全可控、自动化流转”
+        沉淀统一品牌识别系统的设计简报。
       </p>
       <div class="brand-chip-list">
         <span class="brand-chip">智能调度</span>
@@ -20,31 +20,33 @@ lastUpdated: false
         <span class="brand-chip">自动化流转</span>
       </div>
     </div>
-    <div class="brand-hero__media">
-      <div class="matrix-panel matrix-panel--signal">
+    <div class="brand-hero__media brand-hero__media--compact">
+      <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
-          <span>SMARTFLOW // SIGNAL LAB</span>
+          <span>SMARTFLOW // BRAND SYSTEM</span>
           <span>BRAND 02</span>
         </div>
         <div class="matrix-panel__canvas">
           <div class="matrix-panel__trace matrix-panel__trace--top"></div>
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
-          <div class="matrix-panel__ring"></div>
-          <div class="matrix-panel__glyph">信号</div>
-          <div class="matrix-panel__bolt"></div>
-          <div class="matrix-panel__callout">CONTROL LOOP / FLOW NODE</div>
+          <div class="matrix-panel__stack">
+            <span>brand_core: intelligence / flow / control</span>
+            <span>visual_tokens: loop / boundary / trigger</span>
+            <span>usage: docs / admin / cli / favicon</span>
+          </div>
+          <div class="matrix-panel__callout">BRAND SYSTEM / CONTROLLED FLOW</div>
         </div>
-        <div class="matrix-panel__stack">
-          <span>signal: intelligent_dispatch</span>
-          <span>structure: controlled_flow</span>
-          <span>mood: matrix / geek / stable</span>
+        <div class="matrix-panel__footer">
+          <span>tone: steady</span>
+          <span>shape: readable</span>
+          <span>fit: product</span>
         </div>
       </div>
       <div class="brand-hero__panel">
-        <span class="brand-pill">Core Thesis</span>
-        <strong>智慧大脑与数据川流，在可控轨道内精准交汇。</strong>
-        <p>Logo 要同时表达智能、流动、控制和执行，而不是停留在常见 AI 图标层面。</p>
+        <span class="brand-pill">Direction Note</span>
+        <strong>不是做一个炫图标，而是建立一套能复用的产品识别系统。</strong>
+        <p>Logo 要同时表达智能、流动、控制和执行，并能稳定落到文档、后台、CLI 和图标缩略场景。</p>
       </div>
     </div>
   </section>

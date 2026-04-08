@@ -25,7 +25,7 @@ lastUpdated: false
         <a class="cta-button" href="./editions.html">查看版本路线</a>
       </div>
     </div>
-    <div class="brand-hero__media">
+    <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
           <span>SMARTFLOW // DEPLOYMENT MATRIX</span>
@@ -130,10 +130,10 @@ lastUpdated: false
         <strong>如果你当前重点是获客与试用</strong>
         <p>加上免费入口模式，让访客可以先体验，再进入团队版或企业版路径。</p>
       </a>
-      <a class="brand-link-card" href="../contact.html#lead-form">
-        <span>Private Data</span>
-        <strong>如果你当前重点是私有数据执行</strong>
-        <p>补本地混合执行模式，把控制面和执行端拆开治理。</p>
+      <a class="brand-link-card" href="./cli.html">
+        <span>CLI Bridge</span>
+        <strong>如果你当前重点是本地环境、内网和私有数据执行</strong>
+        <p>先看 CLI 指引，把 <code>login / register / run / agent</code> 的当前接入边界和落地路径跑通。</p>
       </a>
       <a class="brand-link-card" href="./editions.html">
         <span>Long Term</span>

@@ -41,6 +41,7 @@ export default {
           { text: "核心能力", link: "/product/capabilities" },
           { text: "架构说明", link: "/product/architecture" },
           { text: "部署方式", link: "/product/deployment" },
+          { text: "CLI 指引", link: "/product/cli" },
           { text: "版本路线", link: "/product/editions" },
         ],
       },
@@ -58,6 +59,7 @@ export default {
             { text: "核心能力", link: "/product/capabilities" },
             { text: "架构说明", link: "/product/architecture" },
             { text: "部署方式", link: "/product/deployment" },
+            { text: "CLI 指引", link: "/product/cli" },
             { text: "版本路线", link: "/product/editions" },
           ],
         },
@@ -68,6 +70,7 @@ export default {
           items: [
             { text: "首页", link: "/" },
             { text: "产品概览", link: "/product/" },
+            { text: "CLI 指引", link: "/product/cli" },
             { text: "应用场景", link: "/product/scenarios" },
             { text: "Logo 设计", link: "/logo-design/" },
             { text: "联系我", link: "/contact" },
@@ -87,7 +90,7 @@ export default {
     },
     footer: {
       message: "Make AI Work, Make Work Smart.",
-      copyright: "Copyright © 2026 zmx2321 | zmx2321@gmail.com",
+      copyright: "Copyright © 2026 zmx2321 | zmx2321@163.com",
     },
     search: {
       provider: "local",

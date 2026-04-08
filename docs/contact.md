@@ -4,11 +4,11 @@ outline: false
 lastUpdated: false
 ---
 
-<div class="brand-page-shell">
-  <section class="brand-hero">
+<div class="brand-page-shell brand-page-shell--contact">
+  <section class="brand-hero brand-hero--contact">
     <div>
       <p class="brand-kicker">Lead Entry</p>
-      <h1>联系我，不止留邮箱，而是直接提交试用 / 咨询线索</h1>
+      <h1>联系我，直接提交试用 / 咨询线索</h1>
       <p class="brand-lead">
         如果你在做企业业务自动化、平台化交付、私有部署，或者希望把已有脚本和流程升级成可治理的执行平台，
         这里直接承接免费线索、团队版演示预约和企业版咨询。
@@ -37,7 +37,7 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
           <div class="matrix-panel__stack">
             <span>lead_entry: free_trial / team_demo / enterprise_consulting</span>
-            <span>mail: zmx2321@gmail.com</span>
+            <span>mail: zmx2321@163.com</span>
             <span>focus: delivery / product / private deployment</span>
           </div>
           <div class="matrix-panel__callout">reply-window: async but stable</div>
@@ -65,7 +65,7 @@ lastUpdated: false
       </p>
       <form
         class="lead-form"
-        action="mailto:zmx2321@gmail.com?subject=SmartFlow%20Lead"
+        action="mailto:zmx2321@163.com?subject=SmartFlow%20Lead"
         method="post"
         enctype="text/plain"
         accept-charset="UTF-8"
@@ -114,12 +114,12 @@ lastUpdated: false
         </label>
         <div class="lead-form-actions">
           <button class="cta-button cta-button--brand" type="submit">提交线索</button>
-          <a class="cta-button" href="mailto:zmx2321@gmail.com?subject=SmartFlow%20Lead">直接发邮件</a>
+          <a class="cta-button" href="mailto:zmx2321@163.com?subject=SmartFlow%20Lead">直接发邮件</a>
         </div>
       </form>
       <p class="lead-form-note">
         如果当前设备没有默认邮件客户端，可以直接发邮件到
-        <a href="mailto:zmx2321@gmail.com">zmx2321@gmail.com</a>
+        <a href="mailto:zmx2321@163.com">zmx2321@163.com</a>
         ，或通过 GitHub 联系我。
       </p>
     </article>
@@ -142,7 +142,7 @@ lastUpdated: false
     </article>
   </section>
 
-  <section class="brand-grid brand-grid--three">
+  <section class="brand-grid brand-grid--three contact-path-grid">
     <article class="brand-card">
       <p class="brand-kicker">Path 01</p>
       <h2>免费版 / 社区技能</h2>
@@ -160,13 +160,13 @@ lastUpdated: false
     </article>
   </section>
 
-  <section class="brand-card">
+  <section class="brand-card contact-channels-card">
     <p class="brand-kicker">Channels</p>
     <h2>备用联系方式与公开入口</h2>
     <div class="brand-link-grid">
-      <a class="brand-link-card" href="mailto:zmx2321@gmail.com">
+      <a class="brand-link-card" href="mailto:zmx2321@163.com">
         <span>邮箱</span>
-        <strong>zmx2321@gmail.com</strong>
+        <strong>zmx2321@163.com</strong>
         <p>适合直接发需求、合作意向和项目背景。</p>
       </a>
       <a class="brand-link-card" href="https://github.com/zmx2321" target="_blank" rel="noreferrer">
@@ -192,12 +192,16 @@ lastUpdated: false
       <div>
         <p class="brand-kicker">Next Read</p>
         <h2>如果你想先了解平台，再决定是否继续交流</h2>
-        <p class="brand-lead">建议先看产品概览、核心能力、架构说明和版本路线，再带着具体问题来聊，会更高效。</p>
+        <p class="brand-lead">建议先看产品概览、CLI 指引、核心能力和版本路线，再带着具体问题来聊，会更高效。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./product/">
           <span>Product</span>
           <strong>产品概览</strong>
+        </a>
+        <a class="brand-link-card" href="./product/cli.html">
+          <span>CLI</span>
+          <strong>CLI 指引</strong>
         </a>
         <a class="brand-link-card" href="./product/capabilities.html">
           <span>Capabilities</span>

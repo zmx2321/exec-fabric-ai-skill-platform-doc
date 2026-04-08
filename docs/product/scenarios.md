@@ -25,7 +25,7 @@ lastUpdated: false
         <a class="cta-button" href="./capabilities.html">查看核心能力</a>
       </div>
     </div>
-    <div class="brand-hero__media">
+    <div class="brand-hero__media brand-hero__media--compact">
       <div class="matrix-panel matrix-panel--contact">
         <div class="matrix-panel__hud">
           <span>SMARTFLOW // SCENARIO MAP</span>
@@ -140,6 +140,11 @@ lastUpdated: false
         <span>Lead Fit</span>
         <strong>你想直接拿真实场景来沟通</strong>
         <p>直接提交试用 / 演示线索，比空泛介绍更高效。</p>
+      </a>
+      <a class="brand-link-card" href="./cli.html">
+        <span>CLI Fit</span>
+        <strong>你手里已经有本地脚本，想先低成本接起来</strong>
+        <p>直接看 CLI 指引，确认当前的登录、注册、执行和 Agent 骨架是否符合你的落地方式。</p>
       </a>
     </div>
   </section>
