@@ -5,9 +5,9 @@ hero:
   image:
     src: "/logo.png?v=20260408"
     alt: SmartFlow
-  name: 智流 SmartFlow
-  text: 可信 AI 执行与治理平台
-  tagline: 不是把 AI 塞进后台，而是把脚本、规则、审计和多执行端组织成一套可交付、可治理、可持续扩展的执行系统。
+  name: SmartFlow
+  text: 智流·智能执行平台
+  tagline: 企业级业务自动化与安全执行系统。复杂工作，简单对话；私有部署，安全省人。
   actions:
     - theme: brand
       text: 产品概览
@@ -39,7 +39,8 @@ features:
       <p class="landing-kicker">Platform Thesis</p>
       <h2>把“会聊天”升级成“会在规则里执行”</h2>
       <p class="landing-lead">
-        SmartFlow 当前同时服务企业客户交付、平台总控治理、个人免费入口和 CLI / Agent 接入。它真正想解决的，不是聊天体验，而是
+        <strong>SmartFlow AI Skill Platform</strong> 的项目层定位是 <strong>An Open &amp; Secure AI Agent Execution Layer</strong>。
+        落到产品层，它对外呈现为“智流·智能执行平台”。它真正想解决的，不是聊天体验，而是
         <strong>真实任务如何在规则里被稳定执行</strong>。
       </p>
     </div>
@@ -63,6 +64,32 @@ features:
         <span class="metric-value">Cloud / Local / Edge</span>
         <span class="metric-label">执行位置扩展</span>
         <p>今天承接脚本与本地执行，未来延展到边缘节点和设备端。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="landing-band">
+    <div class="landing-section-head">
+      <p class="landing-kicker">Identity</p>
+      <h2>项目名与产品名的公开口径</h2>
+      <p class="landing-lead">
+        对外文档同时保留项目层和产品层两套命名。前者面向内部技术、开源抽象与未来生态延展，后者面向企业交付、私有部署和真实业务执行。
+      </p>
+    </div>
+    <div class="landing-grid landing-grid--two">
+      <article class="mode-card">
+        <span class="link-panel-label">Project</span>
+        <h3>SmartFlow AI Skill Platform</h3>
+        <p><strong>定位：</strong>An Open &amp; Secure AI Agent Execution Layer</p>
+        <p><strong>Slogan：</strong>Make AI Work, Make Work Smart.</p>
+        <p>用于表达内部技术、开源能力与未来生态方向，可理解为从 1.0 底座继续走向 2.0 生态的项目抽象。</p>
+      </article>
+      <article class="mode-card">
+        <span class="link-panel-label">Product</span>
+        <h3>智流·智能执行平台</h3>
+        <p><strong>副标题：</strong>企业级业务自动化与安全执行系统</p>
+        <p><strong>Slogan：</strong>复杂工作，简单对话；私有部署，安全省人。</p>
+        <p>一个用 AI 调度脚本的平台，复杂工作一句话搞定。</p>
       </article>
     </div>
   </section>

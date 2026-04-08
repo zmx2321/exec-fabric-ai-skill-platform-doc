@@ -1,7 +1,7 @@
 export default {
   lang: "zh-CN",
-  title: "SmartFlow 文档中心",
-  description: "智流平台的产品介绍、核心能力、架构说明与联系入口。",
+  title: "SmartFlow AI Skill Platform",
+  description: "SmartFlow AI Skill Platform / 智流·智能执行平台，An Open & Secure AI Agent Execution Layer。",
   base: "/smart-flow-ai-skill-platform-doc/",
   head: [
     ["link", { rel: "icon", href: "/smart-flow-ai-skill-platform-doc/favicon.ico" }],
@@ -65,7 +65,7 @@ export default {
       text: "在 GitHub 上编辑此页",
     },
     footer: {
-      message: "SmartFlow Documentation Site",
+      message: "Make AI Work, Make Work Smart.",
       copyright: "Copyright © 2026 zmx2321 | zmx2321@gmail.com",
     },
     search: {
