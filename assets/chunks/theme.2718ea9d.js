@@ -2274,7 +2274,7 @@ const _hoisted_3$2 = {
 const _sfc_main$k = /* @__PURE__ */ defineComponent({
   __name: "VPNavBarSearch",
   setup(__props) {
-    const VPLocalSearchBox = defineAsyncComponent(() => __vitePreload(() => import("./VPLocalSearchBox.c327d93f.js"), true ? ["assets/chunks/VPLocalSearchBox.c327d93f.js","assets/chunks/framework.a3decdff.js"] : void 0));
+    const VPLocalSearchBox = defineAsyncComponent(() => __vitePreload(() => import("./VPLocalSearchBox.e28e25b0.js"), true ? ["assets/chunks/VPLocalSearchBox.e28e25b0.js","assets/chunks/framework.a3decdff.js"] : void 0));
     const VPAlgoliaSearchBox = () => null;
     const { theme: theme2, localeIndex } = useData();
     const loaded = ref(false);
