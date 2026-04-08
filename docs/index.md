@@ -5,34 +5,212 @@ hero:
   image:
     src: /logo.png
     alt: SmartFlow
-  name: SmartFlow
-  text: 可信 AI 执行平台
-  tagline: 让 AI 在规则内裁决真实脚本执行，服务企业交付、平台治理、个人免费入口与 CLI 接入。
+  name: 智流 SmartFlow
+  text: 可信 AI 执行与治理平台
+  tagline: 不是把 AI 塞进后台，而是把脚本、规则、审计和多执行端组织成一套可交付、可治理、可持续扩展的执行系统。
   actions:
     - theme: brand
       text: 产品概览
       link: /product/
     - theme: alt
-      text: 核心能力
-      link: /product/capabilities
+      text: 应用场景
+      link: /product/scenarios
+    - theme: alt
+      text: 部署方式
+      link: /product/deployment
     - theme: alt
       text: 联系我
       link: /contact
-    - theme: alt
-      text: 我的博客
-      link: https://zmx2321.github.io/vite-blog
 
 features:
-  - title: 多租户平台治理
-    details: public 超管域、租户隔离、平台模板分发、日志审计与客户台账已经形成统一治理边界。
-  - title: 智能大脑执行闭环
-    details: 从意图理解、计划确认到脚本执行留痕，平台强调可控、可确认、可审计，而不是自由聊天。
-  - title: 企业交付与免费入口并行
-    details: 企业交付 1.0 承接收入主线，个人免费版承担增长入口，两条线共用同一套后端执行底座。
-  - title: CLI 与本地接入
-    details: smartflow-cli 已打通最小注册与运行闭环，后续继续承接本地 Agent 和脚本接入标准化。
-  - title: 平台模板与分发
-    details: 平台模板、租户安装申请、安装确认、回滚和日志构成正式分发主链路。
-  - title: 可持续产品化
-    details: 当前文档站只聚焦平台介绍、能力边界、版本路线和联系入口，不再混入个人博客内容。
+  - title: 多租户治理
+    details: public 总控、客户租户隔离、模板分发、台账与审计已经具备平台化边界。
+  - title: 可信执行闭环
+    details: 从计划生成、人工确认到执行留痕，重点始终是可控、可确认、可追踪。
+  - title: 本地与云端协同
+    details: Web 控制面、CLI、本地执行和未来 Agent 按同一套治理逻辑持续收敛。
+  - title: 1.0 到 4.0
+    details: 从可信交付版、标准产品化，到生态开放与智能执行基础设施，路线已经明确。
 ---
+
+<div class="landing-shell">
+  <section class="landing-band landing-band--overview">
+    <div class="landing-section-head">
+      <p class="landing-kicker">Platform Thesis</p>
+      <h2>把“会聊天”升级成“会在规则里执行”</h2>
+      <p class="landing-lead">
+        SmartFlow 当前同时服务企业客户交付、平台总控治理、个人免费入口和 CLI / Agent 接入。它真正想解决的，不是聊天体验，而是
+        <strong>真实任务如何在规则里被稳定执行</strong>。
+      </p>
+    </div>
+    <div class="landing-metrics">
+      <article class="metric-card">
+        <span class="metric-value">4</span>
+        <span class="metric-label">当前公开主线</span>
+        <p>企业交付、平台治理、个人入口、CLI / Agent。</p>
+      </article>
+      <article class="metric-card">
+        <span class="metric-value">1</span>
+        <span class="metric-label">统一治理内核</span>
+        <p>权限、执行、审计、注册和分发都收敛到同一套逻辑。</p>
+      </article>
+      <article class="metric-card">
+        <span class="metric-value">1.0→4.0</span>
+        <span class="metric-label">清晰演进路线</span>
+        <p>从可交付，到产品化，再到生态与智能执行基础设施。</p>
+      </article>
+      <article class="metric-card">
+        <span class="metric-value">Cloud / Local / Edge</span>
+        <span class="metric-label">执行位置扩展</span>
+        <p>今天承接脚本与本地执行，未来延展到边缘节点和设备端。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="landing-band landing-band--flow">
+    <div class="landing-section-head">
+      <p class="landing-kicker">Execution Flow</p>
+      <h2>平台如何把任务变成可交付执行</h2>
+    </div>
+    <div class="landing-flow">
+      <article class="flow-card">
+        <span class="flow-index">01</span>
+        <h3>意图理解与计划生成</h3>
+        <p>先理解任务，再给出执行计划，而不是直接越权调用底层能力。</p>
+      </article>
+      <article class="flow-card">
+        <span class="flow-index">02</span>
+        <h3>能力匹配与安全裁决</h3>
+        <p>把脚本、Skill、模板和后续能力包组织成正式目录，并受权限和规则控制。</p>
+      </article>
+      <article class="flow-card">
+        <span class="flow-index">03</span>
+        <h3>人工确认与真实执行</h3>
+        <p>关键动作需要确认，执行端可以在云端、本地或未来的边缘节点。</p>
+      </article>
+      <article class="flow-card">
+        <span class="flow-index">04</span>
+        <h3>结果回传与审计留痕</h3>
+        <p>从结果产出到日志和审计，平台强调可追踪，而不是一次性跑完就结束。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="landing-band landing-band--audience">
+    <div class="landing-section-head">
+      <p class="landing-kicker">Who It Fits</p>
+      <h2>它更适合这些角色</h2>
+    </div>
+    <div class="landing-grid landing-grid--three">
+      <article class="landing-card">
+        <h3>企业交付团队</h3>
+        <p>需要一个客户一个租户、一个交付入口、可持续扩展多客户，而不是把所有客户混在一个后台里。</p>
+      </article>
+      <article class="landing-card">
+        <h3>平台运营方</h3>
+        <p>需要统一管理模板、公告、审计、客户台账和版本回滚，同时保持租户边界清晰。</p>
+      </article>
+      <article class="landing-card">
+        <h3>开发者与小团队</h3>
+        <p>需要把已有脚本整理成可调用、可描述、可分享的能力，并保留本地执行路径。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="landing-band landing-band--modes">
+    <div class="landing-section-head">
+      <p class="landing-kicker">Deployment Modes</p>
+      <h2>同一套治理逻辑，覆盖不同部署形态</h2>
+    </div>
+    <div class="landing-grid landing-grid--two">
+      <article class="mode-card">
+        <h3>单租户交付</h3>
+        <p>面向企业客户交付，一个客户一个租户，一个入口，一套可持续维护的能力边界。</p>
+      </article>
+      <article class="mode-card">
+        <h3>平台总控治理</h3>
+        <p>用 <code>public</code> 统一管理租户、模板、公告、日志和台账，但不打破隔离。</p>
+      </article>
+      <article class="mode-card">
+        <h3>免费体验入口</h3>
+        <p>面向个人用户和小团队作为体验前台，承接增长样本和未来升级路径。</p>
+      </article>
+      <article class="mode-card">
+        <h3>本地与边缘执行</h3>
+        <p>保留本地环境、CLI、未来 Agent 与边缘节点的执行空间，让控制面与执行端继续统一。</p>
+      </article>
+    </div>
+    <div class="landing-inline-links">
+      <a href="./product/deployment.html">查看部署方式</a>
+      <a href="./product/scenarios.html">查看应用场景</a>
+    </div>
+  </section>
+
+  <section class="landing-band landing-band--roadmap">
+    <div class="landing-section-head">
+      <p class="landing-kicker">Roadmap</p>
+      <h2>从 1.0 到 4.0，不只是加功能，而是平台角色变化</h2>
+    </div>
+    <div class="roadmap-grid">
+      <article class="roadmap-card">
+        <span class="roadmap-stage">1.0</span>
+        <h3>可信 AI 执行交付版</h3>
+        <p>先把客户交付、平台治理、免费入口和 CLI 最小闭环做稳。</p>
+      </article>
+      <article class="roadmap-card">
+        <span class="roadmap-stage">2.0</span>
+        <h3>标准产品化版</h3>
+        <p>形成免费版、团队版、企业版的正式产品梯度和配额体系。</p>
+      </article>
+      <article class="roadmap-card">
+        <span class="roadmap-stage">3.0</span>
+        <h3>生态开放版</h3>
+        <p>让第三方模板、技能、审核和分发开始进入正式平台生态。</p>
+      </article>
+      <article class="roadmap-card roadmap-card--accent">
+        <span class="roadmap-stage">4.0</span>
+        <h3>智能执行基础设施版</h3>
+        <p>把脚本与 Skill 的治理逻辑继续扩展到插件包、边缘能力包和未来设备插件。</p>
+      </article>
+    </div>
+    <div class="landing-inline-links">
+      <a href="./product/editions.html">查看完整版本路线</a>
+    </div>
+  </section>
+
+  <section class="landing-band landing-band--links">
+    <div class="landing-grid landing-grid--three">
+      <a class="link-panel" href="./product/">
+        <span class="link-panel-label">Product</span>
+        <strong>产品概览</strong>
+        <p>先理解平台在做什么，不在做什么，以及当前最准确的公开定义。</p>
+      </a>
+      <a class="link-panel" href="./product/capabilities.html">
+        <span class="link-panel-label">Capabilities</span>
+        <strong>核心能力</strong>
+        <p>多租户、可信执行、模板分发、公告治理和 CLI 桥接能力一页看清。</p>
+      </a>
+      <a class="link-panel" href="./product/architecture.html">
+        <span class="link-panel-label">Architecture</span>
+        <strong>架构说明</strong>
+        <p>了解后端、前端、免费入口、平台超管和本地执行之间的关系。</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="landing-band landing-band--cta">
+    <div class="cta-card">
+      <div>
+        <p class="landing-kicker">Contact</p>
+        <h2>如果你在做企业交付、工具产品或本地执行能力接入，这里就是公开说明入口。</h2>
+        <p class="landing-lead">
+          当前文档站只放公开信息：平台介绍、能力边界、部署方式、版本路线和联系入口。更细的内部经营与实施细节不放在这里。
+        </p>
+      </div>
+      <div class="cta-actions">
+        <a class="cta-button cta-button--brand" href="./contact.html">联系我</a>
+        <a class="cta-button" href="https://zmx2321.github.io/vite-blog" target="_blank" rel="noreferrer">访问我的博客</a>
+      </div>
+    </div>
+  </section>
+</div>
