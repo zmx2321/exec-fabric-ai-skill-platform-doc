@@ -40,9 +40,9 @@ lastUpdated: false
         <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
         <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
         <div class="matrix-panel__stack">
-          <span class="matrix-panel__line"><span class="matrix-panel__value">what it is</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">what it is not</span></span>
-          <span class="matrix-panel__line"><span class="matrix-panel__value">tenant isolation</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">hot update</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">public boundary</span></span>
-          <span class="matrix-panel__line"><span class="matrix-panel__value">cli status</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">local execution</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">team path</span></span>
+          <span class="matrix-panel__line"><span class="matrix-panel__value matrix-panel__fn">what it is</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__fn">what it is not</span></span>
+          <span class="matrix-panel__line"><span class="matrix-panel__value matrix-panel__ident">tenant isolation</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">hot update</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">public boundary</span></span>
+          <span class="matrix-panel__line"><span class="matrix-panel__value matrix-panel__ident">cli status</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">local execution</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">team path</span></span>
         </div>
         <div class="matrix-panel__callout">CLEAR BOUNDARIES CREATE BETTER EXPECTATIONS</div>
       </div>

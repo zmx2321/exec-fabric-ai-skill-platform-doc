@@ -40,9 +40,9 @@ lastUpdated: false
         <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
         <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
         <div class="matrix-panel__stack">
-          <span class="matrix-panel__line"><span class="matrix-panel__key">30s</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">what it is</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">what problem it solves</span></span>
-          <span class="matrix-panel__line"><span class="matrix-panel__key">3min</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">why pay</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">why controllable</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">why now</span></span>
-          <span class="matrix-panel__line"><span class="matrix-panel__key">10 slides</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">pitch</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">demo</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">next step</span></span>
+          <span class="matrix-panel__line"><span class="matrix-panel__key">30s</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__fn">what it is</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">what problem it solves</span></span>
+          <span class="matrix-panel__line"><span class="matrix-panel__key">3min</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__ident">why pay</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">why controllable</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">why now</span></span>
+          <span class="matrix-panel__line"><span class="matrix-panel__key">10 slides</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__fn">pitch</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__fn">demo</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__ident">next step</span></span>
         </div>
         <div class="matrix-panel__callout">PUBLIC-SAFE MATERIALS SHOULD STILL MATCH REAL PRODUCT STATE</div>
       </div>

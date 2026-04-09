@@ -43,10 +43,10 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
           <div class="matrix-panel__stack">
-            <span class="matrix-panel__line"><span class="matrix-panel__key">1.0</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">delivery_ready</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">trusted_execution</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__key">2.0</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">team_saas</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">sellable</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__key">3.0</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">ecosystem</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">extensible</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__key">4.0</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">infra</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">edge_ready</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">1.0</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">delivery_ready</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">trusted_execution</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">2.0</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">team_saas</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">sellable</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">3.0</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">ecosystem</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">extensible</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">4.0</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">infra</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">edge_ready</span></span>
           </div>
           <div class="matrix-panel__callout">ROADMAP / PLATFORM IDENTITY SHIFT</div>
         </div>

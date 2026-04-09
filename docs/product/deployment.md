@@ -40,10 +40,10 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--top"></div>
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
-          <div class="matrix-panel__stack">
-            <span class="matrix-panel__line"><span class="matrix-panel__value">single_tenant_delivery</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__value">public_governance</span><span class="matrix-panel__op"> + </span><span class="matrix-panel__value">free_entry</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__value">local_hybrid</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">edge_ready</span></span>
+                    <div class="matrix-panel__stack">
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">deliveryMode</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'single_tenant_delivery'</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">platformMode</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'public_governance'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'free_entry'</span><span class="matrix-panel__punct">]</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">futureMode</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'local_hybrid'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'edge_ready'</span><span class="matrix-panel__punct">]</span></span>
           </div>
           <div class="matrix-panel__callout">SAME GOVERNANCE / DIFFERENT EXECUTION POSITIONS</div>
         </div>

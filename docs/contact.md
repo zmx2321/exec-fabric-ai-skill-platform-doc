@@ -40,10 +40,10 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--top"></div>
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
-          <div class="matrix-panel__stack">
-            <span class="matrix-panel__line"><span class="matrix-panel__key">lead_entry</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">free_trial</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">team_demo</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">enterprise_consulting</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__key">mail</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">zmx2321@163.com</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__key">focus</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">delivery</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">product</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">private deployment</span></span>
+                    <div class="matrix-panel__stack">
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">leadEntry</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'free_trial'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'team_demo'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'enterprise_consulting'</span><span class="matrix-panel__punct">]</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">contactMail</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'zmx2321@163.com'</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">focus</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'delivery'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'product'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'private deployment'</span><span class="matrix-panel__punct">]</span></span>
           </div>
           <div class="matrix-panel__callout">reply-window: async but stable</div>
         </div>

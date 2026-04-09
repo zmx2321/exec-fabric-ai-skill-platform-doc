@@ -41,9 +41,9 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
           <div class="matrix-panel__stack">
-            <span class="matrix-panel__line"><span class="matrix-panel__key">save</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">repeated manual work</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__key">control</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">permission</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">confirm</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">audit</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__key">grow</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">reusable delivery base</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">save</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__ident">repeated manual work</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">control</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__string">permission</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__fn">confirm</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__fn">audit</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">grow</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value matrix-panel__ident">reusable delivery base</span></span>
           </div>
           <div class="matrix-panel__callout">VALUE SHOULD BE EXPRESSED IN BUSINESS TERMS, NOT JUST IN MODULE NAMES</div>
         </div>

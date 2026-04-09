@@ -40,10 +40,10 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--top"></div>
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
-          <div class="matrix-panel__stack">
-            <span class="matrix-panel__line"><span class="matrix-panel__value">back-python</span><span class="matrix-panel__op"> = </span><span class="matrix-panel__value">unified capability center</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__value">smart-flow-admin</span><span class="matrix-panel__op"> = </span><span class="matrix-panel__value">public governance console</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__value">tenant fronts</span><span class="matrix-panel__op"> + </span><span class="matrix-panel__value">smartflow-cli</span><span class="matrix-panel__op"> = </span><span class="matrix-panel__value">execution entrances</span></span>
+                    <div class="matrix-panel__stack">
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">core</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'back-python'</span> <span class="matrix-panel__comment">// unified capability center</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">governance</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'smart-flow-admin'</span> <span class="matrix-panel__comment">// public governance console</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">return</span> <span class="matrix-panel__ident">tenantFronts</span> <span class="matrix-panel__op">+</span> <span class="matrix-panel__ident">smartflowCli</span> <span class="matrix-panel__comment">// execution entrances</span></span>
           </div>
           <div class="matrix-panel__callout">ONE CORE / MULTIPLE ENTRIES</div>
         </div>

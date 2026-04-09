@@ -39,10 +39,10 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--top"></div>
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
-          <div class="matrix-panel__stack">
-            <span class="matrix-panel__line"><span class="matrix-panel__key">positioning</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">trusted_ai_execution_platform</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__key">entry</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">free</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">team</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">enterprise</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__key">delivery</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">web_console</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">cli</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">local_bridge</span></span>
+                    <div class="matrix-panel__stack">
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">positioning</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'trusted_ai_execution_platform'</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">entry</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'free'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'team'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'enterprise'</span><span class="matrix-panel__punct">]</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">delivery</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'web_console'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'cli'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'local_bridge'</span><span class="matrix-panel__punct">]</span></span>
           </div>
           <div class="matrix-panel__callout">EXECUTION FIRST / PRODUCT VIEW</div>
         </div>

@@ -41,9 +41,9 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
           <div class="matrix-panel__stack">
-            <span class="matrix-panel__line"><span class="matrix-panel__value">enterprise_internal_automation</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__value">multi_customer_delivery</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__value">personal_entry</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">local_hybrid</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">template_ops</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__value matrix-panel__string">enterprise_internal_automation</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__value matrix-panel__string">multi_customer_delivery</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__value matrix-panel__string">personal_entry</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">local_hybrid</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value matrix-panel__string">template_ops</span></span>
           </div>
           <div class="matrix-panel__callout">SCENARIOS SHOULD MAP TO REAL REVENUE</div>
         </div>
