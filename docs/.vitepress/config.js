@@ -33,16 +33,35 @@ export default {
     nav: [
       { text: "首页", link: "/" },
       {
+        text: "开始使用",
+        activeMatch: "^/guide/",
+        items: [
+          { text: "开始使用", link: "/guide/" },
+          { text: "快速开始", link: "/guide/getting-started" },
+          { text: "常见问题", link: "/guide/faq" },
+        ],
+      },
+      {
         text: "产品介绍",
         activeMatch: "^/product/",
         items: [
           { text: "产品概览", link: "/product/" },
           { text: "应用场景", link: "/product/scenarios" },
           { text: "核心能力", link: "/product/capabilities" },
+          { text: "客户流程 / 交付", link: "/product/customer-flow" },
           { text: "架构说明", link: "/product/architecture" },
           { text: "部署方式", link: "/product/deployment" },
           { text: "CLI 指引", link: "/product/cli" },
           { text: "版本路线", link: "/product/editions" },
+        ],
+      },
+      {
+        text: "对外资料",
+        activeMatch: "^/materials/",
+        items: [
+          { text: "资料总览", link: "/materials/" },
+          { text: "对外介绍提纲", link: "/materials/pitch" },
+          { text: "价值说明", link: "/materials/value" },
         ],
       },
       { text: "Logo 设计", link: "/logo-design/" },
@@ -50,6 +69,16 @@ export default {
       { text: "我的博客", link: "https://zmx2321.github.io/vite-blog" },
     ],
     sidebar: {
+      "/guide/": [
+        {
+          text: "开始使用",
+          items: [
+            { text: "开始使用", link: "/guide/" },
+            { text: "快速开始", link: "/guide/getting-started" },
+            { text: "常见问题", link: "/guide/faq" },
+          ],
+        },
+      ],
       "/product/": [
         {
           text: "平台文档",
@@ -57,10 +86,21 @@ export default {
             { text: "产品概览", link: "/product/" },
             { text: "应用场景", link: "/product/scenarios" },
             { text: "核心能力", link: "/product/capabilities" },
+            { text: "客户流程 / 交付", link: "/product/customer-flow" },
             { text: "架构说明", link: "/product/architecture" },
             { text: "部署方式", link: "/product/deployment" },
             { text: "CLI 指引", link: "/product/cli" },
             { text: "版本路线", link: "/product/editions" },
+          ],
+        },
+      ],
+      "/materials/": [
+        {
+          text: "对外资料",
+          items: [
+            { text: "资料总览", link: "/materials/" },
+            { text: "对外介绍提纲", link: "/materials/pitch" },
+            { text: "价值说明", link: "/materials/value" },
           ],
         },
       ],
@@ -69,9 +109,14 @@ export default {
           text: "快速入口",
           items: [
             { text: "首页", link: "/" },
+            { text: "开始使用", link: "/guide/" },
+            { text: "快速开始", link: "/guide/getting-started" },
+            { text: "常见问题", link: "/guide/faq" },
             { text: "产品概览", link: "/product/" },
             { text: "CLI 指引", link: "/product/cli" },
-            { text: "应用场景", link: "/product/scenarios" },
+            { text: "客户流程 / 交付", link: "/product/customer-flow" },
+            { text: "对外资料", link: "/materials/" },
+            { text: "对外介绍提纲", link: "/materials/pitch" },
             { text: "Logo 设计", link: "/logo-design/" },
             { text: "联系我", link: "/contact" },
           ],
@@ -83,10 +128,6 @@ export default {
           items: [{ text: "Logo 设计简报", link: "/logo-design/" }],
         },
       ],
-    },
-    editLink: {
-      pattern: "https://github.com/zmx2321/smart-flow-ai-skill-platform-doc/edit/main/docs/:path",
-      text: "在 GitHub 上编辑此页",
     },
     footer: {
       message: "Make AI Work, Make Work Smart.",

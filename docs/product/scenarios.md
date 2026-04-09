@@ -9,6 +9,11 @@ lastUpdated: false
     <div>
       <p class="brand-kicker">Scenarios</p>
       <h1>应用场景</h1>
+      <div class="brand-hero__panel">
+        <span class="brand-pill">Usage Thesis</span>
+        <strong>不是让 AI 多说一点，而是让任务真正落地。</strong>
+        <p>每个场景都围绕“入口、确认、执行、留痕、治理”这条主链路展开。</p>
+      </div>
       <p class="brand-lead">
         SmartFlow 不是抽象概念站点，它解决的是
         <strong>真实任务如何被 AI 安全调度执行</strong>。
@@ -36,22 +41,17 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
           <div class="matrix-panel__stack">
-            <span>enterprise_internal_automation</span>
-            <span>multi_customer_delivery</span>
-            <span>personal_entry / local_hybrid / template_ops</span>
+            <span class="matrix-panel__line"><span class="matrix-panel__value">enterprise_internal_automation</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__value">multi_customer_delivery</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__value">personal_entry</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">local_hybrid</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">template_ops</span></span>
           </div>
           <div class="matrix-panel__callout">SCENARIOS SHOULD MAP TO REAL REVENUE</div>
         </div>
         <div class="matrix-panel__footer">
-          <span>fit: delivery</span>
-          <span>fit: product</span>
-          <span>fit: local execution</span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">fit</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">delivery</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">fit</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">product</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">fit</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">local execution</span></span>
         </div>
-      </div>
-      <div class="brand-hero__panel">
-        <span class="brand-pill">Usage Thesis</span>
-        <strong>不是让 AI 多说一点，而是让任务真正落地。</strong>
-        <p>每个场景都围绕“入口、确认、执行、留痕、治理”这条主链路展开。</p>
       </div>
     </div>
   </section>
@@ -119,6 +119,24 @@ lastUpdated: false
         <li>设备动作模板与受控触发</li>
         <li>Web 控制面统一管理不同执行端</li>
       </ul>
+    </article>
+  </section>
+
+  <section class="brand-grid brand-grid--three">
+    <article class="brand-card">
+      <p class="brand-kicker">Boss View 01</p>
+      <h2>它到底帮团队省什么事</h2>
+      <p>把原本靠人手反复执行的脚本、数据处理和流程，收成一个统一入口。团队不需要再记一堆命令、找一堆脚本、问很多人。</p>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Boss View 02</p>
+      <h2>它为什么不会失控</h2>
+      <p>这套平台强调“权限边界 + 人工确认 + 执行留痕”。重点不是让 AI 自由发挥，而是让自动化真正可控。</p>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Boss View 03</p>
+      <h2>它为什么值得持续投入</h2>
+      <p>价值不只是做一次自动化，而是把零散脚本沉淀成可复用、可扩展、可继续接更多场景的管理底座。</p>
     </article>
   </section>
 

@@ -9,6 +9,11 @@ lastUpdated: false
     <div>
       <p class="brand-kicker">CLI Guide</p>
       <h1>CLI 指引</h1>
+      <div class="brand-hero__panel">
+        <span class="brand-pill">Current Boundary</span>
+        <strong>CLI 已经能登录、注册脚本、读取 manifest、直接触发后端执行，并输出 Web 打开链接。</strong>
+        <p>远程任务拉取、Agent 常驻执行和非 Python 脚本的真实远程上传，仍属于下一阶段。</p>
+      </div>
       <p class="brand-lead">
         <strong>smartflow-cli</strong> 是 SmartFlow 当前面向个人开发者、团队管理员和本地执行场景的命令行入口。
         这条线的重点不是“做一个命令行皮肤”，而是把 <strong>本地脚本、本地环境和平台控制面</strong> 接成一条真实可执行的桥。
@@ -35,22 +40,17 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
           <div class="matrix-panel__stack">
-            <span>auth: login / register / config</span>
-            <span>workspace: manifest / metadata / upload-register</span>
-            <span>execution: run / agent describe / agent start</span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">auth</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">login</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">register</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">config</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">workspace</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">manifest</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">metadata</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">upload-register</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">execution</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">run</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">agent describe</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">agent start</span></span>
           </div>
           <div class="matrix-panel__callout">LOCAL SCRIPTS / CONTROLLED EXECUTION BRIDGE</div>
         </div>
         <div class="matrix-panel__footer">
-          <span>scope: local</span>
-          <span>state: usable</span>
-          <span>next: agent runtime</span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">scope</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">local</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">state</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">usable</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">next</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">agent runtime</span></span>
         </div>
-      </div>
-      <div class="brand-hero__panel">
-        <span class="brand-pill">Current Boundary</span>
-        <strong>CLI 已经能登录、注册脚本、读取 manifest、直接触发后端执行，并输出 Web 打开链接。</strong>
-        <p>远程任务拉取、Agent 常驻执行和非 Python 脚本的真实远程上传，仍属于下一阶段。</p>
       </div>
     </div>
   </section>
@@ -87,6 +87,27 @@ lastUpdated: false
         <li>团队版 / 企业版的本地脚本导入工具</li>
         <li>未来本地 Agent 的正式起点</li>
         <li>把控制面和本地环境接起来的第一层桥接接口</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="brand-grid brand-grid--two">
+    <article class="brand-card">
+      <p class="brand-kicker">Public Onboarding</p>
+      <h2>CLI 和公开入口的关系</h2>
+      <ul class="brand-list">
+        <li>陌生用户先从 Web 免登录体验页感受执行链路，再决定是否继续注册 / 登录。</li>
+        <li>CLI 是更深一层的本地接入入口，不替代 <code>/experience</code> 这条公开演示路径。</li>
+        <li>适合已经确认要把本地脚本、本地环境和平台控制面接起来的用户继续往下走。</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Current Web Sync</p>
+      <h2>当前与 Web 页对齐的口径</h2>
+      <ul class="brand-list">
+        <li>公开页当前已经有 <code>/experience</code>、<code>/login</code>、<code>/register</code> 三个正式入口。</li>
+        <li>注册成功目前由成功提示框承接，再跳回登录页。</li>
+        <li>体验页访问统计当前按浏览器会话记一次，不按唯一 IP 去重。</li>
       </ul>
     </article>
   </section>

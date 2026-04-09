@@ -9,6 +9,11 @@ lastUpdated: false
     <div>
       <p class="brand-kicker">Capabilities</p>
       <h1>核心能力</h1>
+      <div class="brand-hero__panel">
+        <span class="brand-pill">Capability Logic</span>
+        <strong>重点不是会不会执行，而是能不能在规则里执行。</strong>
+        <p>这些能力共同决定平台是否能交付、能扩租户、能沉淀模板、能继续走向产品化。</p>
+      </div>
       <p class="brand-lead">
         SmartFlow 的核心能力不是零散功能点，而是一套围绕
         <strong>多租户治理、可信执行、能力目录化和本地桥接</strong>
@@ -36,22 +41,17 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
           <div class="matrix-panel__stack">
-            <span>governance: multi_tenant / template_ops / audit</span>
-            <span>execution: plan / confirm / run / trace</span>
-            <span>bridge: skill_registry / cli / local_agent</span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">governance</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">multi_tenant</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">template_ops</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">audit</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">execution</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">plan</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">confirm</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">run</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">trace</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">bridge</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">skill_registry</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">cli</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">local_agent</span></span>
           </div>
           <div class="matrix-panel__callout">CAPABILITY SYSTEM / TRUSTED EXECUTION</div>
         </div>
         <div class="matrix-panel__footer">
-          <span>control: on</span>
-          <span>reuse: growing</span>
-          <span>local: ready</span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">control</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">on</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">reuse</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">growing</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">local</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">ready</span></span>
         </div>
-      </div>
-      <div class="brand-hero__panel">
-        <span class="brand-pill">Capability Logic</span>
-        <strong>重点不是会不会执行，而是能不能在规则里执行。</strong>
-        <p>这些能力共同决定平台是否能交付、能扩租户、能沉淀模板、能继续走向产品化。</p>
       </div>
     </div>
   </section>
@@ -121,6 +121,53 @@ lastUpdated: false
     </article>
   </section>
 
+  <section class="brand-grid brand-grid--two">
+    <article class="brand-card">
+      <p class="brand-kicker">Customer Visible</p>
+      <h2>客户当前实际能看到什么</h2>
+      <ul class="brand-list">
+        <li>登录与账号使用</li>
+        <li>客户专属能力列表，而不是底层脚本源码路径</li>
+        <li>智能大脑对话入口与手动执行入口</li>
+        <li>AI 推荐后确认执行、执行结果查看、文件上传与结果下载</li>
+        <li>平台公告与租户公告查看</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Execution Reality</p>
+      <h2>客户如何真正使用这些能力</h2>
+      <ul class="brand-list">
+        <li>手动执行路径：登录 -&gt; 找到能力 -&gt; 填写输入 -&gt; 提交执行 -&gt; 查看结果或产物</li>
+        <li>AI 对话路径：输入需求 -&gt; 平台在当前租户与权限范围内推荐能力 -&gt; 人工确认 -&gt; 执行脚本 -&gt; 返回结果</li>
+        <li>部分高风险能力会强制保留人工确认，不做无边界自动执行</li>
+        <li>AI 不会跨租户推荐其他客户的能力</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="brand-grid brand-grid--two">
+    <article class="brand-card">
+      <p class="brand-kicker">Hot Update</p>
+      <h2>客户脚本如何持续更新</h2>
+      <ul class="brand-list">
+        <li>客户准备脚本目录，至少包含 <code>main.py</code> 与 <code>README.md</code></li>
+        <li>脚本上传到所属租户目录，而不是混放到其他客户目录</li>
+        <li>平台完成审核、同步、Script 注册、Skill 关联与租户授权绑定</li>
+        <li>验证通过后，只有当前客户所属租户可见可用</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Why It Matters</p>
+      <h2>热更新真正解决什么问题</h2>
+      <ul class="brand-list">
+        <li>新增脚本或新版本脚本接入时，不需要重部署整个平台</li>
+        <li>平台继续保留审核、注册和授权控制权</li>
+        <li>其他租户不会因为某个客户更新脚本而自动获得权限</li>
+        <li>这让“持续交付”成为正式能力，而不是一次性项目动作</li>
+      </ul>
+    </article>
+  </section>
+
   <section class="brand-card">
     <p class="brand-kicker">Why These Matter Together</p>
     <h2>为什么这不是功能清单，而是一套系统</h2>
@@ -139,6 +186,11 @@ lastUpdated: false
         <span>Roadmap</span>
         <strong>模板与审计决定能不能继续产品化</strong>
         <p>如果没有模板分发、回滚和日志治理，团队版和企业版都很难成立。</p>
+      </a>
+      <a class="brand-link-card" href="./customer-flow.html">
+        <span>Delivery</span>
+        <strong>能力要能转成真实交付与更新流程</strong>
+        <p>继续看客户怎么使用这些能力、平台怎么交付、热更新怎么走，避免只停留在功能名层面。</p>
       </a>
       <a class="brand-link-card" href="./cli.html">
         <span>CLI</span>

@@ -61,6 +61,10 @@ features:
             <strong>治理、执行、CLI、本地桥接</strong>
           </article>
         </div>
+        <p class="landing-lead">
+          当前公开链路已经是 <strong>免登录体验页 -&gt; 注册 / 登录 -&gt; 试用 / 演示 / 咨询</strong> 的正式入口。
+          其中体验页访问统计当前按浏览器会话记录一次，不按唯一 IP 去重。
+        </p>
       </div>
       <div class="landing-brand__panel">
         <article class="landing-brand__signal-card">
@@ -332,30 +336,50 @@ features:
     </div>
   </section>
 
-  <section class="landing-band landing-band--links">
-    <div class="landing-grid landing-grid--three">
-      <a class="link-panel" href="./product/">
-        <span class="link-panel-label">Product</span>
-        <strong>产品概览</strong>
-        <p>先理解平台在做什么，不在做什么，以及当前最准确的公开定义。</p>
-      </a>
-      <a class="link-panel" href="./product/capabilities.html">
-        <span class="link-panel-label">Capabilities</span>
-        <strong>核心能力</strong>
-        <p>多租户、可信执行、模板分发、公告治理和 CLI 桥接能力一页看清。</p>
-      </a>
-      <a class="link-panel" href="./product/architecture.html">
-        <span class="link-panel-label">Architecture</span>
-        <strong>架构说明</strong>
-        <p>了解后端、前端、免费入口、平台超管和本地执行之间的关系。</p>
-      </a>
-      <a class="link-panel" href="./product/cli.html">
-        <span class="link-panel-label">CLI</span>
-        <strong>CLI 指引</strong>
-        <p>直接看本地登录、脚本注册、Skill 执行和 Agent 骨架目前已经打通到哪一步。</p>
-      </a>
-    </div>
-  </section>
+<section class="landing-band landing-band--links">
+  <div class="landing-grid landing-grid--three">
+    <a class="link-panel" href="./guide/">
+      <span class="link-panel-label">Guide</span>
+      <strong>开始使用</strong>
+      <p>先把入口、角色和建议阅读顺序对齐，避免一上来就在各页之间乱跳。</p>
+    </a>
+    <a class="link-panel" href="./guide/getting-started.html">
+      <span class="link-panel-label">Quick Start</span>
+      <strong>快速开始</strong>
+      <p>用最短时间看懂公开入口、当前阶段、CLI 路线和交付主线现在分别是什么。</p>
+    </a>
+    <a class="link-panel" href="./guide/faq.html">
+      <span class="link-panel-label">FAQ</span>
+      <strong>常见问题</strong>
+      <p>把定位、隔离、热更新、CLI、本地执行和当前阶段一次讲清楚。</p>
+    </a>
+    <a class="link-panel" href="./product/">
+      <span class="link-panel-label">Product</span>
+      <strong>产品概览</strong>
+      <p>先理解平台在做什么，不在做什么，以及当前最准确的公开定义。</p>
+    </a>
+    <a class="link-panel" href="./product/capabilities.html">
+      <span class="link-panel-label">Capabilities</span>
+      <strong>核心能力</strong>
+      <p>多租户、可信执行、模板分发、公告治理和 CLI 桥接能力一页看清。</p>
+    </a>
+    <a class="link-panel" href="./product/cli.html">
+      <span class="link-panel-label">CLI</span>
+      <strong>CLI 指引</strong>
+      <p>直接看本地登录、脚本注册、Skill 执行和 Agent 骨架目前已经打通到哪一步。</p>
+    </a>
+    <a class="link-panel" href="./product/customer-flow.html">
+      <span class="link-panel-label">Delivery</span>
+      <strong>客户流程 / 交付</strong>
+      <p>单独看客户怎么使用平台、平台怎么交付，以及脚本热更新如何形成正式闭环。</p>
+    </a>
+    <a class="link-panel" href="./materials/">
+      <span class="link-panel-label">Materials</span>
+      <strong>对外资料</strong>
+      <p>把对外介绍、价值表达和演示提纲单独收成一组公开资料，不再混在产品页里。</p>
+    </a>
+  </div>
+</section>
 
   <section class="landing-band landing-band--cta">
     <div class="cta-card">

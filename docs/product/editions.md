@@ -9,6 +9,11 @@ lastUpdated: false
     <div>
       <p class="brand-kicker">Editions &amp; Roadmap</p>
       <h1>版本路线</h1>
+      <div class="brand-hero__panel">
+        <span class="brand-pill">Roadmap Signal</span>
+        <strong>不是一条“多做点功能”的路线，而是一条“平台身份变化”的路线。</strong>
+        <p>每一阶段都围绕交付能力、产品化能力、生态能力和治理能力继续上探。</p>
+      </div>
       <p class="brand-lead">
         SmartFlow 的版本路线不是单纯“菜单越来越多”，而是平台角色逐步变化：
         <strong><code>1.0</code></strong> 先解决交付与可信执行，
@@ -38,23 +43,18 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
           <div class="matrix-panel__stack">
-            <span>1.0: delivery_ready / trusted_execution</span>
-            <span>2.0: team_saas / sellable</span>
-            <span>3.0: ecosystem / extensible</span>
-            <span>4.0: infra / edge_ready</span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">1.0</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">delivery_ready</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">trusted_execution</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">2.0</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">team_saas</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">sellable</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">3.0</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">ecosystem</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">extensible</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">4.0</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">infra</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">edge_ready</span></span>
           </div>
           <div class="matrix-panel__callout">ROADMAP / PLATFORM IDENTITY SHIFT</div>
         </div>
         <div class="matrix-panel__footer">
-          <span>now: 1.0</span>
-          <span>next: 2.0</span>
-          <span>long: 4.0</span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">now</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">1.0</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">next</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">2.0</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">long</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">4.0</span></span>
         </div>
-      </div>
-      <div class="brand-hero__panel">
-        <span class="brand-pill">Roadmap Signal</span>
-        <strong>不是一条“多做点功能”的路线，而是一条“平台身份变化”的路线。</strong>
-        <p>每一阶段都围绕交付能力、产品化能力、生态能力和治理能力继续上探。</p>
       </div>
     </div>
   </section>
@@ -68,7 +68,7 @@ lastUpdated: false
         <li>脚本注册与 Skill 映射</li>
         <li>智能大脑推荐、确认、执行、审计</li>
         <li>模板分发、安装、回滚、日志</li>
-        <li>免费入口和 <code>smartflow-cli</code> 最小闭环</li>
+        <li>免登录体验页、登录 / 注册页和 <code>smartflow-cli</code> 最小闭环</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -103,6 +103,53 @@ lastUpdated: false
       </ul>
     </article>
   </section>
+
+<section class="brand-card">
+  <p class="brand-kicker">Upgrade Route</p>
+  <h2>从免费入口到正式交付，版本阶段怎么承接</h2>
+  <div class="brand-grid brand-grid--four">
+    <article class="brand-card brand-card--nested">
+      <h3>01. 免费入口感知价值</h3>
+      <p>先通过公开体验页、登录 / 注册页和免费入口理解平台是什么，确认“AI 调度脚本”这条链路是否成立。</p>
+    </article>
+    <article class="brand-card brand-card--nested">
+      <h3>02. CLI 与更深使用开始接入</h3>
+      <p>更深一层的用户会继续看到 <code>smartflow-cli</code>、本地脚本接入和混合执行桥梁能力，这些已经属于当前 <code>1.0</code> 的一部分。</p>
+    </article>
+    <article class="brand-card brand-card--nested">
+      <h3>03. 企业 1.0 正式交付承接收入</h3>
+      <p>当客户需要独立网址、独立租户、正式权限和交付验收时，当前真实主线是企业 <code>1.0</code> 单租户交付。</p>
+    </article>
+    <article class="brand-card brand-card--nested">
+      <h3>04. 2.0 才把团队梯度正式产品化</h3>
+      <p>标准团队版、套餐化、资源计量、正式升级路径和更完整的产品梯度，应放在 <code>2.0</code> 去收敛，而不是在当前口径里提前写满。</p>
+    </article>
+  </div>
+</section>
+
+<section class="brand-grid brand-grid--two">
+  <article class="brand-card">
+    <p class="brand-kicker">Current Upgrade Logic</p>
+    <h2>当前更真实的升级逻辑</h2>
+    <ul class="brand-list">
+      <li>第一步先让用户通过免费入口感知价值</li>
+      <li>第二步用 CLI、客户流程和部署文档承接更深问题</li>
+      <li>第三步当用户进入真实客户场景时，由企业 <code>1.0</code> 交付承接</li>
+      <li>第四步等 <code>2.0</code> 完成后，再把团队版和套餐化升级路径做成正式产品梯度</li>
+    </ul>
+    <p><a href="./deployment.html">回到部署方式</a></p>
+  </article>
+  <article class="brand-card">
+    <p class="brand-kicker">What 2.0 Changes</p>
+    <h2><code>2.0</code> 之后，这条路径会发生什么变化</h2>
+    <ul class="brand-list">
+      <li>免费版、团队版、企业版的产品阶梯会更明确</li>
+      <li>套餐、配额、资源、转化和运营指标会正式产品化</li>
+      <li>CLI + 本地 Agent 会从桥梁能力进一步收成正式产品能力</li>
+      <li>“先体验，再团队协作，再企业交付”的路径才会真正收成标准化升级链路</li>
+    </ul>
+  </article>
+</section>
 
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">

@@ -9,6 +9,11 @@ lastUpdated: false
     <div>
       <p class="brand-kicker">Product Overview</p>
       <h1>产品概览</h1>
+      <div class="brand-hero__panel">
+        <span class="brand-pill">Product Signal</span>
+        <strong>复杂工作，简单对话；私有部署，安全省人。</strong>
+        <p>先把产品定位讲清楚，再展开场景、能力、架构和版本路线，转化路径会更顺。</p>
+      </div>
       <p class="brand-lead">
         SmartFlow 当前最准确的定义是：
         <strong>一个让 AI 在规则内裁决真实脚本执行、同时服务企业交付与个人入口，并逐步走向产品化和生态化的智能执行平台。</strong>
@@ -35,22 +40,17 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
           <div class="matrix-panel__stack">
-            <span>positioning: trusted_ai_execution_platform</span>
-            <span>entry: free / team / enterprise</span>
-            <span>delivery: web_console / cli / local_bridge</span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">positioning</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">trusted_ai_execution_platform</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">entry</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">free</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">team</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">enterprise</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">delivery</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">web_console</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">cli</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">local_bridge</span></span>
           </div>
           <div class="matrix-panel__callout">EXECUTION FIRST / PRODUCT VIEW</div>
         </div>
         <div class="matrix-panel__footer">
-          <span>status: clear</span>
-          <span>fit: delivery + product</span>
-          <span>docs: public</span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">status</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">clear</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">fit</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">delivery</span><span class="matrix-panel__op"> + </span><span class="matrix-panel__value">product</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">docs</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">public</span></span>
         </div>
-      </div>
-      <div class="brand-hero__panel">
-        <span class="brand-pill">Product Signal</span>
-        <strong>复杂工作，简单对话；私有部署，安全省人。</strong>
-        <p>先把产品定位讲清楚，再展开场景、能力、架构和版本路线，转化路径会更顺。</p>
       </div>
     </div>
   </section>
@@ -120,6 +120,31 @@ lastUpdated: false
   </section>
 
   <section class="brand-card">
+    <p class="brand-kicker">Free Entry Reality</p>
+    <h2>免费入口的当前真实行为</h2>
+    <div class="brand-grid brand-grid--two">
+      <article class="brand-card brand-card--nested">
+        <h3>公开入口已经成型</h3>
+        <ul class="brand-list">
+          <li><code>/experience</code> 已经是正式免登录体验页，不再只是原型。</li>
+          <li>体验页当前提供 <code>hello_demo</code> 与 <code>clean_log_demo</code> 两个公开 demo。</li>
+          <li>公开路径当前是：体验页 -&gt; <code>/register</code> / <code>/login</code> -&gt; 正式个人版。</li>
+          <li>注册成功目前通过成功提示框承接，再跳回登录页，没有单独的注册成功页。</li>
+        </ul>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>访问统计口径要写清楚</h3>
+        <ul class="brand-list">
+          <li>体验页展示 <code>累计访问</code>、<code>今日访问</code>、<code>本月访问</code>、<code>最近一次</code> 四张统计卡片。</li>
+          <li>当前统计不是按唯一 IP 去重，而是按访问日志条数汇总。</li>
+          <li>前端用浏览器会话控制，同一浏览器会话只记录一次访问。</li>
+          <li>后端仍会记录 <code>visitor_ip</code>、<code>user_agent</code> 和 <code>referer</code> 作为公开入口日志。</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="brand-card">
     <p class="brand-kicker">Reading Order</p>
     <h2>公开文档建议阅读顺序</h2>
     <div class="brand-link-grid">
@@ -133,23 +158,28 @@ lastUpdated: false
         <strong>核心能力</strong>
         <p>再看多租户、可信执行、模板分发、公告治理和 CLI 桥接如何形成闭环。</p>
       </a>
-      <a class="brand-link-card" href="./architecture.html">
+      <a class="brand-link-card" href="./customer-flow.html">
         <span>Step 03</span>
+        <strong>客户流程 / 交付</strong>
+        <p>直接看客户怎么用、平台怎么交付，以及脚本热更新当前如何闭环。</p>
+      </a>
+      <a class="brand-link-card" href="./architecture.html">
+        <span>Step 04</span>
         <strong>架构说明</strong>
         <p>理解后端、超管、免费版、交付前端和本地接入之间的关系。</p>
       </a>
       <a class="brand-link-card" href="./cli.html">
-        <span>Step 04</span>
+        <span>Step 05</span>
         <strong>CLI 指引</strong>
         <p>直接看当前已经落地的 <code>login / register / list / run / agent</code> 命令边界。</p>
       </a>
       <a class="brand-link-card" href="./deployment.html">
-        <span>Step 05</span>
+        <span>Step 06</span>
         <strong>部署方式</strong>
         <p>看平台如何覆盖单租户交付、平台治理、免费入口和本地混合执行。</p>
       </a>
       <a class="brand-link-card" href="./editions.html">
-        <span>Step 06</span>
+        <span>Step 07</span>
         <strong>版本路线</strong>
         <p>最后看 1.0 到 4.0 的演进逻辑，以及为什么路线不是“多加几个菜单”。</p>
       </a>
@@ -193,6 +223,10 @@ lastUpdated: false
         <a class="brand-link-card" href="./cli.html">
           <span>CLI</span>
           <strong>CLI 指引</strong>
+        </a>
+        <a class="brand-link-card" href="./customer-flow.html">
+          <span>Delivery</span>
+          <strong>客户流程 / 交付</strong>
         </a>
         <a class="brand-link-card" href="./capabilities.html">
           <span>Capability</span>

@@ -1,6 +1,6 @@
 # SmartFlow 文档站
 
-这是 `smart-flow-ai-skill-platform` 的 VitePress 文档站仓库，包含首页、产品概览、应用场景、核心能力、部署方式、版本路线和联系页。
+这是 `smart-flow-ai-skill-platform` 的 VitePress 文档站仓库，包含首页、产品概览、应用场景、核心能力、客户流程 / 交付、部署方式、版本路线和联系页。
 
 ## 线上地址
 

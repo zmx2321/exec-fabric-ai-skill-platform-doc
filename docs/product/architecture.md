@@ -9,6 +9,11 @@ lastUpdated: false
     <div>
       <p class="brand-kicker">Architecture</p>
       <h1>架构说明</h1>
+      <div class="brand-hero__panel">
+        <span class="brand-pill">Architecture Thesis</span>
+        <strong>让不同入口共用同一套治理内核，而不是各自长成孤岛。</strong>
+        <p>这样既能承接企业客户项目，也能保留免费入口和未来本地 Agent 的演进空间。</p>
+      </div>
       <p class="brand-lead">
         平台当前采用 <strong>单仓多前端 + 统一后端能力中心</strong> 的结构。
         重点不是“组件堆多少”，而是把 <strong>平台治理</strong>、<strong>租户隔离</strong>、
@@ -36,22 +41,17 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
           <div class="matrix-panel__stack">
-            <span>back-python = unified capability center</span>
-            <span>smart-flow-admin = public governance console</span>
-            <span>tenant fronts + smartflow-cli = execution entrances</span>
+            <span class="matrix-panel__line"><span class="matrix-panel__value">back-python</span><span class="matrix-panel__op"> = </span><span class="matrix-panel__value">unified capability center</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__value">smart-flow-admin</span><span class="matrix-panel__op"> = </span><span class="matrix-panel__value">public governance console</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__value">tenant fronts</span><span class="matrix-panel__op"> + </span><span class="matrix-panel__value">smartflow-cli</span><span class="matrix-panel__op"> = </span><span class="matrix-panel__value">execution entrances</span></span>
           </div>
           <div class="matrix-panel__callout">ONE CORE / MULTIPLE ENTRIES</div>
         </div>
         <div class="matrix-panel__footer">
-          <span>schema: isolated</span>
-          <span>public: governance</span>
-          <span>cli: bridge</span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">schema</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">isolated</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">public</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">governance</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">cli</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">bridge</span></span>
         </div>
-      </div>
-      <div class="brand-hero__panel">
-        <span class="brand-pill">Architecture Thesis</span>
-        <strong>让不同入口共用同一套治理内核，而不是各自长成孤岛。</strong>
-        <p>这样既能承接企业客户项目，也能保留免费入口和未来本地 Agent 的演进空间。</p>
       </div>
     </div>
   </section>
@@ -116,6 +116,49 @@ lastUpdated: false
         <li>执行记录与调度日志</li>
         <li>业务扩展表</li>
         <li>各租户自己的访问边界与数据边界</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="brand-card">
+    <p class="brand-kicker">Runtime Boundary</p>
+    <h2>运行时边界怎么成立</h2>
+    <div class="brand-grid brand-grid--three">
+      <article class="brand-card brand-card--nested">
+        <h3>一个客户一个网址</h3>
+        <p>标准交付内容里，每个客户会拿到独立访问地址、独立租户空间和一组客户专属能力。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>Host 绑定租户</h3>
+        <p>当前运行时会按访问 Host 绑定租户并切换 schema，所以“一个客户一个网址”不是营销说法，而是运行时边界的一部分。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3><code>public</code> 不等于普通租户</h3>
+        <p><code>public</code> 负责平台治理与共享底座，客户不会直接把它当成自己的业务租户来用。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="brand-grid brand-grid--two">
+    <article class="brand-card">
+      <p class="brand-kicker">Delivery Package</p>
+      <h2>标准交付通常包含什么</h2>
+      <ul class="brand-list">
+        <li>一个独立租户</li>
+        <li>一个独立访问网址</li>
+        <li>一组客户专属脚本能力</li>
+        <li>平台账号与基础权限</li>
+        <li>客户使用说明和客户脚本热更新说明</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Acceptance Check</p>
+      <h2>客户验收时最该确认什么</h2>
+      <ul class="brand-list">
+        <li>是否能登录自己的网址</li>
+        <li>是否只能看到自己的能力</li>
+        <li>是否能执行自己的能力并查看结果</li>
+        <li>是否能按流程继续提交脚本更新，而不重部署整个平台</li>
       </ul>
     </article>
   </section>

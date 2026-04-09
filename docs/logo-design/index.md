@@ -9,6 +9,11 @@ lastUpdated: false
     <div>
       <p class="brand-kicker">Brand System</p>
       <h1>智流 Logo 设计方向</h1>
+      <div class="brand-hero__panel">
+        <span class="brand-pill">Direction Note</span>
+        <strong>不是做一个炫图标，而是建立一套能复用的产品识别系统。</strong>
+        <p>Logo 要同时表达智能、流动、控制和执行，并能稳定落到文档、后台、CLI 和图标缩略场景。</p>
+      </div>
       <p class="brand-lead">
         这不是单个图标草图，而是一份围绕“智能调度、经验资产化、安全可控、自动化流转”
         沉淀统一品牌识别系统的设计简报。
@@ -31,22 +36,17 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
           <div class="matrix-panel__stack">
-            <span>brand_core: intelligence / flow / control</span>
-            <span>visual_tokens: loop / boundary / trigger</span>
-            <span>usage: docs / admin / cli / favicon</span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">brand_core</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">intelligence</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">flow</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">control</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">visual_tokens</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">loop</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">boundary</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">trigger</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">usage</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">docs</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">admin</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">cli</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">favicon</span></span>
           </div>
           <div class="matrix-panel__callout">BRAND SYSTEM / CONTROLLED FLOW</div>
         </div>
         <div class="matrix-panel__footer">
-          <span>tone: steady</span>
-          <span>shape: readable</span>
-          <span>fit: product</span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">tone</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">steady</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">shape</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">readable</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">fit</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">product</span></span>
         </div>
-      </div>
-      <div class="brand-hero__panel">
-        <span class="brand-pill">Direction Note</span>
-        <strong>不是做一个炫图标，而是建立一套能复用的产品识别系统。</strong>
-        <p>Logo 要同时表达智能、流动、控制和执行，并能稳定落到文档、后台、CLI 和图标缩略场景。</p>
       </div>
     </div>
   </section>

@@ -9,6 +9,11 @@ lastUpdated: false
     <div>
       <p class="brand-kicker">Lead Entry</p>
       <h1>联系我，直接提交试用 / 咨询线索</h1>
+      <div class="brand-hero__panel">
+        <span class="brand-pill">Founder Signal</span>
+        <strong>由一位 10+ 年政企交付经验的独立架构师持续打造</strong>
+        <p>当前项目已经具备多租户治理、可信执行、免费入口和 CLI 演进路径，不是单页概念稿。</p>
+      </div>
       <p class="brand-lead">
         如果你在做企业业务自动化、平台化交付、私有部署，或者希望把已有脚本和流程升级成可治理的执行平台，
         这里直接承接免费线索、团队版演示预约和企业版咨询。
@@ -36,24 +41,40 @@ lastUpdated: false
           <div class="matrix-panel__trace matrix-panel__trace--mid"></div>
           <div class="matrix-panel__trace matrix-panel__trace--bottom"></div>
           <div class="matrix-panel__stack">
-            <span>lead_entry: free_trial / team_demo / enterprise_consulting</span>
-            <span>mail: zmx2321@163.com</span>
-            <span>focus: delivery / product / private deployment</span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">lead_entry</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">free_trial</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">team_demo</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">enterprise_consulting</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">mail</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">zmx2321@163.com</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__key">focus</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">delivery</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">product</span><span class="matrix-panel__sep"> / </span><span class="matrix-panel__value">private deployment</span></span>
           </div>
           <div class="matrix-panel__callout">reply-window: async but stable</div>
         </div>
         <div class="matrix-panel__footer">
-          <span>status: open</span>
-          <span>mode: lead intake</span>
-          <span>docs: public entry</span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">status</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">open</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">mode</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">lead intake</span></span>
+          <span class="matrix-panel__tag"><span class="matrix-panel__key">docs</span><span class="matrix-panel__punct">:</span> <span class="matrix-panel__value">public entry</span></span>
         </div>
       </div>
-      <div class="brand-hero__panel">
-        <span class="brand-pill">Founder Signal</span>
-        <strong>由一位 10+ 年政企交付经验的独立架构师持续打造</strong>
-        <p>当前项目已经具备多租户治理、可信执行、免费入口和 CLI 演进路径，不是单页概念稿。</p>
-      </div>
     </div>
+  </section>
+
+  <section class="brand-grid brand-grid--two">
+    <article class="brand-card">
+      <p class="brand-kicker">Current Entry</p>
+      <h2>如果你是从免登录体验页过来的</h2>
+      <ul class="brand-list">
+        <li>当前公开链路已经是：免登录体验页 -&gt; 注册 / 登录 -&gt; 免费试用 / 团队演示 / 企业咨询。</li>
+        <li>体验页已经提供 <code>hello_demo</code> 和 <code>clean_log_demo</code> 两个公开 demo。</li>
+        <li>注册成功目前由成功提示框承接，再跳回登录页，不单独放一个成功页。</li>
+      </ul>
+    </article>
+    <article class="brand-card">
+      <p class="brand-kicker">Traffic Rule</p>
+      <h2>关于体验页访问统计</h2>
+      <ul class="brand-list">
+        <li>当前统计不是按唯一 IP 去重。</li>
+        <li>同一浏览器会话里只记录一次访问。</li>
+        <li>后端仍会记录 <code>visitor_ip</code>、<code>user_agent</code> 和 <code>referer</code>，用于公开入口日志追踪。</li>
+      </ul>
+    </article>
   </section>
 
   <section id="lead-form" class="brand-grid brand-grid--two">
@@ -202,6 +223,10 @@ lastUpdated: false
         <a class="brand-link-card" href="./product/cli.html">
           <span>CLI</span>
           <strong>CLI 指引</strong>
+        </a>
+        <a class="brand-link-card" href="./product/customer-flow.html">
+          <span>Delivery</span>
+          <strong>客户流程 / 交付</strong>
         </a>
         <a class="brand-link-card" href="./product/capabilities.html">
           <span>Capabilities</span>
