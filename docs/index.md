@@ -4,7 +4,7 @@ layout: home
 hero:
   name: ExecGov
   text: ExecGov（执治）
-  tagline: 先看一次“输入一句话 -> AI 匹配技能 -> 调度脚本 -> 返回结果并留痕”的真实链路，再决定要不要把你的脚本、本地能力和线上服务接进来。
+  tagline: 先体验一条真实可跑通的执行链路：输入请求、AI 匹配、调度执行、返回结果；确认合适后，再接入你的脚本、本地工具和线上服务。
   actions:
     - theme: brand
       text: 立即免费体验（免登录）
@@ -24,7 +24,7 @@ features:
   - title: 本地与云端协同
     details: 不必暴露核心资产，也能把本地脚本、内网 API 与云端控制面连接起来。
   - title: 清晰演进路线
-    details: 先把能落地的一条线做稳，再决定哪些能力和场景值得继续扩。
+    details: 先把能落地的一条线做稳，再判断哪些能力和场景值得继续扩展。
 ---
 
 <div class="landing-shell">
@@ -32,26 +32,32 @@ features:
     <div class="landing-brand">
       <div class="landing-brand__copy">
         <p class="landing-kicker">Brand Signal</p>
-        <h2>先判断它能不能替你省事，再决定要不要继续聊</h2>
+        <h2>先看它能不能替你省事，再决定是否继续深入</h2>
         <p class="landing-lead">
           <strong>ExecGov（执治）是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
         </p>
         <p class="landing-lead">
-          “ExecGov”想解决的不是“模型会不会说”，而是
+          名字里的 <strong>Exec</strong> 来自 <strong>Execution</strong>，<strong>Gov</strong> 来自 <strong>Governance</strong>。
+          这里说的不是政府项目，而是强调
+          <strong>AI、脚本、本地资源和线上能力都要在治理边界内执行</strong>。
+          如果能力不能在规则里真正落地执行，就不是 ExecGov 想解决的问题。
+        </p>
+        <p class="landing-lead">
+          ExecGov 想解决的不是“模型能不能回答”，而是
           <strong>脚本、本地资源和线上能力能不能在规则里稳定执行</strong>。
-          现在先把最常见也最通用的一类能力，也就是 Python 脚本，做成可接入、可审计、可交付的第一条链路。
-          你可以先从公开体验入口感受一次简化流程，再决定是否继续接自己的真实场景。
+          当前先把最常见、也最通用的一类能力，也就是 Python 脚本，做成可接入、可审计、可交付的第一条链路。
+          你可以先从公开体验入口走完一条简化流程，再决定是否接入自己的真实场景。
         </p>
         <p class="landing-lead">
           当前已经完成第一轮兼容式升级：平台新增了通用资源层和执行器注册层，第一种非脚本能力样板
           <strong>HTTP 能力接入</strong> 已先在 <strong>public 超管</strong> 侧落地，用来验证“资源模型 + 执行器 + 审计链路”这条新路径。
           当前租户侧只开放<strong>只读台账</strong>，用于查看自己已获授权的 HTTP 资源摘要、鉴权方式和写边界；
           配置、凭据治理和试跑仍然只放在 <strong>public 超管治理域</strong>。
-          这不等于现在已经开放成万能 API 平台，现阶段更高优先级仍然是把 <strong>1.1 自动注册、支付、续费和停开恢复</strong> 做成低客服闭环。
+          这并不意味着平台已经对租户开放通用 API 自助接入；现阶段更高优先级仍然是把 <strong>1.1 自动注册、支付、续费和停开恢复</strong> 做成低客服闭环。
         </p>
         <p class="landing-lead">
-          这条 <strong>1.1</strong> 现在已经先落到 <strong>public 超管</strong> 侧：订单创建、确认支付、开通 / 续费、续费提醒扫描、到期停开扫描都会回写客户与租户状态。
-          但这还不是“终端用户已经可以完整自助支付”的意思。真实第三方支付网关、用户账单中心和外发提醒渠道仍在后续阶段。
+          这条 <strong>1.1</strong> 路线已经先落到 <strong>public 超管</strong> 侧：订单创建、确认支付、开通 / 续费、续费提醒扫描、到期停开扫描都会回写客户与租户状态。
+          但这并不等于终端用户已经可以完整自助支付。真实第三方支付网关、用户账单中心和外发提醒渠道仍在后续阶段。
         </p>
         <div class="landing-brand__chips">
           <span>免登录体验</span>
@@ -81,7 +87,7 @@ features:
             <span>ENTRY SYSTEM</span>
             <span>SYNC 01</span>
           </div>
-          <p class="landing-brand__signal-summary">从免登录体验到场景沟通，再到真实接入，入口设计的目标都是让你先看到价值，再决定是不是继续接入自己的能力。</p>
+          <p class="landing-brand__signal-summary">从免登录体验到场景沟通，再到真实接入，这套入口设计的目标都是让你先确认价值，再决定如何接入自己的能力。</p>
           <div class="landing-brand__signal-list">
             <div class="landing-brand__signal-item">
               <strong>入口</strong>
@@ -111,7 +117,7 @@ features:
           <article class="landing-brand__meta landing-brand__meta--wide">
             <span class="link-panel-label">Current Focus</span>
             <strong>当前更高优先级仍然是把 1.1 低客服闭环做稳</strong>
-            <p>先把自动注册、支付、续费提醒和停开恢复这条路径继续收口，再决定哪些能力值得往下一阶段扩展。</p>
+            <p>优先把自动注册、支付、续费提醒和停开恢复这条路径继续补齐，再决定下一阶段扩哪些能力。</p>
           </article>
         </div>
       </div>
@@ -134,13 +140,13 @@ features:
         <strong>实现层</strong> 当前以 Python 脚本为主，并开始用 HTTP 资源样板验证第二种能力接入方式。
       </p>
       <p class="landing-lead">
-        这轮还额外收了一次权限边界：
+        这轮也进一步收紧了权限边界：
         <strong>白名单租户 admin</strong> 只保留最小跨租户控制台入口，
         不会看到 <strong>HTTP 能力接入</strong> 这类平台治理页；
         同时运行时与菜单侧也不再使用 <code>user_id == 1</code> 这类不安全条件来误判管理员。
       </p>
       <p class="landing-lead">
-        从商业化主线看，当前最实际的进度不是“已经做成完整 SaaS 收费台”，而是“已经先把平台运营侧的收费与生命周期骨架跑起来”，后面再继续补用户自助链路。
+        从商业化主线看，当前最实际的进度不是“已经做成完整 SaaS 收费台”，而是“已经先把平台运营侧的收费与生命周期骨架跑起来”；用户自助链路仍在继续补齐。
       </p>
     </div>
     <div class="landing-metrics">
@@ -181,12 +187,12 @@ features:
       <article class="mode-card">
         <span class="link-panel-label">Free</span>
         <h3>个人开发者 / 技术尝鲜者</h3>
-        <p>无需先理解复杂架构，先体验一句话调度脚本，感受未来工作方式的雏形，再决定是否正式接入自己的执行流。</p>
+        <p>无需先理解复杂架构，先体验一句话调度脚本，再判断这种方式是否值得正式接入自己的执行流。</p>
       </article>
       <article class="mode-card">
         <span class="link-panel-label">Team</span>
         <h3>团队管理者 / 技术负责人</h3>
-        <p>优先确认多人协作、审批、权限控制与执行审计是否匹配当前场景，而不是先被一堆产品名词淹没。</p>
+        <p>优先确认多人协作、审批、权限控制与执行审计是否匹配当前场景，而不是先被一堆产品术语干扰判断。</p>
       </article>
       <article class="mode-card">
         <span class="link-panel-label">Enterprise</span>
@@ -207,7 +213,7 @@ features:
       <p class="landing-kicker">Best Fit</p>
       <h2>当前优先服务这三类客户</h2>
       <p class="landing-lead">
-        现在不适合把战线铺得太开。对一个单人持续推进的平台来说，先把最容易成交、最容易复用、最贴近现有代码能力的三类客户打透更重要。
+        现在不适合把战线铺得太开。对一个单人持续推进的平台来说，先把最容易成交、最容易复用、最贴近现有代码能力的三类客户做深更重要。
       </p>
     </div>
     <div class="landing-grid landing-grid--three">
@@ -224,7 +230,7 @@ features:
       <article class="mode-card">
         <span class="link-panel-label">03</span>
         <h3>需要内网或私有化的小型正式客户</h3>
-        <p>适合对租户隔离、权限边界、内网环境和私有部署有明确要求，但又不想上来就买重系统的正式客户。</p>
+        <p>适合对租户隔离、权限边界、内网环境和私有部署有明确要求，但又不想一开始就采购重系统的正式客户。</p>
       </article>
     </div>
   </section>
@@ -250,8 +256,8 @@ features:
         <span class="link-panel-label">Method</span>
         <h3>治理为先，执行落地</h3>
         <p><strong>当前策略：</strong>先把脚本型能力做稳，再逐步扩到 API、模板、连接器和审批流。</p>
-        <p><strong>说明：</strong><code>smart-flow-ai-skill-platform</code> 仓库 slug 与 <code>smartflow-cli/</code> 目录路径暂时保留历史命名；CLI 对外命令已统一为 <code>execgov-cli</code>。</p>
-        <p>这样可以先统一对外品牌，同时避免影响现有仓库路径、CLI 和交付链路。</p>
+        <p><strong>命名说明：</strong><code>ExecGov = Execution + Governance</code>，其中 <code>Gov</code> 指的是治理，不是政府项目。</p>
+        <p><strong>当前状态：</strong><code>exec-gov-ai-skill-platform</code> 主仓库 slug 已完成统一；<code>execgov-cli/</code> 目录路径仍保留历史命名，但 CLI 对外命令已统一为 <code>execgov-cli</code>。</p>
       </article>
     </div>
   </section>
@@ -259,16 +265,16 @@ features:
   <section id="founder-note" class="landing-band landing-band--overview landing-band--founder">
     <div class="landing-section-head">
       <p class="landing-kicker">Founder Note</p>
-      <h2>谁在构建 ExecGov，为什么这套平台值得继续聊</h2>
+      <h2>谁在构建 ExecGov，为什么这套平台值得继续了解</h2>
       <p class="landing-lead">
         我现在在杭州，以微创业方式继续把这件事往前做。
         核心目标不是讲一个很大的平台故事，而是把过去交付里反复碰到的
         <strong>脚本接入</strong>、<strong>权限边界</strong>、<strong>执行留痕</strong> 和 <strong>本地桥接</strong>
-        这些问题，尽量做成真能帮人省时间、少返工的产品。
+        这些问题，尽量做成真正能帮人省时间、减少返工的产品。
       </p>
       <p class="landing-lead">
         如果要把这件事再收成一句话，就是：
-        <strong>先把平台做成一个能持续解决真实问题、也能支撑一个人稳定经营的小生意。</strong>
+        <strong>先把平台做成一个能持续解决真实问题、也能支撑稳定经营的小生意。</strong>
       </p>
       <div class="landing-inline-links">
         <a href="./contact.html#lead-form">继续沟通场景</a>
@@ -443,7 +449,7 @@ features:
     <a class="link-panel" href="./guide/">
       <span class="link-panel-label">Guide</span>
       <strong>开始使用</strong>
-      <p>先把入口、角色和阅读路径对齐，避免一上来就在各页之间来回跳转。</p>
+      <p>先把入口、角色和阅读路径对齐，避免一开始就在各页之间来回跳转。</p>
     </a>
     <a class="link-panel" href="./guide/getting-started.html">
       <span class="link-panel-label">Quick Start</span>

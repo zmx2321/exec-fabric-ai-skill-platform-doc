@@ -118,20 +118,20 @@ lastUpdated: false
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>1. 开发环境安装</h3>
-        <pre><code class="language-bash">cd smartflow-cli
+        <pre><code class="language-bash">cd execgov-cli
 python -m pip install -e .
 execgov-cli --help</code></pre>
         <p>这是当前最适合开发、自测和本地接入的安装方式。安装完成后就不必每次都写 <code>python -m execgov_cli.cli</code>。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>2. 直接运行入口</h3>
-        <pre><code class="language-bash">cd smartflow-cli
+        <pre><code class="language-bash">cd execgov-cli
 python -m execgov_cli.cli --help</code></pre>
         <p>如果你还没做本地安装，可以先直接用模块方式运行。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>3. 保存登录配置</h3>
-        <pre><code class="language-bash">cd smartflow-cli
+        <pre><code class="language-bash">cd execgov-cli
 python -m execgov_cli.cli login \
   --token YOUR_API_TOKEN \
   --api-base http://localhost:6089/dev-api \

@@ -1,10 +1,12 @@
 # ExecGov（执治）文档站
 
-这是 `smart-flow-ai-skill-platform` 的 VitePress 文档站仓库，包含首页、产品概览、应用场景、核心能力、客户流程 / 交付、部署方式、版本路线和联系页。
+这是 `exec-gov-ai-skill-platform-doc` 的 VitePress 文档站仓库，对应主平台仓库 `exec-gov-ai-skill-platform`，包含首页、产品概览、应用场景、核心能力、客户流程 / 交付、部署方式、版本路线和联系页。
+
+命名说明：ExecGov = Execution + Governance。这里的 Gov 指的是 Governance（治理），不是 Government（政府）。
 
 ## 线上地址
 
-- GitHub Pages: `https://zmx2321.github.io/smart-flow-ai-skill-platform-doc/`
+- GitHub Pages: `https://zmx2321.github.io/exec-gov-ai-skill-platform-doc/`
 - 我的博客: `https://zmx2321.github.io/vite-blog`
 
 ## 本地使用
@@ -17,7 +19,7 @@ yarn dev
 默认开发端口：
 
 ```text
-http://localhost:7080/smart-flow-ai-skill-platform-doc/
+http://localhost:7080/exec-gov-ai-skill-platform-doc/
 ```
 
 ## 构建与预览

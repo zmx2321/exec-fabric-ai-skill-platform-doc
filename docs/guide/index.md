@@ -64,7 +64,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Path B</p>
       <h2>你已经有本地脚本</h2>
-      <p>手上已经有本地脚本目录时，重点应转到 <code>execgov-cli</code> 当前已经能打通到哪一步。</p>
+      <p>手上已经有本地脚本目录时，重点应该放在 <code>execgov-cli</code> 当前已经打通到哪一步。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Path C</p>
@@ -217,7 +217,7 @@ lastUpdated: false
       <div>
         <p class="brand-kicker">Next Step</p>
         <h2>想继续推进，就按你的目标选下一页</h2>
-        <p class="brand-lead">先体验、先接 CLI、先做客户交付，三条路都成立，但不该混着看。</p>
+        <p class="brand-lead">先体验、先接 CLI、先做客户交付，这三条路都成立，但建议不要混着看。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./getting-started.html">

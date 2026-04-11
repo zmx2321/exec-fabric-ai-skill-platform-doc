@@ -12,7 +12,7 @@ lastUpdated: false
       <div class="brand-hero__panel">
         <span class="brand-pill">Product Signal</span>
         <strong>先把真实任务接稳，再谈扩展边界。</strong>
-        <p>把当前能做的、还没做完的、后面可能扩的分开讲清楚，后面才不容易返工。</p>
+        <p>把当前已做成的、仍在推进的、后续可能扩展的部分分开讲清楚，后面才不容易返工。</p>
       </div>
       <p class="brand-lead">
         <strong>ExecGov（执治）是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
@@ -25,7 +25,7 @@ lastUpdated: false
         标准化、可调度、可审计的能力单元，而不只是某一类脚本文件。
       </p>
       <p>
-        这件事现在已经不只停留在概念层。平台已经完成第一轮兼容式升级：
+        这件事已经不再停留在概念层。平台已经完成第一轮兼容式升级：
         新增了通用资源层与执行器注册层，第一种非脚本能力样板
         <code>HTTP 能力接入</code> 已先在 <code>public</code> 超管侧落地。
         当前租户侧也已经有只读可见台账，可查看自己当前被授权的 HTTP 资源摘要、鉴权方式和写边界；
@@ -33,7 +33,7 @@ lastUpdated: false
         这类资源的配置、凭据治理和试跑，目前仍只放在 <code>public</code> 超管治理域。
       </p>
       <p>
-        这轮实现还顺手收了一次安全口径：
+        这轮实现也进一步收紧了安全边界：
         白名单租户 admin 只保留最小化的跨租户控制台入口，
         不会直接看到 <code>HTTP 能力接入</code> 这类平台治理页；
         同时菜单、权限和运行时也不再用 <code>user_id == 1</code> 这种不安全条件来误判管理员。
@@ -41,7 +41,7 @@ lastUpdated: false
       <p>
         同一时间，<code>1.1</code> 的低客服闭环也已经先落了第一段：
         <code>public</code> 超管侧的订单中心已支持建单、确认支付、执行开通、续费提醒扫描和到期停开扫描。
-        个人免费版前台也已经接通本地脚本位的轻量自助增购，但当前仍不能把它说成“完整支付中心”。
+        个人免费版前台也已经接通本地脚本位的轻量自助增购，但当前还不能把它定义为“完整支付中心”。
         真实第三方支付网关、用户账单中心和外发提醒渠道仍在继续补。
       </p>
       <div class="brand-chip-list">
@@ -124,7 +124,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li>对外统一使用 <code>ExecGov（执治）</code>，不再拆成英文项目名和中文产品名两套说法。</li>
         <li>治理为先，执行落地；先把脚本型能力做稳，再逐步扩到更多能力形态。</li>
-        <li>仓库 slug 与目录路径 <code>smartflow-cli/</code> 先保留，CLI 对外命令已统一为 <code>execgov-cli</code>，避免影响现有工程路径和发布链路。</li>
+        <li>仓库 slug 与目录路径 <code>execgov-cli/</code> 先保留，CLI 对外命令已统一为 <code>execgov-cli</code>，避免影响现有工程路径和发布链路。</li>
         <li>便于统一品牌认知，同时不打断当前代码、文档和交付节奏。</li>
       </ul>
     </article>

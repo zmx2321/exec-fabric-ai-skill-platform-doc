@@ -11,14 +11,14 @@ lastUpdated: false
       <h1>版本路线</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Version Plan</span>
-        <strong>当前先分三段：1.0 把真实交付和执行做稳，1.1 把续费闭环补齐，2.0 再看哪些部分值得继续做厚。</strong>
+        <strong>当前先分三段：1.0 把真实交付和执行做稳，1.1 把续费闭环补齐，2.0 再看哪些部分值得继续标准化。</strong>
         <p>不同阶段对应不同使用方式，也对应不同的投入重点。</p>
       </div>
       <p class="brand-lead">
         ExecGov 当前的版本节奏可以这样理解：
         <strong><code>1.0</code></strong> 先把真实交付、可信执行和本地接入做稳，
         <strong><code>1.1</code></strong> 把自动注册、支付、续费和低客服闭环补起来，
-        <strong><code>2.0</code></strong> 再决定哪些部分值得继续做成更稳定的标准方案。
+        <strong><code>2.0</code></strong> 再决定哪些部分值得继续做成更稳定的标准方案。多 Skill 编排不是当前默认能力，要等治理底座补齐后才进入正式产品化。
       </p>
       <p class="brand-lead">
         <strong>当前 <code>1.0</code> 的核心定位是：ExecGov（执治）是一个以 Python 脚本为第一种成熟执行资产的多租户能力治理与执行平台。</strong>
@@ -32,13 +32,13 @@ lastUpdated: false
         但下一步优先级仍然不是横向铺更多能力，而是先把 <code>1.1</code> 的自动注册、支付、续费和停开恢复做成低客服闭环。
       </p>
       <p class="brand-lead">
-        这一轮还额外收了一次边界：
+        这一轮也进一步收紧了边界：
         <code>HTTP 能力接入</code> 继续只在 <code>public</code> 超管治理域开放，
         白名单租户 admin 只保留最小跨租户控制台；
         同时系统也不再用 <code>user_id == 1</code> 这种条件去误判管理员。
       </p>
       <p class="brand-lead">
-        当前 <code>1.1</code> 已先落一段真实骨架：<code>public</code> 超管订单中心支持建单、确认支付、执行开通、续费提醒扫描、到期停开扫描。
+        当前 <code>1.1</code> 已先落下一段真实骨架：<code>public</code> 超管订单中心支持建单、确认支付、执行开通、续费提醒扫描、到期停开扫描。
         但用户自助下单 / 支付页、真实支付网关、外发提醒渠道仍未完成。
       </p>
       <div class="brand-chip-list">
@@ -162,6 +162,7 @@ lastUpdated: false
       <li>在 1.1 低客服闭环稳定后，再继续把自动注册、支付、续费、提示和自助支持做成更稳的标准方案</li>
       <li>更通用的能力资产注册模型</li>
       <li>API、数据连接器、文档模板、审批流程等更多能力接入</li>
+      <li>多 Skill / 多步骤编排只在补齐复合诉求拆解、节点级确认、正式降级/回退、部分成功/可恢复状态后再进入真实开发</li>
       <li>安装、分发、升级和回滚策略进一步通用化</li>
       <li>小团队协作、套餐化和标准能力边界继续收敛</li>
     </ul>

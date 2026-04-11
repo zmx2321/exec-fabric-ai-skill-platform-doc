@@ -12,7 +12,7 @@ lastUpdated: false
     <div class="brand-hero__panel">
       <span class="brand-pill">Quick Overview</span>
       <strong>ExecGov 不是单一聊天页面，而是一套已经有体验入口、交付路径和 CLI 桥接能力的执行平台。</strong>
-      <p>先从这里了解整体结构与入口选择。</p>
+      <p>先从这里了解整体结构和入口选择。</p>
     </div>
     <p class="brand-lead">
       这份快速开始用于在最短路径内判断
@@ -95,7 +95,7 @@ lastUpdated: false
           <td><code>/experience</code></td>
           <td>当前正式公开体验页</td>
           <td>第一次体验的人</td>
-          <td>它是真实入口，不是只给截图演示的占位页。</td>
+          <td>它是真实入口，不是只用于截图演示的占位页。</td>
         </tr>
         <tr>
           <td><code>/login</code></td>
@@ -172,7 +172,7 @@ lastUpdated: false
         <li>公开体验页适合先感受执行链路，不承接真实业务写入。</li>
         <li>注册后会进入个人智能执行台，可以开始接入自己的第一个脚本。</li>
         <li><code>execgov-cli</code> 当前已可用，本地接入能力会继续增强。</li>
-        <li>如果你从一开始就是团队或企业场景，直接走试用 / 演示沟通通常更高效。</li>
+        <li>如果你本来就是团队或企业场景，直接走试用 / 演示沟通通常更高效。</li>
       </ul>
     </article>
     <article class="brand-card">

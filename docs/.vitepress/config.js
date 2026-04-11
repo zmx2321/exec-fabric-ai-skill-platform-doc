@@ -1,3 +1,7 @@
+const docsBase = process.env.EXECGOV_DOCS_BASE || "/exec-gov-ai-skill-platform-doc/"
+const normalizedDocsBase = docsBase.endsWith("/") ? docsBase : `${docsBase}/`
+const docsRepoUrl = process.env.EXECGOV_DOCS_REPO_URL || "https://github.com/zmx2321/exec-gov-ai-skill-platform-doc"
+
 export default {
   lang: "zh-CN",
   title: "ExecGov（执治）",
@@ -6,9 +10,9 @@ export default {
     initialValue: "dark",
     storageKey: "execgov-doc-theme-appearance",
   },
-  base: "/smart-flow-ai-skill-platform-doc/",
+  base: normalizedDocsBase,
   head: [
-    ["link", { rel: "icon", href: "/smart-flow-ai-skill-platform-doc/favicon.ico" }],
+    ["link", { rel: "icon", href: `${normalizedDocsBase}favicon.ico` }],
     ["meta", { name: "theme-color", content: "#020a08" }],
     [
       "script",
@@ -161,7 +165,7 @@ export default {
       next: "下一页",
     },
     socialLinks: [
-      { icon: "github", link: "https://github.com/zmx2321/smart-flow-ai-skill-platform-doc" },
+      { icon: "github", link: docsRepoUrl },
     ],
   },
   vite: {

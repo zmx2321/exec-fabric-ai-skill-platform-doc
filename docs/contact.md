@@ -59,7 +59,7 @@ lastUpdated: false
         <article class="brand-hero__panel contact-node-card">
           <span class="link-panel-label">Reply Path</span>
           <strong>先留场景，再进入对应跟进</strong>
-          <p>会按免费试用、团队演示或企业咨询三个方向继续承接，不会一上来拉成大项目沟通。</p>
+          <p>会按免费试用、团队演示和企业咨询三个方向继续跟进，不会一开始就拉成大而全的项目讨论。</p>
         </article>
         <article class="brand-hero__panel contact-node-card">
           <span class="link-panel-label">Before Send</span>
@@ -161,7 +161,7 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Topics</p>
-      <h2>适合继续聊的事情</h2>
+      <h2>适合继续沟通的事项</h2>
       <ul class="brand-list">
         <li>企业级自动化与 AI 执行平台交付</li>
         <li>团队版 / 企业版的能力规划与落地路径</li>
@@ -178,13 +178,13 @@ lastUpdated: false
       <div class="brand-grid brand-grid--two">
         <article class="brand-card brand-card--nested">
           <p class="brand-kicker">First Message</p>
-          <h3>先把最痛的一条流程说清楚</h3>
+          <h3>优先把最痛的一条流程说清楚</h3>
           <p>比起泛泛介绍团队情况，更有价值的是先说明当前最痛的任务链路、输入输出和频率。</p>
         </article>
         <article class="brand-card brand-card--nested">
           <p class="brand-kicker">Decision</p>
-          <h3>先判断值不值得做第一步</h3>
-          <p>通常会先收口一个最小闭环，确认能不能省时间、能不能稳定交付，再决定是否扩第二阶段。</p>
+          <h3>先判断是否值得启动第一步</h3>
+          <p>通常会先收口一个最小闭环，确认是否真的省时间、是否能稳定交付，再决定是否进入第二阶段。</p>
         </article>
       </div>
     </article>
@@ -194,7 +194,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Path 01</p>
       <h2>个人体验 / 智能执行台</h2>
-      <p>先让开发者和个体用户低门槛感知价值，再决定是否把自己的脚本正式接进执行台。</p>
+      <p>先让开发者和个体用户以更低门槛感知价值，再决定是否把自己的脚本正式接入执行台。</p>
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Path 02</p>
@@ -204,14 +204,14 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Path 03</p>
       <h2>企业版 / 私有化</h2>
-      <p>承接更重的隔离、安全、内网、本地 Agent 和正式交付需求，建立更高端的专业可信形象。</p>
+      <p>承接更高隔离、更高安全要求、内网、本地 Agent 和正式交付需求。</p>
     </article>
   </section>
 
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
       <p class="brand-kicker">Current Cooperation</p>
-      <h2>当前更适合先聊的合作类型</h2>
+      <h2>当前更适合优先沟通的合作类型</h2>
       <ul class="brand-list">
         <li>先把一个重复流程做成最小自动化交付</li>
         <li>把已有 Python 脚本或 Skill 接入统一执行入口</li>
@@ -225,7 +225,7 @@ lastUpdated: false
       <h2>最推荐的起步方式</h2>
       <ul class="brand-list">
         <li>优先提供一个最痛、最重复、规则相对明确的流程</li>
-        <li>先按一个点收口范围，不建议一上来做成大而全项目</li>
+        <li>先按一个点收口范围，不建议一开始就按大而全项目推进</li>
         <li>先把第一步跑通，再决定是否继续扩第二阶段</li>
         <li>如果还不确定值不值得做，也可以先做最小范围判断</li>
       </ul>
@@ -239,7 +239,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li>长期主线是前端、GIS 可视化和政企交付。</li>
         <li>近两年持续补强 Python 自动化、数据处理和中小型后台支撑。</li>
-        <li>当前做 ExecGov，不是空讲 AI，而是想把脚本接入、权限边界、执行留痕和本地桥接做成真能交付的产品。</li>
+        <li>当前做 ExecGov，不是停留在泛泛地讲 AI，而是想把脚本接入、权限边界、执行留痕和本地桥接做成真正能交付的产品。</li>
       </ul>
       <p><a href="./materials/founder-profile.html">查看交付背景与项目经历</a></p>
     </article>
@@ -269,9 +269,9 @@ lastUpdated: false
         <strong>zmx2321</strong>
         <p>查看公开仓库、代码风格和工程完成度。</p>
       </a>
-      <a class="brand-link-card" href="https://github.com/zmx2321/smart-flow-ai-skill-platform-doc" target="_blank" rel="noreferrer">
+      <a class="brand-link-card" href="https://github.com/zmx2321/exec-gov-ai-skill-platform-doc" target="_blank" rel="noreferrer">
         <span>文档仓库</span>
-        <strong>smart-flow-ai-skill-platform-doc</strong>
+        <strong>exec-gov-ai-skill-platform-doc</strong>
         <p>查看当前文档站页面、样式和部署配置。</p>
       </a>
       <a class="brand-link-card" href="https://zmx2321.github.io/vite-blog" target="_blank" rel="noreferrer">

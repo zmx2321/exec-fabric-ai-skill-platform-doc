@@ -2,7 +2,7 @@
 
 set -e
 
-REPO_URL="${REPO_URL:-git@github.com:zmx2321/smart-flow-ai-skill-platform-doc.git}"
+REPO_URL="${REPO_URL:-git@github.com:zmx2321/exec-gov-ai-skill-platform-doc.git}"
 DEPLOY_BRANCH="${DEPLOY_BRANCH:-gh-pages}"
 
 yarn docs:build

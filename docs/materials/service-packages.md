@@ -11,7 +11,7 @@ lastUpdated: false
       <h1>启动方式 / 标准服务包</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Service Entry</span>
-        <strong>ExecGov 当前启动方式围绕真实流程收口、受控执行接入和小型正式交付三类项目展开，重点是把第一阶段做成可验证、可交付、可复用的闭环。</strong>
+        <strong>ExecGov 当前的启动方式围绕真实流程梳理、受控执行接入和小型正式交付三类项目展开，重点是把第一阶段做成可验证、可交付、可复用的闭环。</strong>
         <p>合作判断的重点不是功能名有多少，而是当前场景是否明确、边界是否清晰、第一阶段是否能形成稳定结果。</p>
       </div>
       <p class="brand-lead">
@@ -92,7 +92,7 @@ lastUpdated: false
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
       <p class="brand-kicker">Good Fit</p>
-      <h2>当前更适合先聊的几类项目</h2>
+      <h2>当前更适合优先沟通的几类项目</h2>
       <ul class="brand-list">
         <li>报表、文件、数据处理这类高频重复流程</li>
         <li>已有 Python 脚本，需要接成统一入口的场景</li>
@@ -127,7 +127,7 @@ lastUpdated: false
         <tr>
           <td>01</td>
           <td>先说清当前最痛的流程名称</td>
-          <td>避免一上来就聊成大而空需求</td>
+          <td>避免一开始就把需求谈成大而空的方向</td>
         </tr>
         <tr>
           <td>02</td>

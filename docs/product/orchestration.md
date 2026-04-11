@@ -10,12 +10,12 @@ lastUpdated: false
       <p class="brand-kicker">Orchestration</p>
       <h1>能力编排</h1>
       <div class="brand-hero__panel">
-        <span class="brand-pill">Orchestration Signal</span>
-        <strong>把多个能力节点按顺序接成一条可确认、可追踪、可审计的执行链。</strong>
-        <p>适合那些不是一步完成，而是需要连续处理、参数衔接和结果回传的任务。</p>
+        <span class="brand-pill">Roadmap After 2.0</span>
+        <strong>能力编排不是当前 `1.0 / 1.1` 已交付能力，而是 `2.0` 之后才进入正式产品化的方向。</strong>
+        <p>只有在“可信单 Skill 执行”稳定后，并补齐复合诉求拆解、节点级确认、正式降级/回退、部分成功/可恢复状态这些治理底座，才会进入真实编排阶段。</p>
       </div>
       <p class="brand-lead">
-        能力编排不是把更多按钮堆在一起，而是把多个执行步骤收成一条能落在规则里的真实工作链。
+        能力编排不是把更多按钮堆在一起，而是在现有单能力执行基础上，把多个执行步骤收成一条能落在规则里的真实工作链。
       </p>
       <div class="brand-chip-list">
         <span class="brand-chip">多步骤执行</span>
@@ -37,7 +37,7 @@ lastUpdated: false
         <article class="brand-card brand-card--nested orchestration-signal-card">
           <p class="brand-kicker">Next</p>
           <h3>后续扩到多步骤任务链</h3>
-          <p>下一步重点在步骤衔接、参数传递、失败记录和整条任务链的审计留痕。</p>
+          <p>下一步重点不只是步骤衔接和参数传递，还包括复合诉求拆解、节点级确认、正式降级/回退、部分成功与可恢复状态。</p>
         </article>
       </div>
     </div>
@@ -108,8 +108,9 @@ lastUpdated: false
       <p class="brand-kicker">Current Phase</p>
       <h2>当前阶段怎么理解</h2>
       <ul class="brand-list">
-        <li>当前已经可以稳定完成单能力执行</li>
-        <li>多步骤能力编排会在现有执行基础上继续扩展</li>
+        <li>当前已经可以稳定完成“可信单 Skill 执行”</li>
+        <li>多步骤能力编排不是 `1.0 / 1.1` 已完成能力</li>
+        <li>正式编排属于 `2.0` 之后才进入真实产品化的方向</li>
         <li>当任务涉及多次确认、参数传递、文件衔接或跨步骤追踪时，这条能力会更有价值</li>
       </ul>
     </article>
@@ -119,7 +120,7 @@ lastUpdated: false
     <p class="brand-kicker">Summary</p>
     <h2>一句话总结</h2>
     <p class="brand-lead">
-      ExecGov 会在现有单能力执行基础上，继续扩展为可确认、可追踪、可审计的多步骤能力编排平台。
+      ExecGov 当前先把“可信单 Skill 执行”做稳；补齐治理底座后，才会在 `2.0` 之后继续扩展为可确认、可追踪、可审计的多步骤能力编排平台。
     </p>
   </section>
 </div>

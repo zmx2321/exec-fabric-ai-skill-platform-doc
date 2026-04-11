@@ -58,7 +58,7 @@ lastUpdated: false
 
   <section class="brand-card">
     <p class="brand-kicker">Priority Segments</p>
-    <h2>当前最值得优先打透的三类客户</h2>
+    <h2>当前最值得优先深耕的三类客户</h2>
     <div class="brand-grid brand-grid--three">
       <article class="brand-card brand-card--nested">
         <h3>电商 / 内容 / 运营数据自动化</h3>
@@ -70,7 +70,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>需要内网或私有化的小型正式客户</h3>
-        <p>适合对租户隔离、权限边界、内网环境和正式交付有明确要求，但又不想上来就上重系统的客户。</p>
+        <p>适合对租户隔离、权限边界、内网环境和正式交付有明确要求，但又不想一开始就上重系统的客户。</p>
       </article>
     </div>
   </section>
@@ -155,7 +155,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">Boss View 03</p>
       <h2>它为什么值得先继续投入</h2>
-      <p>价值不只是做一次自动化，而是把零散脚本沉淀成可复用、可持续更新、后面少返工的能力底座。</p>
+      <p>价值不只是完成一次自动化，而是把零散脚本沉淀成可复用、可持续更新、可长期演进的能力底座。</p>
     </article>
   </section>
 
