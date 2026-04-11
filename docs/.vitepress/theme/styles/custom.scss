@@ -3339,6 +3339,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 }
 
 .brand-page-shell--founder-profile .founder-profile-action-card {
+  padding: 18px 18px 16px;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(241, 248, 250, 0.92)),
     linear-gradient(135deg, rgba(15, 118, 110, 0.06), rgba(37, 99, 235, 0.05));
@@ -3353,14 +3354,14 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 .brand-page-shell--founder-profile .founder-profile-action-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
-  margin-top: 16px;
+  gap: 10px;
+  margin-top: 12px;
 }
 
 .brand-page-shell--founder-profile .founder-profile-action-link {
   display: flex;
-  min-height: 108px;
-  padding: 14px 16px;
+  min-height: 88px;
+  padding: 12px 14px;
   flex-direction: column;
   justify-content: space-between;
   border: 1px solid var(--smartflow-line);
@@ -3385,18 +3386,18 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
   display: block;
   color: var(--smartflow-kicker);
   font-family: var(--smartflow-mono-font);
-  font-size: 0.7rem;
+  font-size: 0.66rem;
   font-weight: 700;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 
 .brand-page-shell--founder-profile .founder-profile-action-link strong {
   display: block;
-  margin-top: 10px;
+  margin-top: 8px;
   color: var(--smartflow-title);
-  font-size: 0.92rem;
-  line-height: 1.42;
+  font-size: 0.88rem;
+  line-height: 1.36;
 }
 
 .brand-page-shell--founder-profile .founder-profile-action-link--primary {
@@ -3412,7 +3413,8 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 .brand-page-shell--founder-profile .founder-profile-action-link--primary span,
 .brand-page-shell--founder-profile .founder-profile-action-link--primary strong {
-  color: #fff;
+  color: #062b27;
+  text-shadow: none;
 }
 
 @media (max-width: 520px) {
