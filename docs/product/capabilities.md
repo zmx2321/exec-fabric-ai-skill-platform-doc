@@ -149,6 +149,7 @@ lastUpdated: false
         <li>HTTP 写操作默认拒绝，必须显式进入白名单</li>
         <li>租户侧不开放平台治理页，只给授权范围内的查看与执行入口</li>
         <li>管理员判定已收口，不再用 <code>user_id == 1</code> 误判 admin</li>
+        <li>脚本 / Skill 风险等级当前固定为 <code>low / medium / high</code> 三档，公开标准见 <a href="./script-risk-levels.html">脚本风险分级说明</a></li>
       </ul>
     </article>
     <article class="brand-card">
@@ -156,8 +157,9 @@ lastUpdated: false
       <h2>CLI 与本地接入</h2>
       <ul class="brand-list">
         <li><code>login</code> / <code>register</code> / <code>list</code> / <code>run</code></li>
-        <li><code>agent describe</code> / <code>agent start</code></li>
-        <li>意义不是命令行包装器，而是平台和本地环境之间的桥梁</li>
+        <li><code>agent describe</code> / <code>agent bind</code> / <code>agent start</code></li>
+        <li>支持云端上传注册，也支持 <code>local-register</code> 本机路径登记</li>
+        <li>意义不是命令行包装器，而是平台控制面和本地环境之间的桥梁</li>
       </ul>
     </article>
   </section>

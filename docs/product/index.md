@@ -62,6 +62,7 @@ lastUpdated: false
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../guide/getting-started.html">立即免费体验</a>
         <a class="cta-button" href="./scenarios.html">查看应用场景</a>
+        <a class="cta-button" href="./script-risk-levels.html">查看风险分级</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
