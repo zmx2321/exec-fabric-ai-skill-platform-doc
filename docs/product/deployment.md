@@ -146,6 +146,7 @@ lastUpdated: false
         <li>任务依赖本地环境或内网资源</li>
         <li>平台负责入口、规划、权限和审计</li>
         <li>本地环境负责执行，CLI / Agent 负责桥接</li>
+        <li>客户本地脚本路径不要求固定盘符或固定目录，按当前机器真实路径登记即可</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -159,6 +160,31 @@ lastUpdated: false
       </ul>
     </article>
   </section>
+
+<section class="brand-card">
+  <p class="brand-kicker">Local Registration</p>
+  <h2>客户本地路径和机器绑定，当前怎么落地</h2>
+  <div class="brand-grid brand-grid--two">
+    <article class="brand-card brand-card--nested">
+      <h3>路径可以因人因机而异</h3>
+      <ul class="brand-list">
+        <li>客户不需要把所有脚本统一放到某个固定盘符。</li>
+        <li>同一个客户的不同脚本，可以分别登记不同绝对路径。</li>
+        <li>如果客户只有一个租户，就只在自己的租户下登记本机路径即可。</li>
+        <li>免费版当前默认对应 <code>tenant_1000</code>，但本地路径仍按用户自己的机器来定。</li>
+      </ul>
+    </article>
+    <article class="brand-card brand-card--nested">
+      <h3>机器绑定必须收口</h3>
+      <ul class="brand-list">
+        <li>同一个 Skill 当前不能同时绑多台机器。</li>
+        <li>正式使用按“每台机器各自登记自己的脚本 / Skill”推进。</li>
+        <li>平台派发本地作业时，会按登记时的机器标识路由到对应设备。</li>
+        <li>这让控制面可以统一，但执行位置不必统一。</li>
+      </ul>
+    </article>
+  </div>
+</section>
 
 <section class="brand-card">
   <p class="brand-kicker">Shared SaaS</p>

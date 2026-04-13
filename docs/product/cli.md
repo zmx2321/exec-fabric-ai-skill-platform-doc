@@ -274,6 +274,57 @@ backup.execgov-skill.json
     </div>
   </section>
 
+  <section class="brand-card">
+    <p class="brand-kicker">Path &amp; Machine Rules</p>
+    <h2>本地路径和机器绑定，当前按什么规则用</h2>
+    <div class="brand-grid brand-grid--two">
+      <article class="brand-card brand-card--nested">
+        <h3>路径不要求统一</h3>
+        <ul class="brand-list">
+          <li>客户不需要把所有脚本放到固定盘符或固定父目录。</li>
+          <li>同一个用户的不同脚本，可以分别登记不同绝对路径。</li>
+          <li>Windows、macOS、Linux 的路径可以完全不同。</li>
+          <li>网页更适合单文件路径登记；CLI 更适合目录和批量登记。</li>
+        </ul>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>机器绑定要收口</h3>
+        <ul class="brand-list">
+          <li>同一个 Skill 当前不能同时绑定多台机器，后端会直接拦住。</li>
+          <li>如果你有多台机器，应按“每台机器各自登记自己的脚本 / Skill”来用。</li>
+          <li><code>agent bind</code> 和本地登记会把 <code>machine_id / machine_name / agent_name</code> 一并写入平台。</li>
+          <li>平台派发本地作业时，会按登记时绑定的机器路由回对应设备。</li>
+        </ul>
+      </article>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>场景</th>
+          <th>当前做法</th>
+          <th>为什么这样做</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>只有一个本地脚本</td>
+          <td>可直接登记单文件路径</td>
+          <td>适合先把本机执行链路跑通，不必先整理整仓目录。</td>
+        </tr>
+        <tr>
+          <td>脚本依赖模板和同目录工具模块</td>
+          <td>登记实际入口文件，并保留同目录结构</td>
+          <td>Local Agent 执行时会在脚本所在目录启动，便于相对路径依赖生效。</td>
+        </tr>
+        <tr>
+          <td>本地和线上都存在同一能力</td>
+          <td>当前运行时优先走本地脚本</td>
+          <td>先满足客户本机环境、内网资源和本地数据依赖。</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
       <p class="brand-kicker">Current Boundary</p>
@@ -283,6 +334,7 @@ backup.execgov-skill.json
         <li>当前最小正式本地闭环已经成立：本地脚本可以登记、被派发回同一台机器、在本机执行，并把结果完成回写到平台。</li>
         <li>Local Agent 执行中会持续回传 stdout / stderr 进度；如果脚本通过 <code>__EXECGOV_RESULT__=JSON</code> 声明结果产物，CLI 还会自动上传结果文件并回写下载信息。</li>
         <li>网页入口仍更适合可见的单文件接入；CLI 更适合重复登记、目录接入和本机路径调度。</li>
+        <li>当同一能力同时存在本地脚本和线上脚本时，当前运行时优先走本地脚本。</li>
       </ul>
     </article>
     <article class="brand-card">

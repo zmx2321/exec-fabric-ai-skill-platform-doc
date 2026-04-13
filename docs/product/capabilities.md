@@ -160,6 +160,9 @@ lastUpdated: false
         <li><code>agent describe</code> / <code>agent bind</code> / <code>agent start</code></li>
         <li>支持云端上传注册，也支持 <code>local-register</code> 本机路径登记</li>
         <li>意义不是命令行包装器，而是平台控制面和本地环境之间的桥梁</li>
+        <li>客户本地路径可按脚本分别登记，不要求统一盘符、统一父目录或统一操作系统路径</li>
+        <li>同一个 Skill 当前不支持同时绑定多台机器；正式使用按“每台机器各自登记自己的脚本 / Skill”推进</li>
+        <li>当同一能力同时存在本地脚本和线上脚本时，运行时优先走本地脚本</li>
       </ul>
     </article>
   </section>

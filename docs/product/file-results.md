@@ -112,6 +112,26 @@ lastUpdated: false
   </section>
 
   <section class="brand-card">
+    <p class="brand-kicker">Template Result</p>
+    <h2>如果结果文件依赖模板，最终下载的应该是什么</h2>
+    <div class="brand-grid brand-grid--two">
+      <article class="brand-card brand-card--nested">
+        <h3>不是中间表</h3>
+        <p>像月度报表、模板报表、集团汇总表这类场景，平台最终交给客户下载的，不应是中间 CSV 或中间结果表，而应是按交付要求生成后的成品文件。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>通常怎么生成</h3>
+        <p>先复制标准模板文件，再按批次或月份重命名，然后把结果数据写入模板工作表，最后把这份成品文件作为正式产物回传给用户下载。</p>
+      </article>
+    </div>
+    <ul class="brand-list">
+      <li>这类结果文件更接近“交付件”，不是脚本内部过程文件。</li>
+      <li>平台下载链路应直接指向最后那份成品文件，而不是过程中的临时输出。</li>
+      <li>对话执行里看到的下载入口，应该和客户最终要交付或复核的文件保持一致。</li>
+    </ul>
+  </section>
+
+  <section class="brand-card">
     <p class="brand-kicker">Chat Binding</p>
     <h2>在对话执行里上传文件后，脚本怎么知道该读哪一个文件</h2>
     <div class="brand-grid brand-grid--two">
