@@ -359,7 +359,7 @@ features:
         <h3>治理为先，执行落地</h3>
         <p><strong>当前策略：</strong>先把脚本型能力做稳，再逐步扩到 API、模板、连接器和审批流。</p>
         <p><strong>命名说明：</strong><code>ExecFabric = Execution + Fabric</code>，其中 <code>Fabric</code> 强调把能力、流程和治理边界编织成稳定、可交付的自动化网络。</p>
-        <p><strong>当前状态：</strong><code>exec-fabric-ai-skill-platform</code> 主仓库 slug 已完成统一；<code>execgov-cli/</code> 目录路径仍保留历史命名，但 CLI 对外命令已统一为 <code>execgov-cli</code>。</p>
+        <p><strong>当前状态：</strong><code>exec-fabric-ai-skill-platform</code> 主仓库 slug 已完成统一；<code>execfabric-cli/</code> 目录路径仍保留历史命名，但 CLI 对外命令已统一为 <code>execfabric-cli</code>。</p>
       </article>
     </div>
   </section>

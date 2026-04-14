@@ -443,7 +443,7 @@ lastUpdated: false
     </article>
     <article class="brand-card brand-card--nested">
       <h3>Can local scripts and intranet resources connect into the platform</h3>
-      <p>Yes, but normally not by exposing local paths to the browser. The normal route is to use <code>execgov-cli</code> and the future Agent line as the local execution bridge.</p>
+      <p>Yes, but normally not by exposing local paths to the browser. The normal route is to use <code>execfabric-cli</code> and the future Agent line as the local execution bridge.</p>
     </article>
     <article class="brand-card brand-card--nested">
       <h3>Are the free path and enterprise delivery two unrelated systems</h3>

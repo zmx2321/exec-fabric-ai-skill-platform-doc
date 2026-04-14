@@ -373,7 +373,7 @@ features:
         <h3>Govern first, execute for real</h3>
         <p><strong>Current strategy:</strong> stabilize script-shaped capability first, then expand toward APIs, templates, connectors, and approval flows.</p>
         <p><strong>Naming note:</strong> <code>ExecFabric = Execution + Fabric</code>, and <code>Fabric</code> emphasizes weaving capabilities, workflows, and governance boundaries into a stable automation fabric that can actually be delivered.</p>
-        <p><strong>Current state:</strong> the main repository slug <code>exec-fabric-ai-skill-platform</code> has already been unified, while the directory path <code>execgov-cli/</code> keeps historical naming and the external CLI command is already unified as <code>execgov-cli</code>.</p>
+        <p><strong>Current state:</strong> the main repository slug <code>exec-fabric-ai-skill-platform</code> has already been unified, while the directory path <code>execfabric-cli/</code> keeps historical naming and the external CLI command is already unified as <code>execfabric-cli</code>.</p>
       </article>
     </div>
   </section>

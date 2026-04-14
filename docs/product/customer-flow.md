@@ -444,7 +444,7 @@ lastUpdated: false
     </article>
     <article class="brand-card brand-card--nested">
       <h3>本地脚本和内网资源能不能接入平台</h3>
-      <p>可以，但通常不是让浏览器直接碰本地路径，而是通过 <code>execgov-cli</code> 和后续 Agent 路线承接本地执行桥接。</p>
+      <p>可以，但通常不是让浏览器直接碰本地路径，而是通过 <code>execfabric-cli</code> 和后续 Agent 路线承接本地执行桥接。</p>
     </article>
     <article class="brand-card brand-card--nested">
       <h3>免费版和企业交付是不是两套完全无关的系统</h3>

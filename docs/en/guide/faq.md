@@ -138,7 +138,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>After a file is uploaded, how does the script know which file to process</h3>
-        <p>The script does not guess. The upload button in the execution quick bar binds the current upload as one <code>uploadBatchId</code>, and during confirmation the backend passes a snapshot of that batch into the script. Python and Shell scripts can read <code>EXECGOV_UPLOAD_BATCH_NO</code>, <code>EXECGOV_UPLOAD_INPUT_FILES_JSON</code>, <code>EXECGOV_UPLOAD_FILE_SERVICE_JSON</code>, and <code>EXECGOV_SKILL_INPUT_PAYLOAD_JSON</code>, so they operate on the bound batch rather than some guessed “latest file” in a historical directory.</p>
+        <p>The script does not guess. The upload button in the execution quick bar binds the current upload as one <code>uploadBatchId</code>, and during confirmation the backend passes a snapshot of that batch into the script. Python and Shell scripts can read <code>EXECFABRIC_UPLOAD_BATCH_NO</code>, <code>EXECFABRIC_UPLOAD_INPUT_FILES_JSON</code>, <code>EXECFABRIC_UPLOAD_FILE_SERVICE_JSON</code>, and <code>EXECFABRIC_SKILL_INPUT_PAYLOAD_JSON</code>, so they operate on the bound batch rather than some guessed “latest file” in a historical directory.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>What documentation does a customer usually receive after formal delivery</h3>
@@ -153,7 +153,7 @@ lastUpdated: false
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>Is the CLI still only conceptual</h3>
-        <p>No. <code>execgov-cli</code> already supports <code>login</code>, <code>register</code>, <code>list</code>, <code>run</code>, <code>agent describe</code>, and <code>agent start</code>. It is already usable for local onboarding, debugging, and early validation.</p>
+        <p>No. <code>execfabric-cli</code> already supports <code>login</code>, <code>register</code>, <code>list</code>, <code>run</code>, <code>agent describe</code>, and <code>agent start</code>. It is already usable for local onboarding, debugging, and early validation.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Is the local Agent already a finished commercial feature</h3>
@@ -191,7 +191,7 @@ lastUpdated: false
         <p>The current flow enters a dedicated result page first, then returns to login and the personal mainline. It no longer depends only on a toast message.</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3>Is <code>exec-gov-shell</code> the formal customer entry</h3>
+        <h3>Is <code>execfabric-shell</code> the formal customer entry</h3>
         <p>No. It mainly exists for multi-entry aggregation, joint debugging, and sync. Formal customer entry still means the personal free frontend, the shared-SaaS tenant frontend, or the enterprise-delivery frontend.</p>
       </article>
     </div>

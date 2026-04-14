@@ -15,7 +15,7 @@ lastUpdated: false
         <p>The web path is still the best place to feel a visible single-file flow first. The CLI is the deeper path for single-file or folder registration, local-path registration, and local execution bridging.</p>
       </div>
       <p class="brand-lead">
-        <strong>execgov-cli</strong> is ExecFabric's current command-line entry for individual developers, delivery work, and local or intranet execution scenarios.
+        <strong>execfabric-cli</strong> is ExecFabric's current command-line entry for individual developers, delivery work, and local or intranet execution scenarios.
         The point is not to add a command-line skin. The point is to connect the
         <strong>local script folder, local runtime environment, and platform control plane</strong>
         into a bridge that is usable today.
@@ -71,7 +71,7 @@ lastUpdated: false
         <li><code>run</code></li>
         <li><code>agent describe</code>, <code>agent bind</code>, and <code>agent start</code></li>
         <li>sidecar JSON overrides and metadata extraction from comments, docstrings, and file names</li>
-        <li><code>.execgov-manifest.json</code> generation</li>
+        <li><code>.execfabric-manifest.json</code> generation</li>
         <li><code>register --execution-mode cloud</code> calling backend <code>upload-register</code> for Python and Shell upload registration</li>
         <li><code>register --execution-mode local-agent</code> calling backend <code>local-register</code> for single-file or folder local-path registration</li>
         <li><code>agent start</code> polling, claiming, executing, and completing Local Agent jobs on the current machine</li>
@@ -163,7 +163,7 @@ lastUpdated: false
       <p class="brand-kicker">Cloud Mode</p>
       <h2>What <code>cloud</code> registration does today</h2>
       <ul class="brand-list">
-        <li>The CLI scans the workspace, extracts metadata, generates <code>.execgov-manifest.json</code>, and calls backend <code>upload-register</code></li>
+        <li>The CLI scans the workspace, extracts metadata, generates <code>.execfabric-manifest.json</code>, and calls backend <code>upload-register</code></li>
         <li>Python and Shell scripts currently go through the real cloud upload-registration path</li>
         <li>If the workspace contains other script types such as <code>bat</code> or <code>node</code>, they are not yet fully uploaded through this path</li>
         <li>This is the path for putting script content into the platform-side registration flow</li>
@@ -187,29 +187,29 @@ lastUpdated: false
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>1. Install it into the current environment</h3>
-        <pre><code class="language-bash">cd execgov-cli
+        <pre><code class="language-bash">cd execfabric-cli
 python -m pip install -e .
-execgov-cli --help</code></pre>
-        <p>This is the most practical path right now for development, local testing, and delivery-side validation. The outward standard command is <code>execgov-cli</code>.</p>
+execfabric-cli --help</code></pre>
+        <p>This is the most practical path right now for development, local testing, and delivery-side validation. The outward standard command is <code>execfabric-cli</code>.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>2. Save the login configuration</h3>
-        <pre><code class="language-bash">execgov-cli login \
+        <pre><code class="language-bash">execfabric-cli login \
   --token YOUR_API_TOKEN \
   --api-base http://tenant1000.localhost:6089 \
   --web-base http://localhost:81</code></pre>
-        <p>The default config file is <code>~/.execgov/config.json</code>. Free developers should normally point to the personal-free tenant domain. Enterprise users should point to their own tenant domain. <code>public</code> is not the default ordinary CLI user entry.</p>
+        <p>The default config file is <code>~/.execfabric/config.json</code>. Free developers should normally point to the personal-free tenant domain. Enterprise users should point to their own tenant domain. <code>public</code> is not the default ordinary CLI user entry.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>3. Register a workspace in cloud mode</h3>
-        <pre><code class="language-bash">execgov-cli register ./examples/scripts</code></pre>
-        <p>The command scans the folder, generates <code>.execgov-manifest.json</code>, and calls backend <code>upload-register</code>. Python and Shell already go through the real cloud-registration path.</p>
+        <pre><code class="language-bash">execfabric-cli register ./examples/scripts</code></pre>
+        <p>The command scans the folder, generates <code>.execfabric-manifest.json</code>, and calls backend <code>upload-register</code>. Python and Shell already go through the real cloud-registration path.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>4. Register local scripts and start the Local Agent</h3>
-        <pre><code class="language-bash">execgov-cli register ./examples/scripts --execution-mode local-agent
-execgov-cli register ./examples/scripts/backup.py --execution-mode local-agent
-execgov-cli agent start</code></pre>
+        <pre><code class="language-bash">execfabric-cli register ./examples/scripts --execution-mode local-agent
+execfabric-cli register ./examples/scripts/backup.py --execution-mode local-agent
+execfabric-cli agent start</code></pre>
         <p>This keeps code on the current machine, registers either a folder or a single file, and lets the current machine claim and execute the queued Local Agent jobs that were routed back to it.</p>
       </article>
     </div>
@@ -221,37 +221,37 @@ execgov-cli agent start</code></pre>
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>Inspect results without writing files</h3>
-        <pre><code class="language-bash">execgov-cli register ./examples/scripts --dry-run --print-json</code></pre>
+        <pre><code class="language-bash">execfabric-cli register ./examples/scripts --dry-run --print-json</code></pre>
         <p>Useful when you want to verify whether the extracted Skill metadata looks correct before writing anything.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Generate only the manifest</h3>
-        <pre><code class="language-bash">execgov-cli register ./examples/scripts --manifest-only</code></pre>
+        <pre><code class="language-bash">execfabric-cli register ./examples/scripts --manifest-only</code></pre>
         <p>If you do not want to call the backend yet, generate the local manifest only.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Read a manifest summary</h3>
-        <pre><code class="language-bash">execgov-cli list ./examples/scripts</code></pre>
-        <p><code>list</code> currently requires an explicit workspace path, and that directory must already contain <code>.execgov-manifest.json</code>.</p>
+        <pre><code class="language-bash">execfabric-cli list ./examples/scripts</code></pre>
+        <p><code>list</code> currently requires an explicit workspace path, and that directory must already contain <code>.execfabric-manifest.json</code>.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Trigger a Skill directly</h3>
-        <pre><code class="language-bash">execgov-cli run backup_local \
+        <pre><code class="language-bash">execfabric-cli run backup_local \
   --request-text "Manual backup run from CLI" \
   --input-json '{"sourcePath":"/tmp/demo"}'</code></pre>
         <p>If <code>--web-base</code> was saved during login, the CLI also prints the corresponding web-open link for that execution.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Describe or bind the current machine</h3>
-        <pre><code class="language-bash">execgov-cli agent describe
-execgov-cli agent bind \
+        <pre><code class="language-bash">execfabric-cli agent describe
+execfabric-cli agent bind \
   --machine-name "Alice MacBook" \
   --agent-name "alice-local-agent"</code></pre>
         <p><code>agent bind</code> persists a stable machine identity for later local registration and Local Agent routing. If you do not bind it manually, login and Local Agent commands still fill in defaults.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Process the Local Agent queue once</h3>
-        <pre><code class="language-bash">execgov-cli agent start --once</code></pre>
+        <pre><code class="language-bash">execfabric-cli agent start --once</code></pre>
         <p>This is the easiest manual test for the Local Agent loop. It claims at most one job, executes it on the current machine, and reports completion back to the platform.</p>
       </article>
     </div>
@@ -264,9 +264,9 @@ execgov-cli agent bind \
       <article class="brand-card brand-card--nested">
         <h3>Sidecar file naming</h3>
         <pre><code class="language-text">backup.py
-backup.execgov-skill.json
-.execgov-manifest.json</code></pre>
-        <p>The standard sidecar file name is <code>&lt;script_stem&gt;.execgov-skill.json</code>, and the workspace manifest is <code>.execgov-manifest.json</code>.</p>
+backup.execfabric-skill.json
+.execfabric-manifest.json</code></pre>
+        <p>The standard sidecar file name is <code>&lt;script_stem&gt;.execfabric-skill.json</code>, and the workspace manifest is <code>.execfabric-manifest.json</code>.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Extraction rule</h3>

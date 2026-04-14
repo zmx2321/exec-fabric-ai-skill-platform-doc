@@ -141,7 +141,7 @@ lastUpdated: false
         <li>Administrator detection now closes around explicit admin or super-admin markers and no longer relies on <code>user_id == 1</code></li>
         <li>Recommendation, confirmation, execution, and audit for the intelligent brain</li>
         <li>Template distribution, installation, rollback, and logs</li>
-        <li>The no-login experience page, login, signup, signup result page, the personal-free menu set, the HTTP read-only ledger, lightweight self-service purchase of local script slots, and the smallest <code>execgov-cli</code> loop</li>
+        <li>The no-login experience page, login, signup, signup result page, the personal-free menu set, the HTTP read-only ledger, lightweight self-service purchase of local script slots, and the smallest <code>execfabric-cli</code> loop</li>
       </ul>
     </article>
     <article class="brand-card">

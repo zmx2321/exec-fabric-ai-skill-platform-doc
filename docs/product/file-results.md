@@ -192,19 +192,19 @@ lastUpdated: false
       </thead>
       <tbody>
         <tr>
-          <td><code>EXECGOV_UPLOAD_BATCH_NO</code></td>
+          <td><code>EXECFABRIC_UPLOAD_BATCH_NO</code></td>
           <td>当前绑定批次号，用来判断这次执行到底消费哪一批输入。</td>
         </tr>
         <tr>
-          <td><code>EXECGOV_UPLOAD_INPUT_FILES_JSON</code></td>
+          <td><code>EXECFABRIC_UPLOAD_INPUT_FILES_JSON</code></td>
           <td>当前批次输入文件数组，脚本可以直接拿到 <code>fileName</code>、<code>fileId</code>、大小等信息。</td>
         </tr>
         <tr>
-          <td><code>EXECGOV_UPLOAD_FILE_SERVICE_JSON</code></td>
+          <td><code>EXECFABRIC_UPLOAD_FILE_SERVICE_JSON</code></td>
           <td>完整的文件服务快照，包含 <code>batchNo</code>、<code>inputFiles</code> 等上下文。</td>
         </tr>
         <tr>
-          <td><code>EXECGOV_SKILL_INPUT_PAYLOAD_JSON</code></td>
+          <td><code>EXECFABRIC_SKILL_INPUT_PAYLOAD_JSON</code></td>
           <td>本次执行的完整输入载荷，里面同样会保留 <code>uploadBatchId</code> 和 <code>fileService</code>。</td>
         </tr>
       </tbody>

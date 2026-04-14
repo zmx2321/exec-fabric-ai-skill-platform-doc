@@ -204,10 +204,10 @@ lastUpdated: false
       <h2>The current stage is better understood this way</h2>
       <ul class="brand-list">
         <li>The most mature execution asset on the platform today is the Python script.</li>
-        <li><code>execgov-cli</code> is suitable for local onboarding and early validation, and the resident Agent capability is still being strengthened.</li>
+        <li><code>execfabric-cli</code> is suitable for local onboarding and early validation, and the resident Agent capability is still being strengthened.</li>
         <li>Formal customer delivery currently follows two practical paths: a shared-SaaS formal tenant entry and enterprise single-tenant delivery.</li>
         <li>The <code>public</code> super-admin side already has a first HTTP capability-access sample, which verifies how a second capability type can enter the governance chain.</li>
-        <li>A more standardized small-team usage pattern will continue to tighten, and the shared-SaaS frontend is currently carried by <code>tenant_1003+</code> / <code>exec-gov-common</code>.</li>
+        <li>A more standardized small-team usage pattern will continue to tighten, and the shared-SaaS frontend is currently carried by <code>tenant_1003+</code> / <code>execfabric-common</code>.</li>
         <li>More capability types will gradually join the unified governance chain.</li>
       </ul>
     </article>

@@ -174,19 +174,19 @@ lastUpdated: false
       </thead>
       <tbody>
         <tr>
-          <td><code>EXECGOV_UPLOAD_BATCH_NO</code></td>
+          <td><code>EXECFABRIC_UPLOAD_BATCH_NO</code></td>
           <td>The currently bound batch number, used to decide which input batch this execution should consume.</td>
         </tr>
         <tr>
-          <td><code>EXECGOV_UPLOAD_INPUT_FILES_JSON</code></td>
+          <td><code>EXECFABRIC_UPLOAD_INPUT_FILES_JSON</code></td>
           <td>The input-file array for the current batch. The script can directly read fields such as <code>fileName</code>, <code>fileId</code>, and size.</td>
         </tr>
         <tr>
-          <td><code>EXECGOV_UPLOAD_FILE_SERVICE_JSON</code></td>
+          <td><code>EXECFABRIC_UPLOAD_FILE_SERVICE_JSON</code></td>
           <td>The full file-service snapshot, including context such as <code>batchNo</code> and <code>inputFiles</code>.</td>
         </tr>
         <tr>
-          <td><code>EXECGOV_SKILL_INPUT_PAYLOAD_JSON</code></td>
+          <td><code>EXECFABRIC_SKILL_INPUT_PAYLOAD_JSON</code></td>
           <td>The full input payload for this execution, which also keeps <code>uploadBatchId</code> and <code>fileService</code>.</td>
         </tr>
       </tbody>

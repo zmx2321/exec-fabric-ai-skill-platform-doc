@@ -1,6 +1,6 @@
-const docsBase = process.env.EXECGOV_DOCS_BASE || "/"
+const docsBase = process.env.EXECFABRIC_DOCS_BASE || "/"
 const normalizedDocsBase = docsBase.endsWith("/") ? docsBase : `${docsBase}/`
-const docsRepoUrl = process.env.EXECGOV_DOCS_REPO_URL || "https://github.com/zmx2321/exec-fabric-ai-skill-platform-doc"
+const docsRepoUrl = process.env.EXECFABRIC_DOCS_REPO_URL || "https://github.com/zmx2321/exec-fabric-ai-skill-platform-doc"
 
 const localeText = {
   root: {
@@ -386,7 +386,7 @@ export default {
   description: localeText.root.description,
   appearance: {
     initialValue: "light",
-    storageKey: "execgov-doc-theme-appearance",
+    storageKey: "execfabric-doc-theme-appearance",
   },
   base: normalizedDocsBase,
   head: [
@@ -396,7 +396,7 @@ export default {
       "script",
       {},
       `(() => {
-        const siteKey = "execgov-doc-theme-appearance";
+        const siteKey = "execfabric-doc-theme-appearance";
         const globalKey = "vitepress-theme-appearance";
         const saved = localStorage.getItem(siteKey);
         const normalized = saved === "light" || saved === "dark" || saved === "auto" ? saved : "light";

@@ -75,7 +75,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">04</p>
       <h2>它已经有 CLI 桥接</h2>
-      <p><code>execgov-cli</code> 当前已经能覆盖登录、注册、列清单、执行和 Agent 骨架入口。</p>
+      <p><code>execfabric-cli</code> 当前已经能覆盖登录、注册、列清单、执行和 Agent 骨架入口。</p>
     </article>
   </section>
 
@@ -194,7 +194,7 @@ lastUpdated: false
       <p class="brand-kicker">Local Script</p>
       <h2>本地脚本接入路径</h2>
       <ol class="brand-list">
-        <li>先看 <code>execgov-cli</code> 当前已经支持哪些命令</li>
+        <li>先看 <code>execfabric-cli</code> 当前已经支持哪些命令</li>
         <li>再准备你的脚本目录与 README</li>
         <li>按当前规则理解 <code>register / list / run / agent</code> 的边界</li>
         <li>如果涉及真实项目，再看混合执行和交付边界</li>
@@ -221,10 +221,10 @@ lastUpdated: false
         <li>体验页 demo 当前来自 <code>exec-fabric-ai-skill-platform-script/testing/tenant_1000/experience/</code>，由 manifest 热插拔映射。</li>
         <li>注册后会进入个人智能执行台，可以开始接入自己的第一个脚本。</li>
         <li>当前 Web 上传注册已支持 <code>.py / .sh / .bash</code>。</li>
-        <li><code>execgov-cli</code> 当前也在补齐 Shell，但目录注册的主示例和默认指引暂时仍以 Python 为主。</li>
+        <li><code>execfabric-cli</code> 当前也在补齐 Shell，但目录注册的主示例和默认指引暂时仍以 Python 为主。</li>
         <li>如果只是个人继续使用但还没进入多人协作，先看本地脚本位增购，不要急着跳企业路径。</li>
         <li>如果只是标准能力和较轻协作，可以优先评估共享 SaaS 共享租户路径。</li>
-        <li><code>execgov-cli</code> 当前已可用，本地接入能力会继续增强。</li>
+        <li><code>execfabric-cli</code> 当前已可用，本地接入能力会继续增强。</li>
         <li>如果已经明确是团队正式协作或企业项目，直接走团队版 / 企业沟通通常更高效。</li>
       </ul>
     </article>

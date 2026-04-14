@@ -135,7 +135,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>上传文件后，脚本怎么知道该处理哪一个文件</h3>
-        <p>不是让脚本自己去猜。当前对话执行底部快捷区的“上传文件”按钮会把这次上传绑定成一个 <code>uploadBatchId</code>，确认执行时后端再把这批文件的快照传给脚本。Python / Shell 脚本可以直接读取 <code>EXECGOV_UPLOAD_BATCH_NO</code>、<code>EXECGOV_UPLOAD_INPUT_FILES_JSON</code>、<code>EXECGOV_UPLOAD_FILE_SERVICE_JSON</code> 和 <code>EXECGOV_SKILL_INPUT_PAYLOAD_JSON</code>，所以处理的是当前绑定批次，而不是历史目录里“最新那个文件”。</p>
+        <p>不是让脚本自己去猜。当前对话执行底部快捷区的“上传文件”按钮会把这次上传绑定成一个 <code>uploadBatchId</code>，确认执行时后端再把这批文件的快照传给脚本。Python / Shell 脚本可以直接读取 <code>EXECFABRIC_UPLOAD_BATCH_NO</code>、<code>EXECFABRIC_UPLOAD_INPUT_FILES_JSON</code>、<code>EXECFABRIC_UPLOAD_FILE_SERVICE_JSON</code> 和 <code>EXECFABRIC_SKILL_INPUT_PAYLOAD_JSON</code>，所以处理的是当前绑定批次，而不是历史目录里“最新那个文件”。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>正式交付后客户通常会拿到哪些说明</h3>
@@ -150,7 +150,7 @@ lastUpdated: false
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>CLI 现在是不是概念功能</h3>
-        <p>不是。<code>execgov-cli</code> 已支持 <code>login</code>、<code>register</code>、<code>list</code>、<code>run</code>、<code>agent describe</code> 和 <code>agent start</code>，适合本地接入、调试和前期验证。</p>
+        <p>不是。<code>execfabric-cli</code> 已支持 <code>login</code>、<code>register</code>、<code>list</code>、<code>run</code>、<code>agent describe</code> 和 <code>agent start</code>，适合本地接入、调试和前期验证。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>本地 Agent 是不是已经正式商用</h3>
@@ -188,7 +188,7 @@ lastUpdated: false
         <p>当前注册成功后会先进入独立结果页，再回到登录与个人主链路，不再只是靠提示框承接。</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3><code>exec-gov-shell</code> 是不是客户正式入口</h3>
+        <h3><code>execfabric-shell</code> 是不是客户正式入口</h3>
         <p>不是。它主要用于多入口聚合、联调和同步，不作为客户长期正式运行入口；客户正式入口还是个人免费端、共享 SaaS 正式租户或企业交付前端。</p>
       </article>
     </div>

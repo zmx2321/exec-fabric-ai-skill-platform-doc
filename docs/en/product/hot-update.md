@@ -212,7 +212,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Can local scripts and intranet resources connect to the platform</h3>
-        <p>Yes, but the usual path is not to let the browser touch a local path directly. It is to use <code>execgov-cli</code> and the Local Agent direction as the bridge for local execution.</p>
+        <p>Yes, but the usual path is not to let the browser touch a local path directly. It is to use <code>execfabric-cli</code> and the Local Agent direction as the bridge for local execution.</p>
       </article>
     </div>
   </section>

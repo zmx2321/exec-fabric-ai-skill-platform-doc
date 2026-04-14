@@ -204,10 +204,10 @@ lastUpdated: false
       <h2>当前阶段适合这样理解</h2>
       <ul class="brand-list">
         <li>平台当前最成熟的执行资产是 Python 脚本</li>
-        <li><code>execgov-cli</code> 适合本地接入和前期验证，常驻 Agent 能力在持续完善</li>
+        <li><code>execfabric-cli</code> 适合本地接入和前期验证，常驻 Agent 能力在持续完善</li>
         <li>正式客户交付当前分成共享 SaaS 正式租户入口和企业单租户交付两条现实路线</li>
         <li>public 超管侧已先落下一版 HTTP 能力接入样板，验证第二种能力如何进入治理链路</li>
-        <li>更标准的小团队使用方式会继续收敛，当前由 <code>tenant_1003+</code> / <code>exec-gov-common</code> 承接共享 SaaS 前端</li>
+        <li>更标准的小团队使用方式会继续收敛，当前由 <code>tenant_1003+</code> / <code>execfabric-common</code> 承接共享 SaaS 前端</li>
         <li>更多能力类型会逐步接入统一治理链路</li>
       </ul>
     </article>

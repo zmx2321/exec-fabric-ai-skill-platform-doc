@@ -53,7 +53,7 @@ lastUpdated: false
           <div class="matrix-panel__stack">
             <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">core</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'unified_python_backend'</span> <span class="matrix-panel__comment">// capability control center</span></span>
             <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">governance</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'public_admin_console'</span> <span class="matrix-panel__comment">// platform governance</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">entries</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'tenant_fronts'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'free_entry'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'execgov_cli'</span><span class="matrix-panel__punct">]</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">entries</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'tenant_fronts'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'free_entry'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'execfabric_cli'</span><span class="matrix-panel__punct">]</span></span>
           </div>
           <div class="matrix-panel__callout">ONE CORE / MULTIPLE ENTRY SURFACES</div>
         </div>
@@ -229,7 +229,7 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Shell Role</p>
-      <h2>The real role of <code>exec-gov-shell</code></h2>
+      <h2>The real role of <code>execfabric-shell</code></h2>
       <ul class="brand-list">
         <li>It mainly exists for multi-entry aggregation, integration testing, and final sync</li>
         <li>It is not the long-term formal customer runtime entry</li>
@@ -311,7 +311,7 @@ lastUpdated: false
       </a>
       <a class="brand-link-card" href="./cli.html">
         <span>Rule 05</span>
-        <strong><code>execgov-cli</code> connects the local environment with the platform control plane</strong>
+        <strong><code>execfabric-cli</code> connects the local environment with the platform control plane</strong>
         <p>Local script onboarding, manifest generation, machine identity persistence, and the minimal Local Agent claim-execute-complete loop already run along this bridge. Heartbeat, status, and deeper scheduling remain later enhancements.</p>
       </a>
       <a class="brand-link-card" href="./file-results.html">

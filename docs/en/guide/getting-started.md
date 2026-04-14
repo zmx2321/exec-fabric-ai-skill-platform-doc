@@ -75,7 +75,7 @@ lastUpdated: false
     <article class="brand-card">
       <p class="brand-kicker">04</p>
       <h2>It already has a CLI bridge</h2>
-      <p><code>execgov-cli</code> already covers login, registration, listing, execution, and the Agent skeleton entry points.</p>
+      <p><code>execfabric-cli</code> already covers login, registration, listing, execution, and the Agent skeleton entry points.</p>
     </article>
   </section>
 
@@ -194,7 +194,7 @@ lastUpdated: false
       <p class="brand-kicker">Local Script</p>
       <h2>Local script onboarding path</h2>
       <ol class="brand-list">
-        <li>First confirm which commands <code>execgov-cli</code> already supports.</li>
+        <li>First confirm which commands <code>execfabric-cli</code> already supports.</li>
         <li>Then prepare your script directory and README.</li>
         <li>Understand the current boundary of <code>register / list / run / agent</code>.</li>
         <li>If the work belongs to a real project, move on to hybrid-execution and delivery boundaries.</li>
@@ -221,10 +221,10 @@ lastUpdated: false
         <li>The current demo on the experience page comes from <code>exec-fabric-ai-skill-platform-script/testing/tenant_1000/experience/</code> and is mapped through the manifest for hot swapping.</li>
         <li>After signup, you enter the personal intelligent execution console and can start onboarding your first script.</li>
         <li>Web upload-based registration already supports <code>.py / .sh / .bash</code>.</li>
-        <li><code>execgov-cli</code> is also adding Shell support, but the primary examples and default guidance still lean toward Python for now.</li>
+        <li><code>execfabric-cli</code> is also adding Shell support, but the primary examples and default guidance still lean toward Python for now.</li>
         <li>If you are only continuing as an individual user and have not entered multi-user collaboration yet, start with local script-slot expansion instead of jumping to the enterprise path.</li>
         <li>If you only need standard capability and lighter collaboration, evaluate the shared-SaaS tenant path first.</li>
-        <li><code>execgov-cli</code> is already usable and its local-integration capability will continue to get stronger.</li>
+        <li><code>execfabric-cli</code> is already usable and its local-integration capability will continue to get stronger.</li>
         <li>If you already know this is a formal team workflow or an enterprise project, moving directly into the team / enterprise path is usually more efficient.</li>
       </ul>
     </article>

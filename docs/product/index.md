@@ -164,7 +164,7 @@ lastUpdated: false
         <li>HTTP 资源当前只按“固定接口 + 显式鉴权 + 写操作白名单”推进，配置权仍保留在 public 超管侧，不把它包装成通用 API 平台。</li>
         <li>1.1 已先在 public 超管侧落下订单与生命周期骨架，并在个人免费版前台落下一条真实账单中心第一版，但仍未对外承诺完整通用订阅 / 自动续费能力。</li>
         <li>从 <code>tenant_1003+</code> 开始，标准 SaaS 客户当前优先走共享租户前端；需要更强隔离或更深定制时，再走单租户交付或私有化。</li>
-        <li><code>exec-gov-shell</code> 主要用于多入口聚合、联调和同步，不作为客户长期正式运行入口。</li>
+        <li><code>execfabric-shell</code> 主要用于多入口聚合、联调和同步，不作为客户长期正式运行入口。</li>
         <li>平台后面可能继续扩展到 API、模板、连接器和审批流程等能力类型，但只按真实需求逐步开放。</li>
       </ul>
   </section>
@@ -227,7 +227,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li>对外统一使用 <code>ExecFabric（璇络）</code>，不再拆成英文项目名和中文产品名两套说法。</li>
         <li>治理为先，执行落地；先把脚本型能力做稳，再逐步扩到更多能力形态。</li>
-        <li>仓库 slug 与目录路径 <code>execgov-cli/</code> 先保留，CLI 对外命令已统一为 <code>execgov-cli</code>，避免影响现有工程路径和发布链路。</li>
+        <li>仓库 slug 与目录路径 <code>execfabric-cli/</code> 先保留，CLI 对外命令已统一为 <code>execfabric-cli</code>，避免影响现有工程路径和发布链路。</li>
         <li>便于统一品牌认知，同时不打断当前代码、文档和交付节奏。</li>
       </ul>
     </article>

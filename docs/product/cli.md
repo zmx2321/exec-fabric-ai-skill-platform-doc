@@ -15,7 +15,7 @@ lastUpdated: false
         <p>网页入口更适合先感知单文件接入；CLI 更适合单文件或目录批量登记、本机路径登记和本地执行桥接。</p>
       </div>
       <p class="brand-lead">
-        <strong>execgov-cli</strong> 是 ExecFabric 当前面向个人开发者、交付实施和本地执行场景的命令行入口。
+        <strong>execfabric-cli</strong> 是 ExecFabric 当前面向个人开发者、交付实施和本地执行场景的命令行入口。
         重点不是“做一个命令行皮肤”，而是把 <strong>本地脚本目录、本地运行环境和平台控制面</strong> 接成一条今天已经能用的桥。
       </p>
       <p class="brand-lead">
@@ -69,7 +69,7 @@ lastUpdated: false
         <li><code>run</code></li>
         <li><code>agent describe</code>、<code>agent bind</code>、<code>agent start</code></li>
         <li>sidecar JSON 覆盖，以及注释 / docstring / 文件名元数据提取</li>
-        <li><code>.execgov-manifest.json</code> 生成</li>
+        <li><code>.execfabric-manifest.json</code> 生成</li>
         <li><code>register --execution-mode cloud</code> 调用后端 <code>upload-register</code>，完成 Python / Shell 云端注册</li>
         <li><code>register --execution-mode local-agent</code> 调用后端 <code>local-register</code>，完成单文件或目录的本机路径登记</li>
         <li><code>agent start</code> 会在当前机器轮询、领取、执行并回传 Local Agent 作业</li>
@@ -161,7 +161,7 @@ lastUpdated: false
       <p class="brand-kicker">Cloud Mode</p>
       <h2><code>cloud</code> 模式当前做什么</h2>
       <ul class="brand-list">
-        <li>CLI 会扫描目录、提取元数据、生成 <code>.execgov-manifest.json</code>，然后调用后端 <code>upload-register</code></li>
+        <li>CLI 会扫描目录、提取元数据、生成 <code>.execfabric-manifest.json</code>，然后调用后端 <code>upload-register</code></li>
         <li>Python 和 Shell 脚本当前已经走真实的云端上传注册链路</li>
         <li>如果目录里还有 <code>bat</code>、<code>node</code> 之类脚本类型，这条路径暂时还不会完整云端上传</li>
         <li>这是把脚本内容进入平台注册中心的主路径</li>
@@ -185,29 +185,29 @@ lastUpdated: false
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>1. 安装到当前环境</h3>
-        <pre><code class="language-bash">cd execgov-cli
+        <pre><code class="language-bash">cd execfabric-cli
 python -m pip install -e .
-execgov-cli --help</code></pre>
-        <p>这是当前最适合开发、自测和交付联调的安装方式。对外标准命令是 <code>execgov-cli</code>。</p>
+execfabric-cli --help</code></pre>
+        <p>这是当前最适合开发、自测和交付联调的安装方式。对外标准命令是 <code>execfabric-cli</code>。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>2. 保存登录配置</h3>
-        <pre><code class="language-bash">execgov-cli login \
+        <pre><code class="language-bash">execfabric-cli login \
   --token YOUR_API_TOKEN \
   --api-base http://tenant1000.localhost:6089 \
   --web-base http://localhost:81</code></pre>
-        <p>默认配置文件是 <code>~/.execgov/config.json</code>。免费开发者默认应指向个人免费版域名；企业客户则指向各自租户域名。<code>public</code> 不是普通 CLI 用户的默认入口。</p>
+        <p>默认配置文件是 <code>~/.execfabric/config.json</code>。免费开发者默认应指向个人免费版域名；企业客户则指向各自租户域名。<code>public</code> 不是普通 CLI 用户的默认入口。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>3. 以云端模式登记脚本目录</h3>
-        <pre><code class="language-bash">execgov-cli register ./examples/scripts</code></pre>
-        <p>命令会扫描目录、生成 <code>.execgov-manifest.json</code>，并调用后端 <code>upload-register</code>。Python 和 Shell 当前已经走真实的云端注册链路。</p>
+        <pre><code class="language-bash">execfabric-cli register ./examples/scripts</code></pre>
+        <p>命令会扫描目录、生成 <code>.execfabric-manifest.json</code>，并调用后端 <code>upload-register</code>。Python 和 Shell 当前已经走真实的云端注册链路。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>4. 登记本地脚本并启动 Local Agent</h3>
-        <pre><code class="language-bash">execgov-cli register ./examples/scripts --execution-mode local-agent
-execgov-cli register ./examples/scripts/backup.py --execution-mode local-agent
-execgov-cli agent start</code></pre>
+        <pre><code class="language-bash">execfabric-cli register ./examples/scripts --execution-mode local-agent
+execfabric-cli register ./examples/scripts/backup.py --execution-mode local-agent
+execfabric-cli agent start</code></pre>
         <p>这条路径会保留源码在当前机器，只登记目录或单文件路径，并让当前机器领取并执行被派发回来的 Local Agent 作业。</p>
       </article>
     </div>
@@ -219,37 +219,37 @@ execgov-cli agent start</code></pre>
     <div class="brand-grid brand-grid--two">
       <article class="brand-card brand-card--nested">
         <h3>只检查扫描结果，不写文件</h3>
-        <pre><code class="language-bash">execgov-cli register ./examples/scripts --dry-run --print-json</code></pre>
+        <pre><code class="language-bash">execfabric-cli register ./examples/scripts --dry-run --print-json</code></pre>
         <p>适合先确认提取出来的 Skill 元数据是否符合预期。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>只生成 manifest</h3>
-        <pre><code class="language-bash">execgov-cli register ./examples/scripts --manifest-only</code></pre>
+        <pre><code class="language-bash">execfabric-cli register ./examples/scripts --manifest-only</code></pre>
         <p>如果你暂时不想请求后端接口，可以先只生成本地 manifest。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>查看 manifest 摘要</h3>
-        <pre><code class="language-bash">execgov-cli list ./examples/scripts</code></pre>
-        <p><code>list</code> 当前必须显式传入 workspace，而且该目录下需要已存在 <code>.execgov-manifest.json</code>。</p>
+        <pre><code class="language-bash">execfabric-cli list ./examples/scripts</code></pre>
+        <p><code>list</code> 当前必须显式传入 workspace，而且该目录下需要已存在 <code>.execfabric-manifest.json</code>。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>直接触发 Skill 执行</h3>
-        <pre><code class="language-bash">execgov-cli run backup_local \
+        <pre><code class="language-bash">execfabric-cli run backup_local \
   --request-text "CLI 手动执行备份" \
   --input-json '{"sourcePath":"/tmp/demo"}'</code></pre>
         <p>如果登录时保存了 <code>--web-base</code>，CLI 会额外输出可打开的 Web 链接。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>查看或绑定当前机器</h3>
-        <pre><code class="language-bash">execgov-cli agent describe
-execgov-cli agent bind \
+        <pre><code class="language-bash">execfabric-cli agent describe
+execfabric-cli agent bind \
   --machine-name "Alice MacBook" \
   --agent-name "alice-local-agent"</code></pre>
         <p><code>agent bind</code> 用来持久化稳定的机器身份，供后续本地登记和 Local Agent 路由使用。如果不手工绑定，登录和 Local Agent 命令也会自动补齐默认值。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>只跑一次 Local Agent 队列</h3>
-        <pre><code class="language-bash">execgov-cli agent start --once</code></pre>
+        <pre><code class="language-bash">execfabric-cli agent start --once</code></pre>
         <p>这是最直接的手动测试方式：最多领取一个作业、在当前机器执行，并把完成结果回传到平台。</p>
       </article>
     </div>
@@ -262,9 +262,9 @@ execgov-cli agent bind \
       <article class="brand-card brand-card--nested">
         <h3>sidecar 命名</h3>
         <pre><code class="language-text">backup.py
-backup.execgov-skill.json
-.execgov-manifest.json</code></pre>
-        <p>标准 sidecar 文件名是 <code>&lt;script_stem&gt;.execgov-skill.json</code>，目录 manifest 是 <code>.execgov-manifest.json</code>。</p>
+backup.execfabric-skill.json
+.execfabric-manifest.json</code></pre>
+        <p>标准 sidecar 文件名是 <code>&lt;script_stem&gt;.execfabric-skill.json</code>，目录 manifest 是 <code>.execfabric-manifest.json</code>。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>提取规则</h3>
@@ -332,7 +332,7 @@ backup.execgov-skill.json
       <ul class="brand-list">
         <li>CLI 已经不只是本地 manifest 生成器，而是会真实调用后端注册与执行接口。</li>
         <li>当前最小正式本地闭环已经成立：本地脚本可以登记、被派发回同一台机器、在本机执行，并把结果完成回写到平台。</li>
-        <li>Local Agent 执行中会持续回传 stdout / stderr 进度；如果脚本通过 <code>__EXECGOV_RESULT__=JSON</code> 声明结果产物，CLI 还会自动上传结果文件并回写下载信息。</li>
+        <li>Local Agent 执行中会持续回传 stdout / stderr 进度；如果脚本通过 <code>__EXECFABRIC_RESULT__=JSON</code> 声明结果产物，CLI 还会自动上传结果文件并回写下载信息。</li>
         <li>网页入口仍更适合可见的单文件接入；CLI 更适合重复登记、目录接入和本机路径调度。</li>
         <li>当同一能力同时存在本地脚本和线上脚本时，当前运行时优先走本地脚本。</li>
       </ul>

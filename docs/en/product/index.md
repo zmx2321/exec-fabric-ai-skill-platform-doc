@@ -168,7 +168,7 @@ lastUpdated: false
         <li>HTTP resources currently move only through "fixed interfaces, explicit authentication, and write whitelists." Configuration authority remains on the <code>public</code> side, and this is not being packaged as a generic API platform.</li>
         <li>The first segment of the <code>1.1</code> order and lifecycle skeleton already exists on the <code>public</code> side, and the personal free frontend already has a real first-version billing center. That still does not mean the product publicly promises a complete general subscription or auto-renewal capability.</li>
         <li>From <code>tenant_1003+</code> onward, standard SaaS customers currently go through the shared tenant frontend first. Stronger isolation or deeper customization can still move into single-tenant delivery or private deployment later.</li>
-        <li><code>exec-gov-shell</code> is mainly used for multi-entry aggregation, joint debugging, and sync. It is not the long-term formal runtime entry for customers.</li>
+        <li><code>execfabric-shell</code> is mainly used for multi-entry aggregation, joint debugging, and sync. It is not the long-term formal runtime entry for customers.</li>
         <li>The platform may later expand into APIs, templates, connectors, approval flows, and other capability types, but only step by step under real demand.</li>
       </ul>
   </section>
@@ -231,7 +231,7 @@ lastUpdated: false
       <ul class="brand-list">
         <li>Use <code>ExecFabric</code> externally as one unified brand rather than splitting into separate English and Chinese product naming tracks.</li>
         <li>Governance first, execution second. Stabilize script-shaped capability first, then gradually expand into more capability types.</li>
-        <li>The repository slug and directory path <code>execgov-cli/</code> stay in place for now, while the external command is already unified as <code>execgov-cli</code>, so the current engineering and release chain is not disrupted.</li>
+        <li>The repository slug and directory path <code>execfabric-cli/</code> stay in place for now, while the external command is already unified as <code>execfabric-cli</code>, so the current engineering and release chain is not disrupted.</li>
         <li>This keeps brand cognition unified without interrupting the current code, docs, and delivery rhythm.</li>
       </ul>
     </article>

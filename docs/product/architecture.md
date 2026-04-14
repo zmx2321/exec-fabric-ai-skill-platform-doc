@@ -46,7 +46,7 @@ lastUpdated: false
                     <div class="matrix-panel__stack">
             <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">core</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'unified_python_backend'</span> <span class="matrix-panel__comment">// capability control center</span></span>
             <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">governance</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__string">'public_admin_console'</span> <span class="matrix-panel__comment">// platform governance</span></span>
-            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">entries</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'tenant_fronts'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'free_entry'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'execgov_cli'</span><span class="matrix-panel__punct">]</span></span>
+            <span class="matrix-panel__line"><span class="matrix-panel__kw">const</span> <span class="matrix-panel__ident">entries</span> <span class="matrix-panel__op">=</span> <span class="matrix-panel__punct">[</span><span class="matrix-panel__string">'tenant_fronts'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'free_entry'</span><span class="matrix-panel__punct">,</span> <span class="matrix-panel__string">'execfabric_cli'</span><span class="matrix-panel__punct">]</span></span>
           </div>
           <div class="matrix-panel__callout">ONE CORE / MULTIPLE ENTRY SURFACES</div>
         </div>
@@ -214,7 +214,7 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">Shell Role</p>
-      <h2><code>exec-gov-shell</code> 的真实定位</h2>
+      <h2><code>execfabric-shell</code> 的真实定位</h2>
       <ul class="brand-list">
         <li>它主要用于多入口聚合、联调和最终同步</li>
         <li>它不是客户长期正式运行入口</li>
@@ -296,7 +296,7 @@ lastUpdated: false
       </a>
       <a class="brand-link-card" href="./cli.html">
         <span>Rule 05</span>
-        <strong><code>execgov-cli</code> 负责连接本地环境与平台控制面</strong>
+        <strong><code>execfabric-cli</code> 负责连接本地环境与平台控制面</strong>
         <p>本地脚本接入、后续其他执行资产接入和 manifest 生成，当前都沿这条桥接链继续往前做；Agent 常驻执行仍属于后续增强。</p>
       </a>
       <a class="brand-link-card" href="./file-results.html">
