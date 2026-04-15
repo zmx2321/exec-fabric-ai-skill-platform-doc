@@ -137,7 +137,7 @@ lastUpdated: false
           <td><code>/experience</code></td>
           <td>The current formal public experience page</td>
           <td>People trying it for the first time</td>
-          <td>This is a real entry point, not a screenshot placeholder. The left side currently shows Python <code>task_brief_demo.py</code>, the right side shows Shell <code>clean_log_demo.sh</code>, and the experience scripts come from the formal directory <code>exec-fabric-ai-skill-platform-script/testing/tenant_1000/experience/</code>.</td>
+          <td>This is a real entry point, not a screenshot placeholder. The left side currently shows Python <code>task_brief_demo.py</code>, the right side shows Shell <code>clean_log_demo.sh</code>, and the experience scripts come from the formal directory <code>exec-fabric-ai-skill-platform-script/tenant_1000/experience/</code>.</td>
         </tr>
         <tr>
           <td><code>/login</code></td>
@@ -218,7 +218,7 @@ lastUpdated: false
       <h2>Know these things before you begin</h2>
       <ul class="brand-list">
         <li>The public experience page is meant to demonstrate the execution chain first. It does not take real business writes.</li>
-        <li>The current demo on the experience page comes from <code>exec-fabric-ai-skill-platform-script/testing/tenant_1000/experience/</code> and is mapped through the manifest for hot swapping.</li>
+        <li>The current demo on the experience page comes from <code>exec-fabric-ai-skill-platform-script/tenant_1000/experience/</code> and is mapped through the manifest for hot swapping.</li>
         <li>After signup, you enter the personal intelligent execution console and can start onboarding your first script.</li>
         <li>Web upload-based registration already supports <code>.py / .sh / .bash</code>.</li>
         <li><code>execfabric-cli</code> is also adding Shell support, but the primary examples and default guidance still lean toward Python for now.</li>

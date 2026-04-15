@@ -181,7 +181,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>体验页适合帮我判断什么</h3>
-        <p>它适合先感受执行链路、理解平台定位，并判断自己更适合继续走免费线、本地脚本位、标准团队版还是企业咨询。当前体验页左侧是 Python `task_brief_demo.py`，右侧是 Shell `clean_log_demo.sh`，对应脚本来自正式目录 <code>exec-fabric-ai-skill-platform-script/testing/tenant_1000/experience/</code>。</p>
+        <p>它适合先感受执行链路、理解平台定位，并判断自己更适合继续走免费线、本地脚本位、标准团队版还是企业咨询。当前体验页左侧是 Python `task_brief_demo.py`，右侧是 Shell `clean_log_demo.sh`，对应脚本来自正式目录 <code>exec-fabric-ai-skill-platform-script/tenant_1000/experience/</code>。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>注册成功后会去哪里</h3>

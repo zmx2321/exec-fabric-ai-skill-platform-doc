@@ -242,7 +242,7 @@ lastUpdated: false
     <div class="brand-actions">
       <a
         class="cta-button cta-button--brand"
-        href="https://free.execfabric.cn/#/experience?demo=csv_profile_demo"
+        href="https://execfabric.cn/#/experience?demo=csv_profile_demo"
         target="_blank"
         rel="noreferrer"
       >
@@ -251,7 +251,7 @@ lastUpdated: false
     </div>
     <p class="brand-lead">
       文档里的 CSV 体验入口当前写的是
-      <code>https://free.execfabric.cn/#/experience?demo=csv_profile_demo</code>。
+      <code>https://execfabric.cn/#/experience?demo=csv_profile_demo</code>。
       域名一旦指到这套免费版前端，这个链接就会直接生效。
     </p>
   </section>

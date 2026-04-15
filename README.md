@@ -6,7 +6,7 @@
 
 ## 线上地址
 
-- 自定义域名: `https://execfabric.cn/`
+- 自定义域名: `https://docs.execfabric.cn/`
 - GitHub Pages 仓库地址: `https://github.com/zmx2321/exec-fabric-ai-skill-platform-doc`
 - 我的博客: `https://zmx2321.github.io/vite-blog`
 

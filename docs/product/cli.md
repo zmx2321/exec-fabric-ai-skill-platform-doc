@@ -194,8 +194,8 @@ execfabric-cli --help</code></pre>
         <h3>2. 保存登录配置</h3>
         <pre><code class="language-bash">execfabric-cli login \
   --token YOUR_API_TOKEN \
-  --api-base http://tenant1000.localhost:6089 \
-  --web-base http://localhost:81</code></pre>
+  --api-base https://execfabric.cn/prod-api \
+  --web-base https://execfabric.cn</code></pre>
         <p>默认配置文件是 <code>~/.execfabric/config.json</code>。免费开发者默认应指向个人免费版域名；企业客户则指向各自租户域名。<code>public</code> 不是普通 CLI 用户的默认入口。</p>
       </article>
       <article class="brand-card brand-card--nested">

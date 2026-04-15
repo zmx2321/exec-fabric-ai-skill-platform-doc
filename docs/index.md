@@ -79,7 +79,7 @@ features:
         <p class="landing-lead">
           当前 Web 上传注册入口已经统一支持 <strong>Python / Shell</strong> 文本脚本；公开体验页固定展示
           <strong>左侧 Python `task_brief_demo.py` + 右侧 Shell `clean_log_demo.sh`</strong>，
-          真实体验脚本来自 <code>exec-fabric-ai-skill-platform-script/testing/tenant_1000/experience/</code>，
+          真实体验脚本来自 <code>exec-fabric-ai-skill-platform-script/tenant_1000/experience/</code>，
           由 manifest 做热插拔映射。
         </p>
         <p class="landing-lead">

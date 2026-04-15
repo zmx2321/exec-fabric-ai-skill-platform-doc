@@ -80,7 +80,7 @@ features:
           The current web upload entry already accepts <strong>Python and Shell</strong> text scripts in one place.
           The public experience page deliberately shows
           <strong>Python <code>task_brief_demo.py</code> on the left and Shell <code>clean_log_demo.sh</code> on the right</strong>.
-          The real experience scripts come from <code>exec-fabric-ai-skill-platform-script/testing/tenant_1000/experience/</code> and are hot-swapped through the manifest mapping.
+          The real experience scripts come from <code>exec-fabric-ai-skill-platform-script/tenant_1000/experience/</code> and are hot-swapped through the manifest mapping.
         </p>
         <p class="landing-lead">
           The platform has already completed its first compatibility upgrade:

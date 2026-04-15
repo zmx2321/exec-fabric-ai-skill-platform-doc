@@ -243,7 +243,7 @@ lastUpdated: false
     <div class="brand-actions">
       <a
         class="cta-button cta-button--brand"
-        href="https://free.execfabric.cn/#/experience?demo=csv_profile_demo"
+        href="https://execfabric.cn/#/experience?demo=csv_profile_demo"
         target="_blank"
         rel="noreferrer"
       >
@@ -252,7 +252,7 @@ lastUpdated: false
     </div>
     <p class="brand-lead">
       The CSV experience entry documented here is currently
-      <code>https://free.execfabric.cn/#/experience?demo=csv_profile_demo</code>.
+      <code>https://execfabric.cn/#/experience?demo=csv_profile_demo</code>.
       Once the domain points at this free-edition frontend, the link works directly.
     </p>
   </section>

@@ -196,8 +196,8 @@ execfabric-cli --help</code></pre>
         <h3>2. Save the login configuration</h3>
         <pre><code class="language-bash">execfabric-cli login \
   --token YOUR_API_TOKEN \
-  --api-base http://tenant1000.localhost:6089 \
-  --web-base http://localhost:81</code></pre>
+  --api-base https://execfabric.cn/prod-api \
+  --web-base https://execfabric.cn</code></pre>
         <p>The default config file is <code>~/.execfabric/config.json</code>. Free developers should normally point to the personal-free tenant domain. Enterprise users should point to their own tenant domain. <code>public</code> is not the default ordinary CLI user entry.</p>
       </article>
       <article class="brand-card brand-card--nested">
