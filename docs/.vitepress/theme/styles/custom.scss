@@ -1,7 +1,7 @@
 :root {
-  --smartflow-mono-font: "JetBrains Mono", "SFMono-Regular", "Consolas", "Liberation Mono", monospace;
+  --execfabric-mono-font: "JetBrains Mono", "SFMono-Regular", "Consolas", "Liberation Mono", monospace;
   --vp-font-family-base: "Avenir Next", "PingFang SC", "Hiragino Sans GB", "Segoe UI", sans-serif;
-  --vp-font-family-mono: var(--smartflow-mono-font);
+  --vp-font-family-mono: var(--execfabric-mono-font);
   --vp-c-brand-1: #0f766e;
   --vp-c-brand-2: #0c625b;
   --vp-c-brand-3: #2563eb;
@@ -21,89 +21,89 @@
     radial-gradient(circle at 82% 30%, rgba(37, 99, 235, 0.16), transparent 34%),
     linear-gradient(135deg, rgba(15, 118, 110, 0.04), rgba(37, 99, 235, 0.02));
   --vp-home-hero-image-filter: blur(90px);
-  --smartflow-layout-max: 1360px;
-  --smartflow-doc-layout-max: 1480px;
-  --smartflow-page-gap: 44px;
-  --smartflow-home-bg: linear-gradient(180deg, #edf4f6 0%, #e8eff3 20%, #f4f8fb 54%, #eaf1f4 100%);
-  --smartflow-panel: rgba(255, 255, 255, 0.72);
-  --smartflow-panel-strong: rgba(255, 255, 255, 0.86);
-  --smartflow-panel-subtle: rgba(247, 250, 252, 0.82);
-  --smartflow-card-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(243, 248, 250, 0.92)),
+  --execfabric-layout-max: 1360px;
+  --execfabric-doc-layout-max: 1480px;
+  --execfabric-page-gap: 44px;
+  --execfabric-home-bg: linear-gradient(180deg, #edf4f6 0%, #e8eff3 20%, #f4f8fb 54%, #eaf1f4 100%);
+  --execfabric-panel: rgba(255, 255, 255, 0.72);
+  --execfabric-panel-strong: rgba(255, 255, 255, 0.86);
+  --execfabric-panel-subtle: rgba(247, 250, 252, 0.82);
+  --execfabric-card-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(243, 248, 250, 0.92)),
     linear-gradient(145deg, rgba(15, 118, 110, 0.04), rgba(37, 99, 235, 0.02));
-  --smartflow-card-accent-bg: linear-gradient(180deg, rgba(243, 248, 252, 0.96), rgba(235, 244, 248, 0.94)),
+  --execfabric-card-accent-bg: linear-gradient(180deg, rgba(243, 248, 252, 0.96), rgba(235, 244, 248, 0.94)),
     linear-gradient(135deg, rgba(15, 118, 110, 0.06), rgba(37, 99, 235, 0.05));
-  --smartflow-hero-shell: linear-gradient(145deg, rgba(255, 255, 255, 0.92), rgba(241, 247, 249, 0.86)),
+  --execfabric-hero-shell: linear-gradient(145deg, rgba(255, 255, 255, 0.92), rgba(241, 247, 249, 0.86)),
     linear-gradient(120deg, rgba(15, 118, 110, 0.05), rgba(37, 99, 235, 0.03));
-  --smartflow-line: rgba(15, 23, 42, 0.08);
-  --smartflow-line-strong: rgba(15, 23, 42, 0.12);
-  --smartflow-shadow: 0 30px 88px rgba(15, 23, 42, 0.1);
-  --smartflow-shadow-soft: 0 20px 58px rgba(15, 23, 42, 0.08);
-  --smartflow-orb-left: rgba(15, 118, 110, 0.08);
-  --smartflow-orb-right: rgba(37, 99, 235, 0.08);
-  --smartflow-grid-overlay: linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.12));
-  --smartflow-grid-line: rgba(15, 23, 42, 0.04);
-  --smartflow-accent-orb: rgba(15, 118, 110, 0.12);
-  --smartflow-accent-orb-alt: rgba(37, 99, 235, 0.12);
-  --smartflow-title: #09111a;
-  --smartflow-copy: rgba(9, 17, 26, 0.82);
-  --smartflow-copy-soft: rgba(30, 41, 59, 0.74);
-  --smartflow-kicker: rgba(12, 95, 89, 0.76);
-  --smartflow-pill-bg: rgba(15, 118, 110, 0.09);
-  --smartflow-pill-color: #0c5f59;
-  --smartflow-link: #0f766e;
-  --smartflow-nav-bg: rgba(255, 255, 255, 0.72);
-  --smartflow-nav-line: rgba(15, 23, 42, 0.08);
-  --smartflow-nav-title: #09111a;
-  --smartflow-nav-text: rgba(9, 17, 26, 0.82);
-  --smartflow-nav-text-hover: #0f766e;
-  --smartflow-search-bg: rgba(255, 255, 255, 0.86);
-  --smartflow-search-border: rgba(15, 23, 42, 0.08);
-  --smartflow-search-text: #09111a;
-  --smartflow-toggle-bg: rgba(255, 255, 255, 0.9);
-  --smartflow-toggle-border: rgba(15, 23, 42, 0.12);
-  --smartflow-inner-highlight: rgba(255, 255, 255, 0.9);
-  --smartflow-matrix-border: rgba(15, 118, 110, 0.14);
-  --smartflow-matrix-bg:
+  --execfabric-line: rgba(15, 23, 42, 0.08);
+  --execfabric-line-strong: rgba(15, 23, 42, 0.12);
+  --execfabric-shadow: 0 30px 88px rgba(15, 23, 42, 0.1);
+  --execfabric-shadow-soft: 0 20px 58px rgba(15, 23, 42, 0.08);
+  --execfabric-orb-left: rgba(15, 118, 110, 0.08);
+  --execfabric-orb-right: rgba(37, 99, 235, 0.08);
+  --execfabric-grid-overlay: linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.12));
+  --execfabric-grid-line: rgba(15, 23, 42, 0.04);
+  --execfabric-accent-orb: rgba(15, 118, 110, 0.12);
+  --execfabric-accent-orb-alt: rgba(37, 99, 235, 0.12);
+  --execfabric-title: #09111a;
+  --execfabric-copy: rgba(9, 17, 26, 0.82);
+  --execfabric-copy-soft: rgba(30, 41, 59, 0.74);
+  --execfabric-kicker: rgba(12, 95, 89, 0.76);
+  --execfabric-pill-bg: rgba(15, 118, 110, 0.09);
+  --execfabric-pill-color: #0c5f59;
+  --execfabric-link: #0f766e;
+  --execfabric-nav-bg: rgba(255, 255, 255, 0.72);
+  --execfabric-nav-line: rgba(15, 23, 42, 0.08);
+  --execfabric-nav-title: #09111a;
+  --execfabric-nav-text: rgba(9, 17, 26, 0.82);
+  --execfabric-nav-text-hover: #0f766e;
+  --execfabric-search-bg: rgba(255, 255, 255, 0.86);
+  --execfabric-search-border: rgba(15, 23, 42, 0.08);
+  --execfabric-search-text: #09111a;
+  --execfabric-toggle-bg: rgba(255, 255, 255, 0.9);
+  --execfabric-toggle-border: rgba(15, 23, 42, 0.12);
+  --execfabric-inner-highlight: rgba(255, 255, 255, 0.9);
+  --execfabric-matrix-border: rgba(15, 118, 110, 0.14);
+  --execfabric-matrix-bg:
     radial-gradient(circle at top right, rgba(37, 99, 235, 0.14), transparent 34%),
     linear-gradient(180deg, rgba(248, 252, 252, 0.98), rgba(233, 242, 245, 0.96));
-  --smartflow-matrix-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.96), 0 22px 60px rgba(15, 23, 42, 0.12);
-  --smartflow-matrix-grid: rgba(15, 118, 110, 0.05);
-  --smartflow-matrix-inner-border: rgba(15, 118, 110, 0.11);
-  --smartflow-matrix-hud: rgba(12, 95, 89, 0.78);
-  --smartflow-matrix-footer: rgba(12, 95, 89, 0.58);
-  --smartflow-matrix-canvas-border: rgba(15, 118, 110, 0.11);
-  --smartflow-matrix-canvas-bg:
+  --execfabric-matrix-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.96), 0 22px 60px rgba(15, 23, 42, 0.12);
+  --execfabric-matrix-grid: rgba(15, 118, 110, 0.05);
+  --execfabric-matrix-inner-border: rgba(15, 118, 110, 0.11);
+  --execfabric-matrix-hud: rgba(12, 95, 89, 0.78);
+  --execfabric-matrix-footer: rgba(12, 95, 89, 0.58);
+  --execfabric-matrix-canvas-border: rgba(15, 118, 110, 0.11);
+  --execfabric-matrix-canvas-bg:
     radial-gradient(circle at 62% 48%, rgba(15, 118, 110, 0.12), transparent 24%),
     radial-gradient(circle at 78% 28%, rgba(37, 99, 235, 0.16), transparent 28%),
     linear-gradient(180deg, rgba(246, 251, 252, 0.98), rgba(232, 241, 245, 0.96));
-  --smartflow-matrix-scan: rgba(15, 118, 110, 0.04);
-  --smartflow-matrix-canvas-inner-border: rgba(15, 118, 110, 0.08);
-  --smartflow-matrix-trace: linear-gradient(90deg, rgba(15, 118, 110, 0), rgba(15, 118, 110, 0.72), rgba(37, 99, 235, 0.28));
-  --smartflow-matrix-trace-shadow: 0 0 18px rgba(15, 118, 110, 0.12);
-  --smartflow-matrix-node: #0f766e;
-  --smartflow-matrix-node-shadow: 0 0 10px rgba(15, 118, 110, 0.18);
-  --smartflow-matrix-ring-border: rgba(37, 99, 235, 0.56);
-  --smartflow-matrix-ring-shadow: 0 0 34px rgba(37, 99, 235, 0.12);
-  --smartflow-matrix-ring-top: rgba(37, 99, 235, 0.7);
-  --smartflow-matrix-ring-left: rgba(15, 118, 110, 0.26);
-  --smartflow-matrix-ring-inner: rgba(15, 118, 110, 0.3);
-  --smartflow-matrix-glyph: #0f766e;
-  --smartflow-matrix-glyph-shadow: 0 0 16px rgba(15, 118, 110, 0.14), 0 0 28px rgba(37, 99, 235, 0.12);
-  --smartflow-matrix-bolt: linear-gradient(180deg, #2dd4bf, #22c1dc 52%, #4f6fff 100%);
-  --smartflow-matrix-bolt-shadow: drop-shadow(0 0 8px rgba(15, 118, 110, 0.16)) drop-shadow(0 0 18px rgba(37, 99, 235, 0.16));
-  --smartflow-matrix-callout-border: rgba(37, 99, 235, 0.18);
-  --smartflow-matrix-callout-bg: rgba(255, 255, 255, 0.76);
-  --smartflow-matrix-callout-color: rgba(30, 41, 59, 0.72);
-  --smartflow-matrix-stack-border: rgba(15, 118, 110, 0.14);
-  --smartflow-matrix-stack-bg: linear-gradient(180deg, rgba(250, 254, 253, 0.92), rgba(240, 248, 250, 0.94));
-  --smartflow-matrix-stack-color: #081118;
-  --smartflow-matrix-token-key: #0f766e;
-  --smartflow-matrix-token-punct: #0891b2;
-  --smartflow-matrix-token-value: #081118;
-  --smartflow-matrix-token-sep: #0284c7;
-  --smartflow-matrix-token-glow: rgba(2, 132, 199, 0.1);
-  --smartflow-gradient-button-text: #666;
-  --smartflow-gradient-button-text-hover: #1f2937;
+  --execfabric-matrix-scan: rgba(15, 118, 110, 0.04);
+  --execfabric-matrix-canvas-inner-border: rgba(15, 118, 110, 0.08);
+  --execfabric-matrix-trace: linear-gradient(90deg, rgba(15, 118, 110, 0), rgba(15, 118, 110, 0.72), rgba(37, 99, 235, 0.28));
+  --execfabric-matrix-trace-shadow: 0 0 18px rgba(15, 118, 110, 0.12);
+  --execfabric-matrix-node: #0f766e;
+  --execfabric-matrix-node-shadow: 0 0 10px rgba(15, 118, 110, 0.18);
+  --execfabric-matrix-ring-border: rgba(37, 99, 235, 0.56);
+  --execfabric-matrix-ring-shadow: 0 0 34px rgba(37, 99, 235, 0.12);
+  --execfabric-matrix-ring-top: rgba(37, 99, 235, 0.7);
+  --execfabric-matrix-ring-left: rgba(15, 118, 110, 0.26);
+  --execfabric-matrix-ring-inner: rgba(15, 118, 110, 0.3);
+  --execfabric-matrix-glyph: #0f766e;
+  --execfabric-matrix-glyph-shadow: 0 0 16px rgba(15, 118, 110, 0.14), 0 0 28px rgba(37, 99, 235, 0.12);
+  --execfabric-matrix-bolt: linear-gradient(180deg, #2dd4bf, #22c1dc 52%, #4f6fff 100%);
+  --execfabric-matrix-bolt-shadow: drop-shadow(0 0 8px rgba(15, 118, 110, 0.16)) drop-shadow(0 0 18px rgba(37, 99, 235, 0.16));
+  --execfabric-matrix-callout-border: rgba(37, 99, 235, 0.18);
+  --execfabric-matrix-callout-bg: rgba(255, 255, 255, 0.76);
+  --execfabric-matrix-callout-color: rgba(30, 41, 59, 0.72);
+  --execfabric-matrix-stack-border: rgba(15, 118, 110, 0.14);
+  --execfabric-matrix-stack-bg: linear-gradient(180deg, rgba(250, 254, 253, 0.92), rgba(240, 248, 250, 0.94));
+  --execfabric-matrix-stack-color: #081118;
+  --execfabric-matrix-token-key: #0f766e;
+  --execfabric-matrix-token-punct: #0891b2;
+  --execfabric-matrix-token-value: #081118;
+  --execfabric-matrix-token-sep: #0284c7;
+  --execfabric-matrix-token-glow: rgba(2, 132, 199, 0.1);
+  --execfabric-gradient-button-text: #666;
+  --execfabric-gradient-button-text-hover: #1f2937;
 }
 
 html {
@@ -133,86 +133,86 @@ html:not(.dark) {
   --vp-home-hero-image-background-image: radial-gradient(circle at 22% 18%, rgba(0, 245, 140, 0.18), transparent 40%),
     radial-gradient(circle at 78% 30%, rgba(0, 228, 255, 0.18), transparent 34%),
     linear-gradient(135deg, rgba(0, 245, 140, 0.04), rgba(93, 124, 255, 0.03));
-  --smartflow-home-bg: linear-gradient(180deg, #020a08 0%, #04120f 24%, #030d0b 58%, #010604 100%);
-  --smartflow-panel: rgba(6, 18, 14, 0.76);
-  --smartflow-panel-strong: rgba(6, 18, 14, 0.84);
-  --smartflow-panel-subtle: rgba(7, 22, 17, 0.82);
-  --smartflow-card-bg: linear-gradient(180deg, rgba(6, 18, 14, 0.92), rgba(3, 11, 9, 0.88)),
+  --execfabric-home-bg: linear-gradient(180deg, #020a08 0%, #04120f 24%, #030d0b 58%, #010604 100%);
+  --execfabric-panel: rgba(6, 18, 14, 0.76);
+  --execfabric-panel-strong: rgba(6, 18, 14, 0.84);
+  --execfabric-panel-subtle: rgba(7, 22, 17, 0.82);
+  --execfabric-card-bg: linear-gradient(180deg, rgba(6, 18, 14, 0.92), rgba(3, 11, 9, 0.88)),
     linear-gradient(145deg, rgba(0, 245, 140, 0.06), rgba(0, 228, 255, 0.04));
-  --smartflow-card-accent-bg: linear-gradient(180deg, rgba(7, 20, 15, 0.94), rgba(3, 11, 9, 0.9)),
+  --execfabric-card-accent-bg: linear-gradient(180deg, rgba(7, 20, 15, 0.94), rgba(3, 11, 9, 0.9)),
     linear-gradient(135deg, rgba(0, 245, 140, 0.08), rgba(93, 124, 255, 0.07));
-  --smartflow-hero-shell: linear-gradient(145deg, rgba(6, 18, 14, 0.94), rgba(3, 11, 9, 0.9)),
+  --execfabric-hero-shell: linear-gradient(145deg, rgba(6, 18, 14, 0.94), rgba(3, 11, 9, 0.9)),
     linear-gradient(120deg, rgba(0, 245, 140, 0.06), rgba(0, 228, 255, 0.04));
-  --smartflow-line: rgba(0, 245, 140, 0.12);
-  --smartflow-line-strong: rgba(0, 245, 140, 0.18);
-  --smartflow-shadow: 0 36px 96px rgba(0, 0, 0, 0.36), 0 0 92px rgba(0, 245, 140, 0.04);
-  --smartflow-shadow-soft: 0 20px 64px rgba(0, 0, 0, 0.3), 0 0 44px rgba(0, 228, 255, 0.04);
-  --smartflow-orb-left: rgba(0, 245, 140, 0.1);
-  --smartflow-orb-right: rgba(0, 228, 255, 0.08);
-  --smartflow-grid-overlay: linear-gradient(120deg, rgba(4, 13, 10, 0.18), rgba(4, 13, 10, 0.02));
-  --smartflow-grid-line: rgba(0, 245, 140, 0.045);
-  --smartflow-accent-orb: rgba(0, 245, 140, 0.16);
-  --smartflow-accent-orb-alt: rgba(93, 124, 255, 0.12);
-  --smartflow-title: #ecfff7;
-  --smartflow-copy: rgba(222, 255, 243, 0.84);
-  --smartflow-copy-soft: rgba(165, 205, 193, 0.78);
-  --smartflow-kicker: rgba(126, 248, 209, 0.8);
-  --smartflow-pill-bg: rgba(0, 245, 140, 0.09);
-  --smartflow-pill-color: #7ef8d1;
-  --smartflow-link: #7ef8d1;
-  --smartflow-nav-bg: rgba(2, 10, 8, 0.78);
-  --smartflow-nav-line: rgba(0, 245, 140, 0.12);
-  --smartflow-nav-title: #f3fff9;
-  --smartflow-nav-text: rgba(225, 255, 247, 0.82);
-  --smartflow-nav-text-hover: #00f58c;
-  --smartflow-search-bg: rgba(3, 12, 10, 0.92);
-  --smartflow-search-border: rgba(0, 245, 140, 0.14);
-  --smartflow-search-text: #ecfff7;
-  --smartflow-toggle-bg: rgba(3, 12, 10, 0.92);
-  --smartflow-toggle-border: rgba(0, 245, 140, 0.22);
-  --smartflow-inner-highlight: rgba(126, 248, 209, 0.09);
-  --smartflow-matrix-border: rgba(0, 245, 140, 0.14);
-  --smartflow-matrix-bg:
+  --execfabric-line: rgba(0, 245, 140, 0.12);
+  --execfabric-line-strong: rgba(0, 245, 140, 0.18);
+  --execfabric-shadow: 0 36px 96px rgba(0, 0, 0, 0.36), 0 0 92px rgba(0, 245, 140, 0.04);
+  --execfabric-shadow-soft: 0 20px 64px rgba(0, 0, 0, 0.3), 0 0 44px rgba(0, 228, 255, 0.04);
+  --execfabric-orb-left: rgba(0, 245, 140, 0.1);
+  --execfabric-orb-right: rgba(0, 228, 255, 0.08);
+  --execfabric-grid-overlay: linear-gradient(120deg, rgba(4, 13, 10, 0.18), rgba(4, 13, 10, 0.02));
+  --execfabric-grid-line: rgba(0, 245, 140, 0.045);
+  --execfabric-accent-orb: rgba(0, 245, 140, 0.16);
+  --execfabric-accent-orb-alt: rgba(93, 124, 255, 0.12);
+  --execfabric-title: #ecfff7;
+  --execfabric-copy: rgba(222, 255, 243, 0.84);
+  --execfabric-copy-soft: rgba(165, 205, 193, 0.78);
+  --execfabric-kicker: rgba(126, 248, 209, 0.8);
+  --execfabric-pill-bg: rgba(0, 245, 140, 0.09);
+  --execfabric-pill-color: #7ef8d1;
+  --execfabric-link: #7ef8d1;
+  --execfabric-nav-bg: rgba(2, 10, 8, 0.78);
+  --execfabric-nav-line: rgba(0, 245, 140, 0.12);
+  --execfabric-nav-title: #f3fff9;
+  --execfabric-nav-text: rgba(225, 255, 247, 0.82);
+  --execfabric-nav-text-hover: #00f58c;
+  --execfabric-search-bg: rgba(3, 12, 10, 0.92);
+  --execfabric-search-border: rgba(0, 245, 140, 0.14);
+  --execfabric-search-text: #ecfff7;
+  --execfabric-toggle-bg: rgba(3, 12, 10, 0.92);
+  --execfabric-toggle-border: rgba(0, 245, 140, 0.22);
+  --execfabric-inner-highlight: rgba(126, 248, 209, 0.09);
+  --execfabric-matrix-border: rgba(0, 245, 140, 0.14);
+  --execfabric-matrix-bg:
     radial-gradient(circle at top right, rgba(93, 124, 255, 0.18), transparent 34%),
     linear-gradient(180deg, rgba(8, 24, 19, 0.9), rgba(5, 16, 13, 0.9));
-  --smartflow-matrix-shadow: inset 0 1px 0 rgba(126, 248, 209, 0.06), 0 26px 64px rgba(0, 0, 0, 0.34);
-  --smartflow-matrix-grid: rgba(0, 245, 140, 0.04);
-  --smartflow-matrix-inner-border: rgba(0, 245, 140, 0.12);
-  --smartflow-matrix-hud: rgba(126, 248, 209, 0.76);
-  --smartflow-matrix-footer: rgba(177, 227, 213, 0.62);
-  --smartflow-matrix-canvas-border: rgba(0, 245, 140, 0.12);
-  --smartflow-matrix-canvas-bg:
+  --execfabric-matrix-shadow: inset 0 1px 0 rgba(126, 248, 209, 0.06), 0 26px 64px rgba(0, 0, 0, 0.34);
+  --execfabric-matrix-grid: rgba(0, 245, 140, 0.04);
+  --execfabric-matrix-inner-border: rgba(0, 245, 140, 0.12);
+  --execfabric-matrix-hud: rgba(126, 248, 209, 0.76);
+  --execfabric-matrix-footer: rgba(177, 227, 213, 0.62);
+  --execfabric-matrix-canvas-border: rgba(0, 245, 140, 0.12);
+  --execfabric-matrix-canvas-bg:
     radial-gradient(circle at 62% 48%, rgba(0, 245, 140, 0.14), transparent 24%),
     radial-gradient(circle at 78% 28%, rgba(93, 124, 255, 0.22), transparent 28%),
     linear-gradient(180deg, rgba(8, 24, 19, 0.86), rgba(5, 16, 13, 0.88));
-  --smartflow-matrix-scan: rgba(0, 245, 140, 0.038);
-  --smartflow-matrix-canvas-inner-border: rgba(0, 245, 140, 0.09);
-  --smartflow-matrix-trace: linear-gradient(90deg, rgba(0, 245, 140, 0), rgba(0, 245, 140, 0.86), rgba(0, 228, 255, 0.24));
-  --smartflow-matrix-trace-shadow: 0 0 18px rgba(0, 245, 140, 0.22);
-  --smartflow-matrix-node: #7ef8d1;
-  --smartflow-matrix-node-shadow: 0 0 12px rgba(0, 245, 140, 0.28);
-  --smartflow-matrix-ring-border: rgba(0, 228, 255, 0.72);
-  --smartflow-matrix-ring-shadow: 0 0 34px rgba(0, 228, 255, 0.14);
-  --smartflow-matrix-ring-top: rgba(93, 124, 255, 0.92);
-  --smartflow-matrix-ring-left: rgba(0, 245, 140, 0.3);
-  --smartflow-matrix-ring-inner: rgba(126, 248, 209, 0.38);
-  --smartflow-matrix-glyph: #6ef3ff;
-  --smartflow-matrix-glyph-shadow: 0 0 16px rgba(0, 228, 255, 0.28), 0 0 36px rgba(93, 124, 255, 0.2);
-  --smartflow-matrix-bolt: linear-gradient(180deg, #7ef8d1, #00e4ff 52%, #7c5cff 100%);
-  --smartflow-matrix-bolt-shadow: drop-shadow(0 0 10px rgba(0, 245, 140, 0.32)) drop-shadow(0 0 22px rgba(0, 228, 255, 0.2));
-  --smartflow-matrix-callout-border: rgba(93, 124, 255, 0.24);
-  --smartflow-matrix-callout-bg: rgba(6, 14, 26, 0.62);
-  --smartflow-matrix-callout-color: rgba(210, 231, 255, 0.78);
-  --smartflow-matrix-stack-border: rgba(0, 245, 140, 0.16);
-  --smartflow-matrix-stack-bg: linear-gradient(180deg, rgba(10, 28, 22, 0.76), rgba(6, 18, 14, 0.84));
-  --smartflow-matrix-stack-color: #f4fffb;
-  --smartflow-matrix-token-key: #73ffd9;
-  --smartflow-matrix-token-punct: #41ecff;
-  --smartflow-matrix-token-value: #f4fffb;
-  --smartflow-matrix-token-sep: #41ecff;
-  --smartflow-matrix-token-glow: rgba(65, 236, 255, 0.18);
-  --smartflow-gradient-button-text: #666;
-  --smartflow-gradient-button-text-hover: #1f2937;
+  --execfabric-matrix-scan: rgba(0, 245, 140, 0.038);
+  --execfabric-matrix-canvas-inner-border: rgba(0, 245, 140, 0.09);
+  --execfabric-matrix-trace: linear-gradient(90deg, rgba(0, 245, 140, 0), rgba(0, 245, 140, 0.86), rgba(0, 228, 255, 0.24));
+  --execfabric-matrix-trace-shadow: 0 0 18px rgba(0, 245, 140, 0.22);
+  --execfabric-matrix-node: #7ef8d1;
+  --execfabric-matrix-node-shadow: 0 0 12px rgba(0, 245, 140, 0.28);
+  --execfabric-matrix-ring-border: rgba(0, 228, 255, 0.72);
+  --execfabric-matrix-ring-shadow: 0 0 34px rgba(0, 228, 255, 0.14);
+  --execfabric-matrix-ring-top: rgba(93, 124, 255, 0.92);
+  --execfabric-matrix-ring-left: rgba(0, 245, 140, 0.3);
+  --execfabric-matrix-ring-inner: rgba(126, 248, 209, 0.38);
+  --execfabric-matrix-glyph: #6ef3ff;
+  --execfabric-matrix-glyph-shadow: 0 0 16px rgba(0, 228, 255, 0.28), 0 0 36px rgba(93, 124, 255, 0.2);
+  --execfabric-matrix-bolt: linear-gradient(180deg, #7ef8d1, #00e4ff 52%, #7c5cff 100%);
+  --execfabric-matrix-bolt-shadow: drop-shadow(0 0 10px rgba(0, 245, 140, 0.32)) drop-shadow(0 0 22px rgba(0, 228, 255, 0.2));
+  --execfabric-matrix-callout-border: rgba(93, 124, 255, 0.24);
+  --execfabric-matrix-callout-bg: rgba(6, 14, 26, 0.62);
+  --execfabric-matrix-callout-color: rgba(210, 231, 255, 0.78);
+  --execfabric-matrix-stack-border: rgba(0, 245, 140, 0.16);
+  --execfabric-matrix-stack-bg: linear-gradient(180deg, rgba(10, 28, 22, 0.76), rgba(6, 18, 14, 0.84));
+  --execfabric-matrix-stack-color: #f4fffb;
+  --execfabric-matrix-token-key: #73ffd9;
+  --execfabric-matrix-token-punct: #41ecff;
+  --execfabric-matrix-token-value: #f4fffb;
+  --execfabric-matrix-token-sep: #41ecff;
+  --execfabric-matrix-token-glow: rgba(65, 236, 255, 0.18);
+  --execfabric-gradient-button-text: #666;
+  --execfabric-gradient-button-text-hover: #1f2937;
 }
 
 body {
@@ -222,18 +222,18 @@ body {
 .Layout {
   position: relative;
   background:
-    radial-gradient(circle at top left, var(--smartflow-orb-left), transparent 26%),
-    radial-gradient(circle at top right, var(--smartflow-orb-right), transparent 24%),
-    var(--smartflow-home-bg);
+    radial-gradient(circle at top left, var(--execfabric-orb-left), transparent 26%),
+    radial-gradient(circle at top right, var(--execfabric-orb-right), transparent 24%),
+    var(--execfabric-home-bg);
 }
 
 .Layout::before {
   position: fixed;
   inset: 0;
   background:
-    var(--smartflow-grid-overlay),
-    linear-gradient(90deg, var(--smartflow-grid-line) 1px, transparent 1px),
-    linear-gradient(var(--smartflow-grid-line) 1px, transparent 1px);
+    var(--execfabric-grid-overlay),
+    linear-gradient(90deg, var(--execfabric-grid-line) 1px, transparent 1px),
+    linear-gradient(var(--execfabric-grid-line) 1px, transparent 1px);
   background-size: auto, 28px 28px, 28px 28px;
   content: "";
   opacity: 0.36;
@@ -260,12 +260,12 @@ body {
   transition: background-color 0.3s ease-out, border-color 0.3s ease-out, box-shadow 0.3s ease-out;
 }
 
-.VPNavBar[data-smartflow-nav-top="false"] {
+.VPNavBar[data-execfabric-nav-top="false"] {
   border-bottom-color: transparent !important;
   background: #fff !important;
 }
 
-.dark .VPNavBar[data-smartflow-nav-top="false"] {
+.dark .VPNavBar[data-execfabric-nav-top="false"] {
   background: #020a08 !important;
 }
 
@@ -281,8 +281,8 @@ body {
 .VPNavBar .content-body {
   display: flex;
   align-items: center;
-  border: 1px solid var(--smartflow-nav-line);
-  background: var(--smartflow-nav-bg);
+  border: 1px solid var(--execfabric-nav-line);
+  background: var(--execfabric-nav-bg);
   backdrop-filter: blur(16px);
   box-shadow: 0 16px 42px rgba(15, 23, 42, 0.12);
   transition: background-color 0.3s ease-out, border-color 0.3s ease-out, box-shadow 0.3s ease-out, opacity 0.3s ease-out;
@@ -295,63 +295,63 @@ body {
   backdrop-filter: none;
 }
 
-.VPNavBar[data-smartflow-nav-top="true"] .content-body,
-.VPNavBar[data-smartflow-nav-top="true"] .title {
+.VPNavBar[data-execfabric-nav-top="true"] .content-body,
+.VPNavBar[data-execfabric-nav-top="true"] .title {
   border-color: transparent;
   background: transparent;
   box-shadow: none;
   backdrop-filter: none;
 }
 
-.VPNavBar[data-smartflow-nav-top="false"] .content-body,
-.VPNavBar[data-smartflow-nav-top="false"] .title {
+.VPNavBar[data-execfabric-nav-top="false"] .content-body,
+.VPNavBar[data-execfabric-nav-top="false"] .title {
   border-color: transparent !important;
   background: transparent !important;
   box-shadow: none !important;
   backdrop-filter: none !important;
 }
 
-.VPNavBar[data-smartflow-nav-top="true"]:not(.top) {
+.VPNavBar[data-execfabric-nav-top="true"]:not(.top) {
   background: transparent !important;
 }
 
-.VPNavBar[data-smartflow-nav-top="true"]:not(.has-sidebar):not(.top) {
+.VPNavBar[data-execfabric-nav-top="true"]:not(.has-sidebar):not(.top) {
   border-bottom-color: transparent !important;
   background: transparent !important;
 }
 
-.VPNavBar[data-smartflow-nav-top="true"]:not(.top)::after {
+.VPNavBar[data-execfabric-nav-top="true"]:not(.top)::after {
   border-bottom-color: transparent !important;
 }
 
-.VPNavBar[data-smartflow-nav-top="true"]:not(.top) .content-body,
-.VPNavBar[data-smartflow-nav-top="true"]:not(.top) .title {
+.VPNavBar[data-execfabric-nav-top="true"]:not(.top) .content-body,
+.VPNavBar[data-execfabric-nav-top="true"]:not(.top) .title {
   border-color: transparent !important;
   background: transparent !important;
   box-shadow: none !important;
   backdrop-filter: none !important;
 }
 
-.VPNavBar[data-smartflow-has-sidebar="true"] {
+.VPNavBar[data-execfabric-has-sidebar="true"] {
   border-bottom-color: transparent !important;
-  background: var(--smartflow-nav-bg) !important;
+  background: var(--execfabric-nav-bg) !important;
   backdrop-filter: blur(18px);
   box-shadow: 0 12px 34px rgba(15, 23, 42, 0.08);
 }
 
-.dark .VPNavBar[data-smartflow-has-sidebar="true"] {
+.dark .VPNavBar[data-execfabric-has-sidebar="true"] {
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.26);
 }
 
-.VPNavBar[data-smartflow-has-sidebar="true"] .title,
-.VPNavBar[data-smartflow-has-sidebar="true"] .content-body {
+.VPNavBar[data-execfabric-has-sidebar="true"] .title,
+.VPNavBar[data-execfabric-has-sidebar="true"] .content-body {
   border-color: transparent !important;
   background: transparent !important;
   box-shadow: none !important;
   backdrop-filter: none !important;
 }
 
-html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
+html:not(.dark) .VPNavBar[data-execfabric-has-sidebar="true"] {
   background: #fff !important;
 }
 
@@ -364,8 +364,8 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   box-shadow: none;
 }
 
-.dark .VPNavBar[data-smartflow-nav-top="true"] .content-body,
-.dark .VPNavBar[data-smartflow-nav-top="true"] .title {
+.dark .VPNavBar[data-execfabric-nav-top="true"] .content-body,
+.dark .VPNavBar[data-execfabric-nav-top="true"] .title {
   box-shadow: none;
 }
 
@@ -389,12 +389,12 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   border: 0 !important;
   background: transparent !important;
   box-shadow: none !important;
-  font-family: var(--smartflow-mono-font);
+  font-family: var(--execfabric-mono-font);
   font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--smartflow-nav-title) !important;
+  color: var(--execfabric-nav-title) !important;
   white-space: nowrap;
 }
 
@@ -433,7 +433,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .VPNavBarExtra .link,
 .VPNavBarExtra .icon,
 .VPNavBarHamburger .container {
-  color: var(--smartflow-nav-text) !important;
+  color: var(--execfabric-nav-text) !important;
 }
 
 .VPNavBarMenuLink,
@@ -453,7 +453,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .VPNavBarExtra .link:hover,
 .VPNavBarExtra .icon:hover,
 .VPNavBarHamburger:hover .container {
-  color: var(--smartflow-nav-text-hover) !important;
+  color: var(--execfabric-nav-text-hover) !important;
 }
 
 .VPNavBarMenuLink:hover,
@@ -466,7 +466,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 
 .VPNavBarSearch .DocSearch-Button,
 .VPSwitchAppearance {
-  border: 1px solid var(--smartflow-search-border);
+  border: 1px solid var(--execfabric-search-border);
   box-shadow: 0 12px 30px rgba(15, 23, 42, 0.12);
 }
 
@@ -485,12 +485,12 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 }
 
 .VPSwitchAppearance {
-  background: var(--smartflow-toggle-bg);
-  border-color: var(--smartflow-toggle-border);
+  background: var(--execfabric-toggle-bg);
+  border-color: var(--execfabric-toggle-border);
   transition: none;
 }
 
-.VPNavBar[data-smartflow-nav-top="true"] .VPSwitchAppearance {
+.VPNavBar[data-execfabric-nav-top="true"] .VPSwitchAppearance {
   background: transparent;
   border-color: transparent;
   box-shadow: none;
@@ -501,16 +501,16 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .DocSearch-Button .DocSearch-Search-Icon,
 .DocSearch-Button .DocSearch-Button-Key,
 .VPSwitchAppearance {
-  color: var(--smartflow-search-text);
+  color: var(--execfabric-search-text);
 }
 
 .VPFlyout .menu,
 .VPMenu,
 .VPDocAsideOutline .content,
 .VPLocalNavOutlineDropdown .items {
-  border: 1px solid var(--smartflow-line-strong);
+  border: 1px solid var(--execfabric-line-strong);
   border-radius: 22px;
-  background: var(--smartflow-panel-strong) !important;
+  background: var(--execfabric-panel-strong) !important;
   box-shadow: 0 24px 54px rgba(15, 23, 42, 0.16);
   backdrop-filter: blur(18px);
 }
@@ -520,19 +520,19 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .VPNavBarExtra .group .label,
 .VPSidebarItem .text,
 .VPDocAsideOutline .outline-link {
-  color: var(--smartflow-copy) !important;
+  color: var(--execfabric-copy) !important;
 }
 
 .VPMenuLink .link:hover,
 .VPMenuLink .link.active,
-.VPMenuLink .link[data-smartflow-current="true"],
+.VPMenuLink .link[data-execfabric-current="true"],
 .VPMenuGroup .items .VPLink:hover,
 .VPSidebarItem .link:hover .text,
-.VPSidebarItem .link[data-smartflow-current="true"] .text,
+.VPSidebarItem .link[data-execfabric-current="true"] .text,
 .VPSidebarItem.is-active > .item .link .text,
 .VPDocAsideOutline .outline-link:hover,
 .VPDocAsideOutline .outline-link.active {
-  color: var(--smartflow-nav-text-hover) !important;
+  color: var(--execfabric-nav-text-hover) !important;
 }
 
 .VPMenuLink .link,
@@ -543,15 +543,15 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 
 .VPMenuLink .link:hover,
 .VPMenuLink .link.active,
-.VPMenuLink .link[data-smartflow-current="true"],
+.VPMenuLink .link[data-execfabric-current="true"],
 .VPMenuGroup .items .VPLink:hover {
-  background: var(--smartflow-panel-subtle);
+  background: var(--execfabric-panel-subtle);
   transform: translateX(2px);
 }
 
 @media (min-width: 1280px) {
   .VPNavBarTranslations {
-    --smartflow-translation-menu-inset: 16px;
+    --execfabric-translation-menu-inset: 16px;
   }
 
   .VPNavBarTranslations .menu {
@@ -574,7 +574,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 
   .VPNavBarTranslations .title {
     margin: 0;
-    padding: 0 var(--smartflow-translation-menu-inset);
+    padding: 0 var(--execfabric-translation-menu-inset);
   }
 
   .VPNavBarTranslations .VPMenuLink {
@@ -586,8 +586,8 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   .VPNavBarTranslations .VPMenuLink .link,
   .VPNavBarTranslations .VPMenuLink .link:hover,
   .VPNavBarTranslations .VPMenuLink .link.active,
-  .VPNavBarTranslations .VPMenuLink .link[data-smartflow-current="true"] {
-    padding: 0 var(--smartflow-translation-menu-inset);
+  .VPNavBarTranslations .VPMenuLink .link[data-execfabric-current="true"] {
+    padding: 0 var(--execfabric-translation-menu-inset);
     transform: none !important;
   }
 }
@@ -606,7 +606,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   bottom: 0;
   right: 0;
   width: 1px;
-  background: var(--smartflow-line);
+  background: var(--execfabric-line);
   content: "";
   pointer-events: none;
 }
@@ -624,7 +624,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   font-size: 1.04rem;
   font-weight: 800;
   letter-spacing: 0.04em;
-  color: var(--smartflow-title) !important;
+  color: var(--execfabric-title) !important;
 }
 
 .Layout .VPSidebar .VPSidebarItem.level-0 > .items {
@@ -660,25 +660,25 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 }
 
 .VPSidebarItem .item .link:hover {
-  background: var(--smartflow-panel-subtle);
+  background: var(--execfabric-panel-subtle);
   transform: translateX(2px);
 }
 
-.VPSidebarItem .item .link[data-smartflow-current="true"],
+.VPSidebarItem .item .link[data-execfabric-current="true"],
 .VPSidebarItem.is-active > .item .link {
-  background: var(--smartflow-panel-subtle);
+  background: var(--execfabric-panel-subtle);
   transform: translateX(2px);
 }
 
 .VPFooter {
-  border-top-color: var(--smartflow-line) !important;
+  border-top-color: var(--execfabric-line) !important;
   padding: 18px 24px !important;
   background: transparent !important;
 }
 
 .VPFooter .container {
-  max-width: var(--smartflow-layout-max);
-  color: var(--smartflow-copy-soft);
+  max-width: var(--execfabric-layout-max);
+  color: var(--execfabric-copy-soft);
 }
 
 .VPDoc .VPDocFooter {
@@ -691,7 +691,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 }
 
 .VPHome .container {
-  max-width: var(--smartflow-layout-max) !important;
+  max-width: var(--execfabric-layout-max) !important;
 }
 
 @media (min-width: 960px) {
@@ -703,7 +703,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 }
 
 .VPDoc .container {
-  max-width: var(--smartflow-doc-layout-max) !important;
+  max-width: var(--execfabric-doc-layout-max) !important;
   padding: 0 !important;
 }
 
@@ -759,8 +759,8 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 
 @media (min-width: 960px) {
   .Layout .VPSidebar {
-    --smartflow-sidebar-menu-width: min(200px, calc(100% - 72px));
-    --smartflow-sidebar-line-gap: 18px;
+    --execfabric-sidebar-menu-width: min(200px, calc(100% - 72px));
+    --execfabric-sidebar-line-gap: 18px;
     top: var(--vp-nav-height);
     bottom: 0;
     height: auto;
@@ -773,7 +773,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 
   .Layout .VPSidebar::before {
     left: auto;
-    right: calc(24px + var(--smartflow-sidebar-menu-width) + var(--smartflow-sidebar-line-gap));
+    right: calc(24px + var(--execfabric-sidebar-menu-width) + var(--execfabric-sidebar-line-gap));
   }
 
   .Layout .VPSidebar .nav {
@@ -781,7 +781,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   }
 
   .Layout .VPSidebar .group {
-    width: var(--smartflow-sidebar-menu-width);
+    width: var(--execfabric-sidebar-menu-width);
     max-width: calc(100% - 48px);
     margin-left: auto;
   }
@@ -853,7 +853,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .vp-doc h3,
 .vp-doc h4,
 .vp-doc strong {
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
 }
 
 .vp-doc p,
@@ -861,7 +861,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .vp-doc td,
 .vp-doc th,
 .vp-doc summary {
-  color: var(--smartflow-copy-soft);
+  color: var(--execfabric-copy-soft);
   font-size: 0.98rem;
   line-height: 1.9;
 }
@@ -901,7 +901,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 
 .vp-doc table th,
 .vp-doc table td {
-  border-color: var(--smartflow-line);
+  border-color: var(--execfabric-line);
 }
 
 .vp-doc code {
@@ -915,15 +915,15 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .vp-doc blockquote {
   border-left: 3px solid var(--vp-c-brand-1);
   border-radius: 18px;
-  background: var(--smartflow-panel-subtle);
+  background: var(--execfabric-panel-subtle);
   padding: 14px 18px;
 }
 
 .vp-doc div[class*="language-"] {
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 18px;
-  background: var(--smartflow-panel-strong);
-  box-shadow: inset 0 1px 0 var(--smartflow-inner-highlight);
+  background: var(--execfabric-panel-strong);
+  box-shadow: inset 0 1px 0 var(--execfabric-inner-highlight);
 }
 
 .VPHome {
@@ -936,9 +936,9 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   inset: 0 0 auto;
   height: 760px;
   background:
-    var(--smartflow-grid-overlay),
-    linear-gradient(90deg, var(--smartflow-grid-line) 1px, transparent 1px),
-    linear-gradient(var(--smartflow-grid-line) 1px, transparent 1px);
+    var(--execfabric-grid-overlay),
+    linear-gradient(90deg, var(--execfabric-grid-line) 1px, transparent 1px),
+    linear-gradient(var(--execfabric-grid-line) 1px, transparent 1px);
   background-size: auto, 32px 32px, 32px 32px;
   content: "";
   mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.88), transparent);
@@ -950,17 +950,17 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 }
 
 .VPHero .container {
-  --smartflow-hero-outline-top: 18px;
-  --smartflow-hero-outline-right: 18px;
-  --smartflow-hero-outline-bottom: 18px;
-  --smartflow-hero-outline-left: 18px;
+  --execfabric-hero-outline-top: 18px;
+  --execfabric-hero-outline-right: 18px;
+  --execfabric-hero-outline-bottom: 18px;
+  --execfabric-hero-outline-left: 18px;
   position: relative;
-  max-width: var(--smartflow-layout-max);
+  max-width: var(--execfabric-layout-max);
   padding: 52px 56px;
-  border: 1px solid var(--smartflow-line-strong);
+  border: 1px solid var(--execfabric-line-strong);
   border-radius: 36px;
-  background: var(--smartflow-hero-shell);
-  box-shadow: var(--smartflow-shadow);
+  background: var(--execfabric-hero-shell);
+  box-shadow: var(--execfabric-shadow);
   overflow: hidden;
 }
 
@@ -975,8 +975,8 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, var(--smartflow-grid-line) 1px, transparent 1px),
-    linear-gradient(var(--smartflow-grid-line) 1px, transparent 1px);
+    linear-gradient(90deg, var(--execfabric-grid-line) 1px, transparent 1px),
+    linear-gradient(var(--execfabric-grid-line) 1px, transparent 1px);
   background-size: 24px 24px;
   opacity: 0.42;
   content: "";
@@ -986,11 +986,11 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .VPHero .container::after {
   position: absolute;
   inset:
-    var(--smartflow-hero-outline-top)
-    var(--smartflow-hero-outline-right)
-    var(--smartflow-hero-outline-bottom)
-    var(--smartflow-hero-outline-left);
-  border: 1px solid var(--smartflow-line);
+    var(--execfabric-hero-outline-top)
+    var(--execfabric-hero-outline-right)
+    var(--execfabric-hero-outline-bottom)
+    var(--execfabric-hero-outline-left);
+  border: 1px solid var(--execfabric-line);
   border-radius: 28px;
   content: "";
   pointer-events: none;
@@ -1080,7 +1080,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   color: rgba(240, 246, 252, 0.78);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
-  font-family: var(--smartflow-mono-font);
+  font-family: var(--execfabric-mono-font);
   font-size: clamp(0.45rem, 0.52vw, 0.5rem);
   font-weight: 500;
   letter-spacing: 0.24em;
@@ -1091,8 +1091,8 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 
 .VPHome .VPHero.has-image .name::before {
   content: "E·F";
-  color: var(--smartflow-kicker);
-  font-family: var(--smartflow-mono-font);
+  color: var(--execfabric-kicker);
+  font-family: var(--execfabric-mono-font);
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.28em;
@@ -1104,7 +1104,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   max-width: 13ch;
   font-size: clamp(1.14rem, 1.9vw, 1.52rem);
   line-height: 1.18;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
 }
 
 .VPHero:not(.has-image) .text {
@@ -1117,7 +1117,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   max-width: 28ch;
   font-size: 1rem;
   line-height: 1.8;
-  color: var(--smartflow-copy-soft);
+  color: var(--execfabric-copy-soft);
 }
 
 .VPHero:not(.has-image) .tagline {
@@ -1183,7 +1183,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .cta-button--brand {
   border: none;
   background: linear-gradient(135deg, var(--vp-c-brand-1), #2563eb);
-  color: var(--smartflow-gradient-button-text) !important;
+  color: var(--execfabric-gradient-button-text) !important;
   text-shadow: none;
   transition: color 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease;
 }
@@ -1192,7 +1192,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .dark .cta-button--brand {
   background: linear-gradient(135deg, #00d56f, #00d7ff 58%, #5d7cff 100%);
   box-shadow: 0 0 0 1px rgba(0, 245, 140, 0.14), 0 0 34px rgba(0, 245, 140, 0.12);
-  color: var(--smartflow-gradient-button-text) !important;
+  color: var(--execfabric-gradient-button-text) !important;
   text-shadow: none;
 }
 
@@ -1210,18 +1210,18 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .dark .cta-button--brand:link:focus-visible,
 .dark .cta-button--brand:visited:hover,
 .dark .cta-button--brand:visited:focus-visible {
-  color: var(--smartflow-gradient-button-text-hover) !important;
+  color: var(--execfabric-gradient-button-text-hover) !important;
 }
 
 .VPHero .action .VPButton.alt {
-  border-color: var(--smartflow-line-strong);
-  background: var(--smartflow-panel-strong);
-  color: var(--smartflow-title);
+  border-color: var(--execfabric-line-strong);
+  background: var(--execfabric-panel-strong);
+  color: var(--execfabric-title);
 }
 
 .VPHero .action .VPButton.alt:hover {
-  border-color: var(--smartflow-nav-text-hover);
-  color: var(--smartflow-nav-text-hover);
+  border-color: var(--execfabric-nav-text-hover);
+  color: var(--execfabric-nav-text-hover);
 }
 
 .VPHome .VPHero.has-image .container {
@@ -1290,13 +1290,13 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 
 .home-hero-note {
   margin: 12px auto 0;
-  max-width: var(--smartflow-layout-max);
+  max-width: var(--execfabric-layout-max);
   padding: 0 24px;
 }
 
 .home-hero-note__kicker,
 .home-hero-note__text {
-  font-family: var(--smartflow-mono-font);
+  font-family: var(--execfabric-mono-font);
 }
 
 .home-hero-note__kicker {
@@ -1305,9 +1305,9 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   min-height: 28px;
   padding: 0 10px;
   border-radius: 999px;
-  border: 1px solid var(--smartflow-line-strong);
-  background: var(--smartflow-panel-subtle);
-  color: var(--smartflow-pill-color);
+  border: 1px solid var(--execfabric-line-strong);
+  background: var(--execfabric-panel-subtle);
+  color: var(--execfabric-pill-color);
   font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -1317,7 +1317,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .home-hero-note__text {
   margin: 10px 0 0;
   max-width: 980px;
-  color: var(--smartflow-copy-soft);
+  color: var(--execfabric-copy-soft);
   line-height: 1.82;
   font-size: 0.94rem;
 }
@@ -1336,19 +1336,19 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 }
 
 .home-hero-note__text strong {
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
   font-weight: 700;
 }
 
 .home-hero-code {
   width: 100%;
   min-height: 286px;
-  border: 1px solid var(--smartflow-line-strong);
+  border: 1px solid var(--execfabric-line-strong);
   border-radius: 28px;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(243, 248, 250, 0.92)),
     linear-gradient(135deg, rgba(15, 118, 110, 0.05), rgba(37, 99, 235, 0.04));
-  box-shadow: var(--smartflow-shadow-soft);
+  box-shadow: var(--execfabric-shadow-soft);
   overflow: hidden;
 }
 
@@ -1366,11 +1366,11 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   justify-content: space-between;
   gap: 12px;
   padding: 14px 18px;
-  font-family: var(--smartflow-mono-font);
+  font-family: var(--execfabric-mono-font);
 }
 
 .home-hero-code__head {
-  border-bottom: 1px solid var(--smartflow-line);
+  border-bottom: 1px solid var(--execfabric-line);
   background: rgba(255, 255, 255, 0.56);
 }
 
@@ -1410,21 +1410,21 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .home-hero-code__status,
 .home-hero-code__line-no,
 .home-hero-code__line-text {
-  font-family: var(--smartflow-mono-font);
+  font-family: var(--execfabric-mono-font);
 }
 
 .home-hero-code__file {
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
   font-size: 0.82rem;
   letter-spacing: 0.06em;
 }
 
 .home-hero-code__status {
   padding: 6px 10px;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 999px;
-  background: var(--smartflow-pill-bg);
-  color: var(--smartflow-pill-color);
+  background: var(--execfabric-pill-bg);
+  color: var(--execfabric-pill-color);
   font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -1447,8 +1447,8 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, var(--smartflow-grid-line) 1px, transparent 1px),
-    linear-gradient(var(--smartflow-grid-line) 1px, transparent 1px);
+    linear-gradient(90deg, var(--execfabric-grid-line) 1px, transparent 1px),
+    linear-gradient(var(--execfabric-grid-line) 1px, transparent 1px);
   background-size: 22px 22px;
   content: "";
   opacity: 0.3;
@@ -1475,7 +1475,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 }
 
 .home-hero-code__line-text {
-  color: var(--smartflow-copy);
+  color: var(--execfabric-copy);
   font-size: 0.82rem;
   line-height: 1.72;
   white-space: pre-wrap;
@@ -1484,7 +1484,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .home-hero-code__footer {
   justify-content: flex-start;
   flex-wrap: wrap;
-  border-top: 1px solid var(--smartflow-line);
+  border-top: 1px solid var(--execfabric-line);
   background: rgba(255, 255, 255, 0.44);
 }
 
@@ -1496,22 +1496,22 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   display: inline-flex;
   align-items: center;
   padding: 6px 10px;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 999px;
-  background: var(--smartflow-panel-subtle);
-  color: var(--smartflow-copy-soft);
-  font-family: var(--smartflow-mono-font);
+  background: var(--execfabric-panel-subtle);
+  color: var(--execfabric-copy-soft);
+  font-family: var(--execfabric-mono-font);
   font-size: 0.66rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .home-hero-code .token-keyword {
-  color: var(--smartflow-pill-color);
+  color: var(--execfabric-pill-color);
 }
 
 .home-hero-code .token-variable {
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
 }
 
 .home-hero-code .token-operator {
@@ -1527,7 +1527,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 }
 
 .home-hero-code .token-comment {
-  color: var(--smartflow-copy-soft);
+  color: var(--execfabric-copy-soft);
 }
 
 .home-hero-code .token-accent {
@@ -1589,8 +1589,8 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, var(--smartflow-grid-line) 1px, transparent 1px),
-    linear-gradient(var(--smartflow-grid-line) 1px, transparent 1px);
+    linear-gradient(90deg, var(--execfabric-grid-line) 1px, transparent 1px),
+    linear-gradient(var(--execfabric-grid-line) 1px, transparent 1px);
   background-size: 22px 22px;
   opacity: 0.42;
   content: "";
@@ -1626,23 +1626,23 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 }
 
 .VPHomeFeatures .container {
-  max-width: var(--smartflow-layout-max);
+  max-width: var(--execfabric-layout-max);
 }
 
 .VPFeature {
   position: relative;
   height: 100%;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 24px;
-  background: var(--smartflow-card-bg);
-  box-shadow: var(--smartflow-shadow-soft);
+  background: var(--execfabric-card-bg);
+  box-shadow: var(--execfabric-shadow-soft);
   overflow: hidden;
   transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 
 .VPHomeFeatures .VPFeature,
 .VPHomeFeatures .VPFeature .box {
-  background: var(--smartflow-card-bg);
+  background: var(--execfabric-card-bg);
 }
 
 .VPFeature::before,
@@ -1669,25 +1669,25 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .link-panel:hover,
 .brand-link-card:hover {
   transform: translateY(-3px);
-  border-color: var(--smartflow-line-strong);
+  border-color: var(--execfabric-line-strong);
   box-shadow: 0 22px 50px rgba(15, 23, 42, 0.1);
 }
 
 .VPFeature .title {
   font-size: 1rem;
   font-weight: 700;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
 }
 
 .VPFeature .details {
   font-size: 0.95rem;
   line-height: 1.78;
-  color: var(--smartflow-copy-soft);
+  color: var(--execfabric-copy-soft);
 }
 
 .landing-shell {
   width: 100%;
-  max-width: var(--smartflow-layout-max);
+  max-width: var(--execfabric-layout-max);
   box-sizing: border-box;
   margin: 44px auto 24px;
 }
@@ -1698,10 +1698,10 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .brand-direction-card,
 .brand-link-card {
   position: relative;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 30px;
-  background: var(--smartflow-card-bg);
-  box-shadow: var(--smartflow-shadow-soft);
+  background: var(--execfabric-card-bg);
+  box-shadow: var(--execfabric-shadow-soft);
   overflow: hidden;
 }
 
@@ -1717,7 +1717,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   width: 220px;
   height: 220px;
   border-radius: 999px;
-  background: radial-gradient(circle, var(--smartflow-accent-orb), transparent 70%);
+  background: radial-gradient(circle, var(--execfabric-accent-orb), transparent 70%);
   content: "";
   pointer-events: none;
 }
@@ -1725,7 +1725,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .landing-band--roadmap::before,
 .landing-band--cta::before,
 .brand-hero::before {
-  background: radial-gradient(circle, var(--smartflow-accent-orb-alt), transparent 70%);
+  background: radial-gradient(circle, var(--execfabric-accent-orb-alt), transparent 70%);
 }
 
 .landing-band--brand {
@@ -1783,7 +1783,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .brand-kicker,
 .matrix-panel__hud,
 .matrix-panel__footer {
-  font-family: var(--smartflow-mono-font);
+  font-family: var(--execfabric-mono-font);
 }
 
 .landing-kicker,
@@ -1793,7 +1793,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   font-weight: 700;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--smartflow-kicker);
+  color: var(--execfabric-kicker);
 }
 
 .landing-section-head h2,
@@ -1801,7 +1801,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   margin: 0;
   font-size: clamp(1.84rem, 4vw, 2.72rem);
   line-height: 1.08;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
 }
 
 .landing-band--flow .landing-section-head h2,
@@ -1824,7 +1824,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .brand-direction-card p,
 .brand-link-card p,
 .brand-list li {
-  color: var(--smartflow-copy-soft);
+  color: var(--execfabric-copy-soft);
   line-height: 1.9;
 }
 
@@ -1852,17 +1852,17 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .landing-brand__quick-card {
   position: relative;
   padding: 18px 20px;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 20px;
-  background: var(--smartflow-panel-subtle);
-  box-shadow: inset 0 1px 0 var(--smartflow-inner-highlight);
+  background: var(--execfabric-panel-subtle);
+  box-shadow: inset 0 1px 0 var(--execfabric-inner-highlight);
 }
 
 .landing-brand__quick-card span {
   display: block;
   margin-bottom: 8px;
-  color: var(--smartflow-kicker);
-  font-family: var(--smartflow-mono-font);
+  color: var(--execfabric-kicker);
+  font-family: var(--execfabric-mono-font);
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.16em;
@@ -1871,7 +1871,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 
 .landing-brand__quick-card strong {
   display: block;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
   font-size: 1rem;
   line-height: 1.55;
 }
@@ -1887,9 +1887,9 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   justify-content: center;
   padding: 8px 14px;
   border-radius: 999px;
-  border: 1px solid var(--smartflow-line);
-  background: var(--smartflow-pill-bg);
-  color: var(--smartflow-pill-color);
+  border: 1px solid var(--execfabric-line);
+  background: var(--execfabric-pill-bg);
+  color: var(--execfabric-pill-color);
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -1904,9 +1904,9 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 }
 
 .brand-chip {
-  border-color: var(--smartflow-line-strong);
-  background: var(--smartflow-panel-strong);
-  color: var(--smartflow-title);
+  border-color: var(--execfabric-line-strong);
+  background: var(--execfabric-panel-strong);
+  color: var(--execfabric-title);
   font-weight: 600;
   letter-spacing: 0.02em;
 }
@@ -1926,12 +1926,12 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .landing-brand__signal-card {
   position: relative;
   padding: 20px 22px;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 28px;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(244, 249, 250, 0.86)),
     linear-gradient(135deg, rgba(15, 118, 110, 0.04), rgba(37, 99, 235, 0.03));
-  box-shadow: var(--smartflow-shadow-soft);
+  box-shadow: var(--execfabric-shadow-soft);
   overflow: hidden;
 }
 
@@ -1945,8 +1945,8 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, var(--smartflow-grid-line) 1px, transparent 1px),
-    linear-gradient(var(--smartflow-grid-line) 1px, transparent 1px);
+    linear-gradient(90deg, var(--execfabric-grid-line) 1px, transparent 1px),
+    linear-gradient(var(--execfabric-grid-line) 1px, transparent 1px);
   background-size: 22px 22px;
   content: "";
   opacity: 0.2;
@@ -1961,11 +1961,11 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  font-family: var(--smartflow-mono-font);
+  font-family: var(--execfabric-mono-font);
 }
 
 .landing-brand__signal-head {
-  color: var(--smartflow-kicker);
+  color: var(--execfabric-kicker);
   font-size: 0.74rem;
   font-weight: 700;
   letter-spacing: 0.18em;
@@ -1976,7 +1976,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   z-index: 1;
   margin: 14px 0 0;
   max-width: 40ch;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
   font-size: 0.98rem;
   font-weight: 600;
   line-height: 1.52;
@@ -1992,7 +1992,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 
 .landing-brand__signal-item {
   padding: 12px 14px;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.44);
 }
@@ -2004,13 +2004,13 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .landing-brand__signal-item strong {
   display: block;
   margin-bottom: 4px;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
   font-size: 0.9rem;
 }
 
 .landing-brand__signal-item span {
   display: block;
-  color: var(--smartflow-copy-soft);
+  color: var(--execfabric-copy-soft);
   font-size: 0.84rem;
   line-height: 1.54;
 }
@@ -2023,10 +2023,10 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 
 .landing-brand__signal-tags span {
   padding: 6px 12px;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 999px;
-  background: var(--smartflow-pill-bg);
-  color: var(--smartflow-pill-color);
+  background: var(--execfabric-pill-bg);
+  color: var(--execfabric-pill-color);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -2044,10 +2044,10 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   position: relative;
   z-index: 1;
   padding: 22px;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 22px;
-  background: var(--smartflow-panel-subtle);
-  box-shadow: inset 0 1px 0 var(--smartflow-inner-highlight);
+  background: var(--execfabric-panel-subtle);
+  box-shadow: inset 0 1px 0 var(--execfabric-inner-highlight);
 }
 
 .landing-brand__meta--wide {
@@ -2060,7 +2060,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .brand-link-card strong {
   display: block;
   margin-top: 12px;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
   font-size: 1.04rem;
 }
 
@@ -2093,7 +2093,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 
 .landing-brand__record-item {
   padding: 14px 16px;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.5);
 }
@@ -2104,8 +2104,8 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 
 .landing-brand__record-item span {
   display: block;
-  color: var(--smartflow-kicker);
-  font-family: var(--smartflow-mono-font);
+  color: var(--execfabric-kicker);
+  font-family: var(--execfabric-mono-font);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -2115,7 +2115,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .landing-brand__record-item strong {
   display: block;
   margin-top: 10px;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
   font-size: 0.92rem;
   line-height: 1.56;
 }
@@ -2176,10 +2176,10 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .brand-link-card {
   position: relative;
   padding: 28px;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 24px;
-  background: var(--smartflow-card-bg);
-  box-shadow: inset 0 1px 0 var(--smartflow-inner-highlight);
+  background: var(--execfabric-card-bg);
+  box-shadow: inset 0 1px 0 var(--execfabric-inner-highlight);
   overflow: hidden;
   transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
 }
@@ -2219,7 +2219,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   font-size: 1.42rem;
   font-weight: 700;
   letter-spacing: -0.03em;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
 }
 
 .metric-label {
@@ -2227,7 +2227,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   margin-bottom: 0;
   font-size: 1rem;
   font-weight: 700;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
 }
 
 .metric-card p,
@@ -2239,7 +2239,7 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
   margin: 0;
   font-size: 0.95rem;
   line-height: 1.82;
-  color: var(--smartflow-copy-soft);
+  color: var(--execfabric-copy-soft);
 }
 
 .flow-card h3,
@@ -2250,14 +2250,14 @@ html:not(.dark) .VPNavBar[data-smartflow-has-sidebar="true"] {
 .brand-direction-card h3 {
   margin: 0 0 12px;
   font-size: 1.06rem;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
 }
 
 .brand-card h2 {
   margin: 0;
   font-size: clamp(1.52rem, 3vw, 1.7rem);
   line-height: 1.12;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
   white-space: nowrap;
 }
 
@@ -2323,8 +2323,8 @@ html[lang^="en"] .cta-button {
 }
 
 .roadmap-card--accent {
-  background: var(--smartflow-card-accent-bg);
-  border-color: var(--smartflow-line-strong);
+  background: var(--execfabric-card-accent-bg);
+  border-color: var(--execfabric-line-strong);
 }
 
 .landing-band--roadmap-home .roadmap-grid {
@@ -2349,14 +2349,14 @@ html[lang^="en"] .cta-button {
 }
 
 .landing-inline-links a {
-  color: var(--smartflow-link);
+  color: var(--execfabric-link);
   font-weight: 600;
 }
 
 .link-panel strong {
   display: block;
   margin-bottom: 10px;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
   font-size: 1.04rem;
 }
 
@@ -2404,10 +2404,10 @@ html[lang^="en"] .cta-button {
   min-width: 156px;
   min-height: 48px;
   padding: 14px 18px;
-  border: 1px solid var(--smartflow-line-strong);
+  border: 1px solid var(--execfabric-line-strong);
   border-radius: 999px;
-  background: var(--smartflow-panel-strong);
-  color: var(--smartflow-title);
+  background: var(--execfabric-panel-strong);
+  color: var(--execfabric-title);
   text-decoration: none;
   font-weight: 600;
   font: inherit;
@@ -2429,7 +2429,7 @@ html[lang^="en"] .cta-button {
 .cta-button--brand:visited {
   border-color: transparent;
   background: linear-gradient(135deg, var(--vp-c-brand-1), #2563eb);
-  color: var(--smartflow-gradient-button-text) !important;
+  color: var(--execfabric-gradient-button-text) !important;
   text-shadow: none;
 }
 
@@ -2438,18 +2438,18 @@ html[lang^="en"] .cta-button {
 .dark .cta-button--brand:visited {
   background: linear-gradient(135deg, #00d56f, #00d7ff 58%, #5d7cff 100%);
   box-shadow: 0 0 0 1px rgba(0, 245, 140, 0.14), 0 0 34px rgba(0, 245, 140, 0.12);
-  color: var(--smartflow-gradient-button-text) !important;
+  color: var(--execfabric-gradient-button-text) !important;
   text-shadow: none;
 }
 
 .cta-button--brand:hover,
 .cta-button--brand:focus-visible {
-  color: var(--smartflow-gradient-button-text-hover) !important;
+  color: var(--execfabric-gradient-button-text-hover) !important;
 }
 
 .brand-page-shell {
   width: 100%;
-  max-width: var(--smartflow-doc-layout-max);
+  max-width: var(--execfabric-doc-layout-max);
   box-sizing: border-box;
   margin: 36px auto 110px;
 }
@@ -2495,7 +2495,7 @@ html[lang^="en"] .cta-button {
 .brand-hero h1 {
   font-size: clamp(1.98rem, 4.4vw, 2.6rem);
   line-height: 1.06;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
 }
 
 .brand-hero--contact {
@@ -2552,7 +2552,7 @@ html[lang^="en"] .cta-button {
 }
 
 .brand-link-card span {
-  color: var(--smartflow-link);
+  color: var(--execfabric-link);
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -2580,7 +2580,7 @@ html[lang^="en"] .cta-button {
 .lead-field span {
   font-size: 0.92rem;
   font-weight: 700;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
 }
 
 .lead-field input,
@@ -2590,18 +2590,18 @@ html[lang^="en"] .cta-button {
   min-width: 0;
   box-sizing: border-box;
   padding: 14px 16px;
-  border: 1px solid var(--smartflow-line-strong);
+  border: 1px solid var(--execfabric-line-strong);
   border-radius: 18px;
-  background: var(--smartflow-panel-subtle);
-  color: var(--smartflow-title);
+  background: var(--execfabric-panel-subtle);
+  color: var(--execfabric-title);
   font: inherit;
   line-height: 1.6;
-  box-shadow: inset 0 1px 0 var(--smartflow-inner-highlight);
+  box-shadow: inset 0 1px 0 var(--execfabric-inner-highlight);
 }
 
 .lead-field input::placeholder,
 .lead-field textarea::placeholder {
-  color: var(--smartflow-copy-soft);
+  color: var(--execfabric-copy-soft);
 }
 
 .lead-field textarea {
@@ -2616,13 +2616,13 @@ html[lang^="en"] .cta-button {
 
 .lead-form-note {
   margin: 14px 0 0;
-  color: var(--smartflow-copy-soft);
+  color: var(--execfabric-copy-soft);
   font-size: 0.92rem;
   line-height: 1.85;
 }
 
 .lead-form-note a {
-  color: var(--smartflow-link);
+  color: var(--execfabric-link);
   text-decoration: none;
 }
 
@@ -2646,10 +2646,10 @@ html[lang^="en"] .cta-button {
   max-width: 100%;
   margin: 14px 0 0;
   padding: 16px 18px;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 18px;
-  background: var(--smartflow-panel-strong);
-  box-shadow: inset 0 1px 0 var(--smartflow-inner-highlight);
+  background: var(--execfabric-panel-strong);
+  box-shadow: inset 0 1px 0 var(--execfabric-inner-highlight);
   overflow: hidden;
 }
 
@@ -2667,10 +2667,10 @@ html[lang^="en"] .cta-button {
   display: grid;
   gap: 16px;
   padding: 18px;
-  border: 1px solid var(--smartflow-matrix-border);
+  border: 1px solid var(--execfabric-matrix-border);
   border-radius: 28px;
-  background: var(--smartflow-matrix-bg);
-  box-shadow: var(--smartflow-matrix-shadow);
+  background: var(--execfabric-matrix-bg);
+  box-shadow: var(--execfabric-matrix-shadow);
   overflow: hidden;
 }
 
@@ -2678,8 +2678,8 @@ html[lang^="en"] .cta-button {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, var(--smartflow-matrix-grid) 1px, transparent 1px),
-    linear-gradient(var(--smartflow-matrix-grid) 1px, transparent 1px);
+    linear-gradient(90deg, var(--execfabric-matrix-grid) 1px, transparent 1px),
+    linear-gradient(var(--execfabric-matrix-grid) 1px, transparent 1px);
   background-size: 18px 18px;
   content: "";
   opacity: 0.36;
@@ -2689,7 +2689,7 @@ html[lang^="en"] .cta-button {
 .matrix-panel::after {
   position: absolute;
   inset: 14px;
-  border: 1px solid var(--smartflow-matrix-inner-border);
+  border: 1px solid var(--execfabric-matrix-inner-border);
   border-radius: 22px;
   content: "";
   pointer-events: none;
@@ -2707,27 +2707,27 @@ html[lang^="en"] .cta-button {
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--smartflow-matrix-hud);
+  color: var(--execfabric-matrix-hud);
 }
 
 .matrix-panel__footer {
-  color: var(--smartflow-matrix-footer);
+  color: var(--execfabric-matrix-footer);
   letter-spacing: 0.08em;
 }
 
 .matrix-panel__canvas {
   position: relative;
   min-height: 320px;
-  border: 1px solid var(--smartflow-matrix-canvas-border);
+  border: 1px solid var(--execfabric-matrix-canvas-border);
   border-radius: 22px;
-  background: var(--smartflow-matrix-canvas-bg);
+  background: var(--execfabric-matrix-canvas-bg);
   overflow: hidden;
 }
 
 .matrix-panel__canvas::before {
   position: absolute;
   inset: 0;
-  background: repeating-linear-gradient(180deg, var(--smartflow-matrix-scan) 0 1px, transparent 1px 18px);
+  background: repeating-linear-gradient(180deg, var(--execfabric-matrix-scan) 0 1px, transparent 1px 18px);
   content: "";
   opacity: 0.58;
 }
@@ -2735,7 +2735,7 @@ html[lang^="en"] .cta-button {
 .matrix-panel__canvas::after {
   position: absolute;
   inset: 16px;
-  border: 1px solid var(--smartflow-matrix-canvas-inner-border);
+  border: 1px solid var(--execfabric-matrix-canvas-inner-border);
   border-radius: 18px;
   content: "";
 }
@@ -2744,8 +2744,8 @@ html[lang^="en"] .cta-button {
   position: absolute;
   left: 24px;
   height: 2px;
-  background: var(--smartflow-matrix-trace);
-  box-shadow: var(--smartflow-matrix-trace-shadow);
+  background: var(--execfabric-matrix-trace);
+  box-shadow: var(--execfabric-matrix-trace-shadow);
   z-index: 1;
 }
 
@@ -2756,8 +2756,8 @@ html[lang^="en"] .cta-button {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: var(--smartflow-matrix-node);
-  box-shadow: var(--smartflow-matrix-node-shadow);
+  background: var(--execfabric-matrix-node);
+  box-shadow: var(--execfabric-matrix-node-shadow);
   content: "";
 }
 
@@ -2783,9 +2783,9 @@ html[lang^="en"] .cta-button {
   width: 196px;
   height: 196px;
   transform: translate(-50%, -50%);
-  border: 3px solid var(--smartflow-matrix-ring-border);
+  border: 3px solid var(--execfabric-matrix-ring-border);
   border-radius: 50%;
-  box-shadow: var(--smartflow-matrix-ring-shadow);
+  box-shadow: var(--execfabric-matrix-ring-shadow);
   z-index: 2;
 }
 
@@ -2793,10 +2793,10 @@ html[lang^="en"] .cta-button {
   position: absolute;
   inset: -14px;
   border-radius: 50%;
-  border-top: 3px solid var(--smartflow-matrix-ring-top);
+  border-top: 3px solid var(--execfabric-matrix-ring-top);
   border-right: 3px solid transparent;
   border-bottom: 3px solid transparent;
-  border-left: 3px solid var(--smartflow-matrix-ring-left);
+  border-left: 3px solid var(--execfabric-matrix-ring-left);
   content: "";
   transform: rotate(18deg);
 }
@@ -2804,7 +2804,7 @@ html[lang^="en"] .cta-button {
 .matrix-panel__ring::after {
   position: absolute;
   inset: 24px;
-  border: 2px solid var(--smartflow-matrix-ring-inner);
+  border: 2px solid var(--execfabric-matrix-ring-inner);
   border-radius: 50%;
   content: "";
 }
@@ -2818,8 +2818,8 @@ html[lang^="en"] .cta-button {
   font-size: clamp(2.8rem, 5vw, 4.6rem);
   font-weight: 800;
   letter-spacing: -0.08em;
-  color: var(--smartflow-matrix-glyph);
-  text-shadow: var(--smartflow-matrix-glyph-shadow);
+  color: var(--execfabric-matrix-glyph);
+  text-shadow: var(--execfabric-matrix-glyph-shadow);
 }
 
 .matrix-panel__bolt {
@@ -2829,9 +2829,9 @@ html[lang^="en"] .cta-button {
   z-index: 4;
   width: 44px;
   height: 92px;
-  background: var(--smartflow-matrix-bolt);
+  background: var(--execfabric-matrix-bolt);
   clip-path: polygon(54% 0%, 100% 0%, 58% 46%, 86% 46%, 18% 100%, 42% 58%, 12% 58%);
-  filter: var(--smartflow-matrix-bolt-shadow);
+  filter: var(--execfabric-matrix-bolt-shadow);
 }
 
 .matrix-panel__callout {
@@ -2841,13 +2841,13 @@ html[lang^="en"] .cta-button {
   z-index: 3;
   padding: 10px 12px;
   border-radius: 14px;
-  border: 1px solid var(--smartflow-matrix-callout-border);
-  background: var(--smartflow-matrix-callout-bg);
-  font-family: var(--smartflow-mono-font);
+  border: 1px solid var(--execfabric-matrix-callout-border);
+  background: var(--execfabric-matrix-callout-bg);
+  font-family: var(--execfabric-mono-font);
   font-size: 0.74rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  color: var(--smartflow-matrix-callout-color);
+  color: var(--execfabric-matrix-callout-color);
 }
 
 .matrix-panel__stack {
@@ -2862,13 +2862,13 @@ html[lang^="en"] .cta-button {
   display: block;
   padding: 10px 12px;
   border-radius: 14px;
-  border: 1px solid var(--smartflow-matrix-stack-border);
-  background: var(--smartflow-matrix-stack-bg);
+  border: 1px solid var(--execfabric-matrix-stack-border);
+  background: var(--execfabric-matrix-stack-bg);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03), 0 0 0 1px rgba(0, 0, 0, 0.06);
-  font-family: var(--smartflow-mono-font);
+  font-family: var(--execfabric-mono-font);
   font-size: 0.82rem;
   line-height: 1.58;
-  color: var(--smartflow-matrix-stack-color);
+  color: var(--execfabric-matrix-stack-color);
 }
 
 .matrix-panel__line,
@@ -2878,33 +2878,33 @@ html[lang^="en"] .cta-button {
 
 .matrix-panel__line .matrix-panel__key,
 .matrix-panel__tag .matrix-panel__key {
-  color: var(--smartflow-matrix-token-key);
+  color: var(--execfabric-matrix-token-key);
   font-weight: 700;
-  text-shadow: 0 0 14px var(--smartflow-matrix-token-glow);
+  text-shadow: 0 0 14px var(--execfabric-matrix-token-glow);
 }
 
 .matrix-panel__line .matrix-panel__punct,
 .matrix-panel__tag .matrix-panel__punct {
-  color: var(--smartflow-matrix-token-punct);
+  color: var(--execfabric-matrix-token-punct);
   font-weight: 700;
 }
 
 .matrix-panel__line .matrix-panel__value,
 .matrix-panel__tag .matrix-panel__value {
-  color: var(--smartflow-matrix-token-value);
+  color: var(--execfabric-matrix-token-value);
   font-weight: 520;
   text-shadow: 0 0 12px rgba(255, 255, 255, 0.02);
 }
 
 .matrix-panel__line .matrix-panel__kw {
-  color: var(--smartflow-matrix-token-key);
+  color: var(--execfabric-matrix-token-key);
   font-weight: 700;
-  text-shadow: 0 0 14px var(--smartflow-matrix-token-glow);
+  text-shadow: 0 0 14px var(--execfabric-matrix-token-glow);
 }
 
 .matrix-panel__line .matrix-panel__ident {
 
-  color: var(--smartflow-matrix-token-value);
+  color: var(--execfabric-matrix-token-value);
   font-weight: 520;
   text-shadow: 0 0 12px rgba(255, 255, 255, 0.02);
 }
@@ -2936,9 +2936,9 @@ html[lang^="en"] .cta-button {
 .matrix-panel__line .matrix-panel__op,
 .matrix-panel__tag .matrix-panel__sep,
 .matrix-panel__tag .matrix-panel__op {
-  color: var(--smartflow-matrix-token-sep);
+  color: var(--execfabric-matrix-token-sep);
   font-weight: 700;
-  text-shadow: 0 0 12px var(--smartflow-matrix-token-glow);
+  text-shadow: 0 0 12px var(--execfabric-matrix-token-glow);
 }
 
 .matrix-panel__footer > .matrix-panel__tag {
@@ -2978,11 +2978,11 @@ html[lang^="en"] .cta-button {
   min-height: 560px;
   padding: 20px 22px;
   padding-bottom: 26px;
-  border-color: var(--smartflow-line);
+  border-color: var(--execfabric-line);
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(244, 249, 250, 0.86)),
     linear-gradient(135deg, rgba(15, 118, 110, 0.04), rgba(37, 99, 235, 0.03));
-  box-shadow: var(--smartflow-shadow-soft);
+  box-shadow: var(--execfabric-shadow-soft);
 }
 
 html:not(.dark) .brand-hero__media--compact .matrix-panel.matrix-panel--contact {
@@ -3000,8 +3000,8 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel.matrix-panel--contact 
 
 .brand-hero__media--compact .matrix-panel.matrix-panel--contact::before {
   background:
-    linear-gradient(90deg, var(--smartflow-grid-line) 1px, transparent 1px),
-    linear-gradient(var(--smartflow-grid-line) 1px, transparent 1px);
+    linear-gradient(90deg, var(--execfabric-grid-line) 1px, transparent 1px),
+    linear-gradient(var(--execfabric-grid-line) 1px, transparent 1px);
   background-size: 22px 22px;
   opacity: 0.2;
 }
@@ -3017,7 +3017,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel.matrix-panel--contact 
 .brand-hero__media--compact .matrix-panel--contact .matrix-panel__footer {
   position: relative;
   z-index: 1;
-  color: var(--smartflow-kicker);
+  color: var(--execfabric-kicker);
   font-size: 0.74rem;
   letter-spacing: 0.18em;
 }
@@ -3055,7 +3055,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel.matrix-panel--contact 
   font-weight: 600;
   letter-spacing: 0;
   line-height: 1.52;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
 }
 
 .brand-hero__media--compact .matrix-panel--contact .matrix-panel__stack {
@@ -3065,12 +3065,12 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel.matrix-panel--contact 
 
 .brand-hero__media--compact .matrix-panel--contact .matrix-panel__stack > .matrix-panel__line {
   padding: 12px 14px;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.44);
   font-size: 0.84rem;
   line-height: 1.54;
-  color: var(--smartflow-copy-soft);
+  color: var(--execfabric-copy-soft);
 }
 
 html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel__stack > .matrix-panel__line {
@@ -3123,11 +3123,11 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
   display: inline-flex;
   align-items: center;
   padding: 6px 12px;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 999px;
-  background: var(--smartflow-pill-bg);
+  background: var(--execfabric-pill-bg);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
-  color: var(--smartflow-pill-color);
+  color: var(--execfabric-pill-color);
   font-size: 0.7rem;
 }
 
@@ -3164,9 +3164,9 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 }
 
 .dark .brand-hero__media--compact .matrix-panel--contact .matrix-panel__line .matrix-panel__kw {
-  color: var(--smartflow-matrix-token-key);
+  color: var(--execfabric-matrix-token-key);
   font-weight: 700;
-  text-shadow: 0 0 14px var(--smartflow-matrix-token-glow);
+  text-shadow: 0 0 14px var(--execfabric-matrix-token-glow);
 }
 
 .matrix-panel__line .matrix-panel__ident {
@@ -3226,7 +3226,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 }
 
 .contact-node-card p {
-  color: var(--smartflow-copy-soft);
+  color: var(--execfabric-copy-soft);
   line-height: 1.72;
 }
 
@@ -3247,7 +3247,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 }
 
 .product-signal-card p {
-  color: var(--smartflow-copy-soft);
+  color: var(--execfabric-copy-soft);
   line-height: 1.72;
 }
 
@@ -3273,7 +3273,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 .product-signal-check {
   padding: 14px 16px;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.5);
 }
@@ -3284,8 +3284,8 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 .product-signal-check span {
   display: block;
-  color: var(--smartflow-kicker);
-  font-family: var(--smartflow-mono-font);
+  color: var(--execfabric-kicker);
+  font-family: var(--execfabric-mono-font);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -3295,7 +3295,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 .product-signal-check strong {
   display: block;
   margin-top: 10px;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
   font-size: 0.92rem;
   line-height: 1.56;
 }
@@ -3317,7 +3317,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 }
 
 .roadmap-signal-card p {
-  color: var(--smartflow-copy-soft);
+  color: var(--execfabric-copy-soft);
   line-height: 1.72;
 }
 
@@ -3343,7 +3343,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 .roadmap-signal-check {
   padding: 14px 16px;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.5);
 }
@@ -3354,8 +3354,8 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 .roadmap-signal-check span {
   display: block;
-  color: var(--smartflow-kicker);
-  font-family: var(--smartflow-mono-font);
+  color: var(--execfabric-kicker);
+  font-family: var(--execfabric-mono-font);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -3365,7 +3365,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 .roadmap-signal-check strong {
   display: block;
   margin-top: 10px;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
   font-size: 0.92rem;
   line-height: 1.56;
 }
@@ -3440,7 +3440,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 .brand-page-shell--orchestration .orchestration-readiness-item {
   padding: 14px 16px;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.5);
 }
@@ -3451,8 +3451,8 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 .brand-page-shell--orchestration .orchestration-readiness-item span {
   display: block;
-  color: var(--smartflow-kicker);
-  font-family: var(--smartflow-mono-font);
+  color: var(--execfabric-kicker);
+  font-family: var(--execfabric-mono-font);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -3462,7 +3462,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 .brand-page-shell--orchestration .orchestration-readiness-item strong {
   display: block;
   margin-top: 10px;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
   font-size: 0.92rem;
   line-height: 1.56;
 }
@@ -3491,7 +3491,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 .brand-page-shell--materials .materials-guide-item {
   padding: 14px 16px;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.5);
 }
@@ -3502,8 +3502,8 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 .brand-page-shell--materials .materials-guide-item span {
   display: block;
-  color: var(--smartflow-kicker);
-  font-family: var(--smartflow-mono-font);
+  color: var(--execfabric-kicker);
+  font-family: var(--execfabric-mono-font);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -3513,7 +3513,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 .brand-page-shell--materials .materials-guide-item strong {
   display: block;
   margin-top: 10px;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
   font-size: 0.92rem;
   line-height: 1.56;
 }
@@ -3538,7 +3538,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 .brand-page-shell--why-execfabric .why-execfabric-guide-item {
   padding: 14px 16px;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.5);
 }
@@ -3549,8 +3549,8 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 .brand-page-shell--why-execfabric .why-execfabric-guide-item span {
   display: block;
-  color: var(--smartflow-kicker);
-  font-family: var(--smartflow-mono-font);
+  color: var(--execfabric-kicker);
+  font-family: var(--execfabric-mono-font);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -3560,7 +3560,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 .brand-page-shell--why-execfabric .why-execfabric-guide-item strong {
   display: block;
   margin-top: 10px;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
   font-size: 0.92rem;
   line-height: 1.56;
 }
@@ -3599,7 +3599,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 .brand-page-shell--founder-profile .founder-profile-guide-item {
   padding: 14px 16px;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.5);
 }
@@ -3610,8 +3610,8 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 .brand-page-shell--founder-profile .founder-profile-guide-item span {
   display: block;
-  color: var(--smartflow-kicker);
-  font-family: var(--smartflow-mono-font);
+  color: var(--execfabric-kicker);
+  font-family: var(--execfabric-mono-font);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -3621,7 +3621,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 .brand-page-shell--founder-profile .founder-profile-guide-item strong {
   display: block;
   margin-top: 10px;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
   font-size: 0.92rem;
   line-height: 1.56;
 }
@@ -3670,7 +3670,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
   padding: 10px 12px;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 16px;
   background: rgba(255, 255, 255, 0.5);
   color: inherit;
@@ -3684,14 +3684,14 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 .brand-page-shell--founder-profile .founder-profile-action-link:hover {
   transform: translateY(-2px);
-  border-color: var(--smartflow-line-strong);
+  border-color: var(--execfabric-line-strong);
   box-shadow: 0 16px 34px rgba(15, 23, 42, 0.12);
 }
 
 .brand-page-shell--founder-profile .founder-profile-action-link span {
   display: block;
-  color: var(--smartflow-kicker);
-  font-family: var(--smartflow-mono-font);
+  color: var(--execfabric-kicker);
+  font-family: var(--execfabric-mono-font);
   font-size: 0.62rem;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -3701,7 +3701,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 .brand-page-shell--founder-profile .founder-profile-action-link strong {
   display: block;
   margin-top: 6px;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
   font-size: 0.84rem;
   line-height: 1.3;
 }
@@ -3710,13 +3710,13 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
   border-color: transparent;
   background: linear-gradient(135deg, var(--vp-c-brand-1), #2563eb);
   box-shadow: 0 18px 38px rgba(37, 99, 235, 0.18);
-  color: var(--smartflow-gradient-button-text);
+  color: var(--execfabric-gradient-button-text);
 }
 
 .dark .brand-page-shell--founder-profile .founder-profile-action-link--primary {
   background: linear-gradient(135deg, #00d56f, #00d7ff 58%, #5d7cff 100%);
   box-shadow: 0 0 0 1px rgba(0, 245, 140, 0.14), 0 0 34px rgba(0, 245, 140, 0.12);
-  color: var(--smartflow-gradient-button-text);
+  color: var(--execfabric-gradient-button-text);
 }
 
 .brand-page-shell--founder-profile .founder-profile-action-card > strong {
@@ -3740,7 +3740,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 .brand-page-shell--founder-profile .founder-profile-action-link--primary:hover,
 .brand-page-shell--founder-profile .founder-profile-action-link--primary:focus-visible {
-  color: var(--smartflow-gradient-button-text-hover);
+  color: var(--execfabric-gradient-button-text-hover);
 }
 
 .brand-page-shell--founder-profile .founder-profile-action-link--primary:hover span,
@@ -3749,11 +3749,11 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 }
 
 .brand-page-shell--founder-profile .founder-profile-action-link--primary:hover strong {
-  color: var(--smartflow-gradient-button-text-hover);
+  color: var(--execfabric-gradient-button-text-hover);
 }
 
 .brand-page-shell--founder-profile .founder-profile-action-link--primary:focus-visible strong {
-  color: var(--smartflow-gradient-button-text-hover);
+  color: var(--execfabric-gradient-button-text-hover);
 }
 
 @media (max-width: 520px) {
@@ -3776,7 +3776,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 .brand-page-shell--founder-profile .founder-profile-summary-card h2 {
   margin: 0;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
   font-size: clamp(1.42rem, 2.5vw, 1.88rem);
   line-height: 1.18;
 }
@@ -3790,7 +3790,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 .brand-page-shell--founder-profile .founder-profile-summary-item {
   padding: 16px 18px;
-  border: 1px solid var(--smartflow-line);
+  border: 1px solid var(--execfabric-line);
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.5);
 }
@@ -3801,8 +3801,8 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 .brand-page-shell--founder-profile .founder-profile-summary-item span {
   display: block;
-  color: var(--smartflow-kicker);
-  font-family: var(--smartflow-mono-font);
+  color: var(--execfabric-kicker);
+  font-family: var(--execfabric-mono-font);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -3812,7 +3812,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 .brand-page-shell--founder-profile .founder-profile-summary-item strong {
   display: block;
   margin-top: 10px;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
   font-size: 0.92rem;
   line-height: 1.56;
 }
@@ -4086,11 +4086,11 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 @media (max-width: 960px) {
   :root {
-    --smartflow-page-gap: 18px;
+    --execfabric-page-gap: 18px;
   }
 
   .VPHero .container {
-    --smartflow-hero-outline-left: 18px;
+    --execfabric-hero-outline-left: 18px;
   }
 
   .VPHero {
@@ -4393,7 +4393,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 @media (max-width: 640px) {
   :root {
-    --smartflow-page-gap: 12px;
+    --execfabric-page-gap: 12px;
   }
 
   .VPHero .container,
@@ -4485,13 +4485,13 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
   gap: 24px;
   align-items: center;
   padding: 28px 32px;
-  border: 1px solid var(--smartflow-line-strong);
+  border: 1px solid var(--execfabric-line-strong);
   border-radius: 28px;
   background:
-    radial-gradient(circle at top right, var(--smartflow-accent-orb-alt), transparent 34%),
+    radial-gradient(circle at top right, var(--execfabric-accent-orb-alt), transparent 34%),
     linear-gradient(135deg, rgba(15, 118, 110, 0.12), rgba(37, 99, 235, 0.08)),
-    var(--smartflow-card-accent-bg);
-  box-shadow: var(--smartflow-shadow-soft);
+    var(--execfabric-card-accent-bg);
+  box-shadow: var(--execfabric-shadow-soft);
   overflow: hidden;
 }
 
@@ -4500,8 +4500,8 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
   inset: 0;
   background:
     linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.08), transparent),
-    linear-gradient(var(--smartflow-grid-line) 1px, transparent 1px),
-    linear-gradient(90deg, var(--smartflow-grid-line) 1px, transparent 1px);
+    linear-gradient(var(--execfabric-grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--execfabric-grid-line) 1px, transparent 1px);
   background-size: auto, 22px 22px, 22px 22px;
   content: "";
   opacity: 0.22;
@@ -4517,7 +4517,7 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
   margin: 0 0 12px;
   font-size: clamp(1.6rem, 2.6vw, 2.25rem);
   letter-spacing: -0.04em;
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
 }
 
 .partner-banner__copy .landing-lead {
@@ -4534,10 +4534,10 @@ html:not(.dark) .brand-hero__media--compact .matrix-panel--contact .matrix-panel
 
 .partner-banner__chips span {
   padding: 8px 12px;
-  border: 1px solid var(--smartflow-line-strong);
+  border: 1px solid var(--execfabric-line-strong);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.18);
-  color: var(--smartflow-title);
+  color: var(--execfabric-title);
   font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: 0.04em;

@@ -26,7 +26,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通实施安排</a>
-        <a class="cta-button" href="./deliverables.html">查看交付物</a>
+        <a class="cta-button" href="./deliverables.html">查看客户交付说明与文档入口</a>
         <a class="cta-button" href="../materials/service-packages.html">查看合作方式</a>
       </div>
     </div>
@@ -187,7 +187,7 @@ lastUpdated: false
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./deliverables.html">
           <span>Deliverables</span>
-          <strong>交付物 / 文档入口</strong>
+          <strong>客户交付说明与文档入口</strong>
         </a>
         <a class="brand-link-card" href="./deployment.html">
           <span>Deployment</span>

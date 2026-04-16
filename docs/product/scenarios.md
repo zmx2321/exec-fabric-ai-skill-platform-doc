@@ -250,7 +250,7 @@ lastUpdated: false
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./customer-flow.html">
           <span>Flow</span>
-          <strong>客户流程 / 交付</strong>
+          <strong>客户交付与使用说明</strong>
         </a>
         <a class="brand-link-card" href="./file-results.html">
           <span>Files</span>
@@ -258,7 +258,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="./deliverables.html">
           <span>Deliverables</span>
-          <strong>交付物 / 文档入口</strong>
+          <strong>客户交付说明与文档入口</strong>
         </a>
         <a class="brand-link-card" href="./onboarding-checklist.html">
           <span>Checklist</span>

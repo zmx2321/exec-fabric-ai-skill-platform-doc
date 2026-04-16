@@ -208,7 +208,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../product/customer-flow.html">
           <span>Delivery</span>
-          <strong>客户流程 / 交付</strong>
+          <strong>客户交付与使用说明</strong>
         </a>
         <a class="brand-link-card" href="../product/cli.html">
           <span>CLI</span>

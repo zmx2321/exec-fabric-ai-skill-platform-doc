@@ -7,8 +7,8 @@ lastUpdated: false
 <div class="brand-page-shell brand-page-shell--editions">
   <section class="brand-hero">
     <div>
-      <p class="brand-kicker">Editions &amp; Roadmap</p>
-      <h1>版本路线</h1>
+      <p class="brand-kicker">Version Stages &amp; Upgrade Path</p>
+      <h1>版本阶段与升级路径</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Version Plan</span>
         <strong>当前公开版本先讲 1.0 / 1.1 / 2.0，但现实使用路径已经拆成免费线、本地脚本位、标准团队版和企业交付四层。</strong>
@@ -55,7 +55,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通版本与场景</a>
-        <a class="cta-button" href="./deployment.html">查看部署方式</a>
+        <a class="cta-button" href="./deployment.html">查看部署方式与交付边界</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -180,7 +180,7 @@ lastUpdated: false
       <tr>
         <th>层级</th>
         <th>当前承接方式</th>
-        <th>和版本路线的关系</th>
+        <th>和版本阶段与升级路径的关系</th>
         <th>建议入口</th>
       </tr>
     </thead>
@@ -201,7 +201,7 @@ lastUpdated: false
         <td>标准团队版</td>
         <td>共享 SaaS 正式租户入口</td>
         <td>当前依托 1.0 交付底座和 1.1 升级路径继续收口</td>
-        <td><a href="./customer-flow.html">客户流程 / 交付</a></td>
+        <td><a href="./customer-flow.html">客户交付与使用说明</a></td>
       </tr>
       <tr>
         <td>企业交付</td>
@@ -298,7 +298,7 @@ lastUpdated: false
     </a>
     <a class="brand-link-card" href="./deliverables.html">
       <span>Deliverables</span>
-      <strong>交付物 / 文档入口</strong>
+      <strong>客户交付说明与文档入口</strong>
       <p>判断 1.0 是否真的可交付时，需要看客户最终会拿到哪些入口、说明和结果物，而不是只看功能名。</p>
     </a>
     <a class="brand-link-card" href="./onboarding-checklist.html">
@@ -355,7 +355,7 @@ lastUpdated: false
     <div class="brand-card__row">
       <div>
         <p class="brand-kicker">Next Read</p>
-        <h2>理解版本路线后，重点应转向真实交付链路</h2>
+        <h2>理解版本阶段与升级路径后，重点应转向真实交付链路</h2>
         <p class="brand-lead">更有效的做法通常是先把当前 1.0 和 1.1 的真实交付链路对齐，再决定要不要继续把它做成更标准的升级路径。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
@@ -369,7 +369,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="./deliverables.html">
           <span>Deliverables</span>
-          <strong>交付物 / 文档入口</strong>
+          <strong>客户交付说明与文档入口</strong>
         </a>
         <a class="brand-link-card" href="./onboarding-checklist.html">
           <span>Checklist</span>

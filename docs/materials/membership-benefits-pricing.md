@@ -32,7 +32,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../product/personal-billing-membership.html">先看支付与会员说明</a>
-        <a class="cta-button" href="../product/editions.html">查看版本路线</a>
+        <a class="cta-button" href="../product/editions.html">查看版本阶段与升级路径</a>
         <a class="cta-button" href="../contact.html#lead-form">沟通场景 / 分流</a>
       </div>
     </div>
@@ -227,7 +227,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../product/editions.html">
           <span>Roadmap</span>
-          <strong>版本路线</strong>
+          <strong>版本阶段与升级路径</strong>
         </a>
         <a class="brand-link-card" href="./service-packages.html">
           <span>Cooperation</span>

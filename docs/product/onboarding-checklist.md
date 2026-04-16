@@ -27,7 +27,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">带着清单来沟通</a>
-        <a class="cta-button" href="./customer-flow.html">查看客户流程 / 交付</a>
+        <a class="cta-button" href="./customer-flow.html">查看客户交付与使用说明</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -206,7 +206,7 @@ lastUpdated: false
         </tr>
         <tr>
           <td>已经准备接客户或真实项目</td>
-          <td><a href="./customer-flow.html">客户流程 / 交付</a></td>
+          <td><a href="./customer-flow.html">客户交付与使用说明</a></td>
           <td>先理解正式交付和热更新流程</td>
           <td>适合售前、实施和客户沟通一起看。</td>
         </tr>
@@ -236,7 +236,7 @@ lastUpdated: false
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./customer-flow.html">
           <span>Flow</span>
-          <strong>客户流程 / 交付</strong>
+          <strong>客户交付与使用说明</strong>
         </a>
         <a class="brand-link-card" href="./file-results.html">
           <span>Files</span>
@@ -244,7 +244,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="./deliverables.html">
           <span>Deliverables</span>
-          <strong>交付物 / 文档入口</strong>
+          <strong>客户交付说明与文档入口</strong>
         </a>
         <a class="brand-link-card" href="./cli.html">
           <span>CLI</span>

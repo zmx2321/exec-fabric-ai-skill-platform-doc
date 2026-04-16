@@ -28,7 +28,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../guide/getting-started.html">先看快速开始</a>
-        <a class="cta-button" href="./editions.html">查看版本路线</a>
+        <a class="cta-button" href="./editions.html">查看版本阶段与升级路径</a>
         <a class="cta-button" href="../contact.html#lead-form">沟通分流 / 升级</a>
       </div>
     </div>
@@ -213,7 +213,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="./editions.html">
           <span>Roadmap</span>
-          <strong>版本路线</strong>
+          <strong>版本阶段与升级路径</strong>
         </a>
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>

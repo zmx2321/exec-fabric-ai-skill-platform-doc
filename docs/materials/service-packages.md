@@ -36,8 +36,8 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通具体场景</a>
-        <a class="cta-button" href="../product/editions.html">查看版本路线</a>
-        <a class="cta-button" href="../product/implementation-training.html">查看培训与实施安排</a>
+        <a class="cta-button" href="../product/editions.html">查看版本阶段与升级路径</a>
+        <a class="cta-button" href="../product/implementation-training.html">查看培训与实施服务说明</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -306,7 +306,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../product/customer-flow.html">
           <span>Delivery</span>
-          <strong>客户流程 / 交付</strong>
+          <strong>客户交付与使用说明</strong>
         </a>
         <a class="brand-link-card" href="../product/implementation-training.html">
           <span>Training</span>
@@ -322,7 +322,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../product/editions.html">
           <span>Roadmap</span>
-          <strong>版本路线</strong>
+          <strong>版本阶段与升级路径</strong>
         </a>
       </div>
     </div>

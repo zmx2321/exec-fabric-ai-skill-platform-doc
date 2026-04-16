@@ -114,7 +114,7 @@ lastUpdated: false
           <td>客户交付文档</td>
           <td>说明客户怎么使用、平台怎么交付、脚本怎么热更新</td>
           <td>交付负责人、项目负责人</td>
-          <td><a href="../product/customer-flow.html">客户流程 / 交付</a></td>
+          <td><a href="../product/customer-flow.html">客户交付与使用说明</a></td>
         </tr>
         <tr>
           <td>联系入口</td>
@@ -136,7 +136,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>小团队负责人</h3>
-        <p>先看产品概览、支付与会员和客户流程 / 交付，再决定是先走标准团队版还是继续上探到企业交付。</p>
+        <p>先看产品概览、支付与会员和客户交付与使用说明，再决定是先走标准团队版还是继续上探到企业交付。</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>售前 / 方案人员</h3>
@@ -144,7 +144,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>企业客户</h3>
-        <p>先看客户流程 / 交付和部署方式，再确认租户隔离、热更新和后续合作边界。</p>
+        <p>先看客户交付与使用说明和部署方式，再确认租户隔离、热更新和后续合作边界。</p>
       </article>
     </div>
   </section>
@@ -165,7 +165,7 @@ lastUpdated: false
       </a>
       <a class="brand-link-card" href="../product/customer-flow.html">
         <span>Step 03</span>
-        <strong>客户流程 / 交付</strong>
+        <strong>客户交付与使用说明</strong>
         <p>客户怎么使用、平台怎么交付、脚本怎么热更新，可从这里集中查看。</p>
       </a>
       <a class="brand-link-card" href="../product/onboarding-checklist.html">
@@ -202,7 +202,7 @@ lastUpdated: false
     <div class="brand-link-grid brand-link-grid--three">
       <a class="brand-link-card" href="../product/deliverables.html">
         <span>Deliverables</span>
-        <strong>交付物 / 文档入口</strong>
+        <strong>客户交付说明与文档入口</strong>
         <p>先明确客户最终会拿到什么入口、什么说明、什么结果物，方便后续交付和使用。</p>
       </a>
       <a class="brand-link-card" href="../product/onboarding-checklist.html">
@@ -232,7 +232,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../product/customer-flow.html">
           <span>Delivery</span>
-          <strong>客户流程 / 交付</strong>
+          <strong>客户交付与使用说明</strong>
         </a>
         <a class="brand-link-card" href="../product/onboarding-checklist.html">
           <span>Checklist</span>

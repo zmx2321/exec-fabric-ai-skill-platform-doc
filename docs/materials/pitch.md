@@ -174,7 +174,7 @@ lastUpdated: false
           <td>09</td>
           <td>当前阶段与下一步</td>
           <td>先把 1.0 交付做稳，再决定哪些部分值得进入 2.0 标准化扩展</td>
-          <td>版本路线图</td>
+          <td>版本阶段与升级路径</td>
         </tr>
         <tr>
           <td>10</td>
@@ -218,7 +218,7 @@ lastUpdated: false
         <li>先判断对方属于免费线、本地脚本位、团队版还是企业交付</li>
         <li>再讲问题和平台定义</li>
         <li>再展示对应体验路径或团队升级路径</li>
-        <li>再讲客户流程 / 交付和隔离边界</li>
+        <li>再讲客户交付与使用说明和隔离边界</li>
         <li>最后按需要补 CLI 或部署方式</li>
       </ol>
     </article>
@@ -238,11 +238,11 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../product/customer-flow.html">
           <span>Delivery</span>
-          <strong>客户流程 / 交付</strong>
+          <strong>客户交付与使用说明</strong>
         </a>
         <a class="brand-link-card" href="../product/editions.html">
           <span>Roadmap</span>
-          <strong>版本路线</strong>
+          <strong>版本阶段与升级路径</strong>
         </a>
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>

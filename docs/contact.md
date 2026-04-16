@@ -260,7 +260,7 @@ lastUpdated: false
         可以先看
         <a href="./product/implementation-training.html">培训与实施服务说明</a>
         和
-        <a href="./product/deliverables.html">交付物 / 文档入口</a>。
+        <a href="./product/deliverables.html">客户交付说明与文档入口</a>。
       </p>
     </article>
   </section>
@@ -368,7 +368,7 @@ lastUpdated: false
       <div>
         <p class="brand-kicker">Next Read</p>
         <h2>继续了解平台与交付资料</h2>
-        <p class="brand-lead">可先查看产品概览、CLI 指引、核心能力和版本路线，再结合具体问题进入沟通。</p>
+        <p class="brand-lead">可先查看产品概览、CLI 指引、核心能力和版本阶段与升级路径，再结合具体问题进入沟通。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./product/">
@@ -381,7 +381,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="./product/customer-flow.html">
           <span>Delivery</span>
-          <strong>客户流程 / 交付</strong>
+          <strong>客户交付与使用说明</strong>
         </a>
         <a class="brand-link-card" href="./product/capabilities.html">
           <span>Capabilities</span>
@@ -393,7 +393,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="./product/editions.html">
           <span>Roadmap</span>
-          <strong>版本路线</strong>
+          <strong>版本阶段与升级路径</strong>
         </a>
       </div>
     </div>

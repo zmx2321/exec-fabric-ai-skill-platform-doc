@@ -270,7 +270,7 @@ lastUpdated: false
       <a class="brand-link-card" href="./customer-flow.html">
         <span>Delivery</span>
         <strong>能力要能转成真实交付与更新流程</strong>
-        <p>客户流程 / 交付页会继续展开客户怎么使用这些能力、平台怎么交付，以及热更新如何进入正式链路。</p>
+        <p>客户交付与使用说明页会继续展开客户怎么使用这些能力、平台怎么交付，以及热更新如何进入正式链路。</p>
       </a>
       <a class="brand-link-card" href="./file-results.html">
         <span>Files</span>
@@ -280,7 +280,7 @@ lastUpdated: false
       <a class="brand-link-card" href="./deliverables.html">
         <span>Deliverables</span>
         <strong>客户最终拿到什么，决定能力是否真正可交付</strong>
-        <p>交付物 / 文档入口页会继续展开除了执行能力之外，还包括哪些说明文档、结果入口和客户长期使用入口。</p>
+        <p>客户交付说明与文档入口页会继续展开除了执行能力之外，还包括哪些说明文档、结果入口和客户长期使用入口。</p>
       </a>
       <a class="brand-link-card" href="./cli.html">
         <span>CLI</span>

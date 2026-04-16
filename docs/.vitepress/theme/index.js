@@ -36,8 +36,8 @@ const syncCurrentMenuState = () => {
 
   const currentPath = normalizePath(window.location.pathname)
 
-  document.querySelectorAll("[data-smartflow-current='true']").forEach((node) => {
-    node.removeAttribute("data-smartflow-current")
+  document.querySelectorAll("[data-execfabric-current='true']").forEach((node) => {
+    node.removeAttribute("data-execfabric-current")
   })
 
   document.querySelectorAll(".VPSidebar .link, .VPMenuLink .link").forEach((node) => {
@@ -56,7 +56,7 @@ const syncCurrentMenuState = () => {
     }
 
     if (normalizePath(url.pathname) === currentPath) {
-      node.setAttribute("data-smartflow-current", "true")
+      node.setAttribute("data-execfabric-current", "true")
     }
   })
 }
@@ -111,10 +111,10 @@ const syncNavbarTopState = () => {
   const isTop = window.scrollY < getNavbarTriggerOffset()
   const value = isTop ? "true" : "false"
 
-  document.documentElement.setAttribute("data-smartflow-nav-top", value)
+  document.documentElement.setAttribute("data-execfabric-nav-top", value)
 
   document.querySelectorAll(".VPNavBar").forEach((node) => {
-    node.setAttribute("data-smartflow-nav-top", value)
+    node.setAttribute("data-execfabric-nav-top", value)
   })
 }
 
@@ -125,10 +125,10 @@ const syncSidebarLayoutState = () => {
 
   const value = document.querySelector(".VPSidebar") ? "true" : "false"
 
-  document.documentElement.setAttribute("data-smartflow-has-sidebar", value)
+  document.documentElement.setAttribute("data-execfabric-has-sidebar", value)
 
   document.querySelectorAll(".VPNavBar").forEach((node) => {
-    node.setAttribute("data-smartflow-has-sidebar", value)
+    node.setAttribute("data-execfabric-has-sidebar", value)
   })
 }
 

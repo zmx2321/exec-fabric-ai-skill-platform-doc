@@ -107,7 +107,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>02. 交付方式</h3>
-        <p><a href="../product/customer-flow.html">客户流程 / 交付</a></p>
+        <p><a href="../product/customer-flow.html">客户交付与使用说明</a></p>
         <p>继续看客户接入、交付过程和正式落地路径。</p>
       </article>
       <article class="brand-card brand-card--nested">

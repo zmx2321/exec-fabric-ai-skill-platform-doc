@@ -27,7 +27,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="./pitch.html">看介绍提纲</a>
-        <a class="cta-button" href="../product/customer-flow.html">看客户流程 / 交付</a>
+        <a class="cta-button" href="../product/customer-flow.html">看客户交付与使用说明</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -161,7 +161,7 @@ lastUpdated: false
           <td>业务负责人</td>
           <td>能不能真正把现有流程接入平台</td>
           <td>强调统一入口、AI 推荐、结果回显和热更新，并说明什么时候该停留在标准团队版，什么时候该转企业交付</td>
-          <td><a href="../product/customer-flow.html">客户流程 / 交付</a></td>
+          <td><a href="../product/customer-flow.html">客户交付与使用说明</a></td>
         </tr>
         <tr>
           <td>技术负责人</td>
@@ -173,7 +173,7 @@ lastUpdated: false
           <td>交付负责人</td>
           <td>上线后怎么继续更新和验收</td>
           <td>强调客户流程、交付清单、热更新、共享 SaaS 升级节奏与企业项目验收重点</td>
-          <td><a href="../product/customer-flow.html">客户流程 / 交付</a></td>
+          <td><a href="../product/customer-flow.html">客户交付与使用说明</a></td>
         </tr>
       </tbody>
     </table>
@@ -202,7 +202,7 @@ lastUpdated: false
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="../product/customer-flow.html">
           <span>Delivery</span>
-          <strong>客户流程 / 交付</strong>
+          <strong>客户交付与使用说明</strong>
         </a>
         <a class="brand-link-card" href="../product/deployment.html">
           <span>Deployment</span>
@@ -210,7 +210,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../product/editions.html">
           <span>Roadmap</span>
-          <strong>版本路线</strong>
+          <strong>版本阶段与升级路径</strong>
         </a>
         <a class="brand-link-card" href="../contact.html#lead-form">
           <span>Lead</span>

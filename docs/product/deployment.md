@@ -7,8 +7,8 @@ lastUpdated: false
 <div class="brand-page-shell">
   <section class="brand-hero">
     <div>
-      <p class="brand-kicker">Deployment</p>
-      <h1>部署方式</h1>
+      <p class="brand-kicker">Deployment &amp; Delivery Boundary</p>
+      <h1>部署方式与交付边界</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Deployment Thesis</span>
         <strong>控制面可以统一，执行位置不必统一。</strong>
@@ -35,7 +35,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通部署方案</a>
-        <a class="cta-button" href="./editions.html">查看版本路线</a>
+        <a class="cta-button" href="./editions.html">查看版本阶段与升级路径</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -253,7 +253,7 @@ lastUpdated: false
         <td>06. 本地扩展期</td>
         <td>任务开始依赖本地环境、内网资源或私有数据</td>
         <td>在单租户交付或平台治理之上叠加本地混合执行，由 CLI / Agent 承接桥接</td>
-        <td>如果还要进一步走标准化梯度，就看 <a href="./editions.html">版本路线</a></td>
+        <td>如果还要进一步走标准化梯度，就看 <a href="./editions.html">版本阶段与升级路径</a></td>
       </tr>
     </tbody>
   </table>
@@ -296,7 +296,7 @@ lastUpdated: false
     </a>
     <a class="brand-link-card" href="./deliverables.html">
       <span>Deliverables</span>
-      <strong>交付物 / 文档入口</strong>
+      <strong>客户交付说明与文档入口</strong>
       <p>正式交付评估通常会先明确客户最终拿到什么网址、什么账号、什么说明和什么结果入口。</p>
     </a>
     <a class="brand-link-card" href="./onboarding-checklist.html">
@@ -360,7 +360,7 @@ lastUpdated: false
       <a class="brand-link-card" href="./customer-flow.html">
         <span>Delivery Ops</span>
         <strong>客户上线与后续更新</strong>
-        <p>直接看客户流程 / 交付页，把标准交付包、使用路径、热更新和验收重点一次看清。</p>
+        <p>直接看客户交付与使用说明页，把标准交付包、使用路径、热更新和验收重点一次看清。</p>
       </a>
       <a class="brand-link-card" href="./file-results.html">
         <span>File Flow</span>
@@ -370,7 +370,7 @@ lastUpdated: false
       <a class="brand-link-card" href="./deliverables.html">
         <span>Delivery Kit</span>
         <strong>正式交付包与说明入口</strong>
-        <p>继续看交付物 / 文档入口页，把客户长期使用时真正能拿到的说明和入口一次说清。</p>
+        <p>继续看客户交付说明与文档入口页，把客户长期使用时真正能拿到的说明和入口一次说清。</p>
       </a>
       <a class="brand-link-card" href="../contact.html#lead-form">
         <span>Growth Entry</span>

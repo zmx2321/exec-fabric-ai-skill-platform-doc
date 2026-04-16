@@ -107,13 +107,13 @@ lastUpdated: false
         <tr>
           <td>准备进入多人协作</td>
           <td>先走团队版正式租户入口</td>
-          <td>支付与会员、客户流程 / 交付</td>
+          <td>支付与会员、客户交付与使用说明</td>
           <td>不要默认自己一定要直接私有化</td>
         </tr>
         <tr>
           <td>涉及内网、更强隔离或正式项目验收</td>
           <td>直接进入企业交付沟通</td>
-          <td>部署方式、客户流程 / 交付、联系页</td>
+          <td>部署方式、客户交付与使用说明、联系页</td>
           <td>不要继续沿用个人入口或标准会员页口径</td>
         </tr>
       </tbody>
@@ -204,7 +204,7 @@ lastUpdated: false
       <p class="brand-kicker">Delivery</p>
       <h2>团队 / 客户交付路径</h2>
       <ol class="brand-list">
-        <li>先看客户流程 / 交付，理解实际使用和热更新路径</li>
+        <li>先看客户交付与使用说明，理解实际使用和热更新路径</li>
         <li>再看部署方式，判断是否要共享 SaaS、单租户、平台治理或混合执行</li>
         <li>确认适合你的版本与交付方式</li>
         <li>最后通过联系页判断是标准团队版继续推进，还是直接进入企业交付沟通</li>
@@ -255,7 +255,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="../product/customer-flow.html">
           <span>Delivery</span>
-          <strong>客户流程 / 交付</strong>
+          <strong>客户交付与使用说明</strong>
         </a>
         <a class="brand-link-card" href="../product/cli.html">
           <span>CLI</span>

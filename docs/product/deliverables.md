@@ -7,8 +7,8 @@ lastUpdated: false
 <div class="brand-page-shell brand-page-shell--deliverables">
   <section class="brand-hero">
     <div>
-      <p class="brand-kicker">Delivery Assets &amp; Entry Points</p>
-      <h1>交付物 / 文档入口</h1>
+      <p class="brand-kicker">Customer Delivery Docs &amp; Entry Points</p>
+      <h1>客户交付说明与文档入口</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Delivery Package</span>
         <strong>交付不是只给一个账号，而是要把客户后续怎么用、怎么看结果、怎么继续更新，一起交待清楚。</strong>
@@ -28,8 +28,8 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通正式交付</a>
-        <a class="cta-button" href="./customer-flow.html">查看客户流程 / 交付</a>
-        <a class="cta-button" href="./implementation-training.html">查看培训与实施安排</a>
+        <a class="cta-button" href="./customer-flow.html">查看客户交付与使用说明</a>
+        <a class="cta-button" href="./implementation-training.html">查看培训与实施服务说明</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -239,7 +239,7 @@ lastUpdated: false
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./customer-flow.html">
           <span>Flow</span>
-          <strong>客户流程 / 交付</strong>
+          <strong>客户交付与使用说明</strong>
         </a>
         <a class="brand-link-card" href="./file-results.html">
           <span>Files</span>

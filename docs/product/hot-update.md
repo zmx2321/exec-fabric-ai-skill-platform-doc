@@ -25,7 +25,7 @@ lastUpdated: false
         <span class="brand-chip">持续交付</span>
       </div>
       <div class="brand-actions">
-        <a class="cta-button cta-button--brand" href="./customer-flow.html">回到客户流程 / 交付</a>
+        <a class="cta-button cta-button--brand" href="./customer-flow.html">回到客户交付与使用说明</a>
         <a class="cta-button" href="./onboarding-checklist.html">查看接入准备清单</a>
       </div>
     </div>
@@ -224,7 +224,7 @@ lastUpdated: false
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./customer-flow.html">
           <span>Delivery</span>
-          <strong>客户流程 / 交付</strong>
+          <strong>客户交付与使用说明</strong>
         </a>
         <a class="brand-link-card" href="./file-results.html">
           <span>Files</span>

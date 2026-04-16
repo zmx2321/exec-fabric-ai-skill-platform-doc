@@ -28,7 +28,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通文件处理场景</a>
-        <a class="cta-button" href="./customer-flow.html">查看客户流程 / 交付</a>
+        <a class="cta-button" href="./customer-flow.html">查看客户交付与使用说明</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -286,11 +286,11 @@ lastUpdated: false
       <div class="brand-link-grid brand-link-grid--compact">
         <a class="brand-link-card" href="./customer-flow.html">
           <span>Delivery</span>
-          <strong>客户流程 / 交付</strong>
+          <strong>客户交付与使用说明</strong>
         </a>
         <a class="brand-link-card" href="./deliverables.html">
           <span>Deliverables</span>
-          <strong>交付物 / 文档入口</strong>
+          <strong>客户交付说明与文档入口</strong>
         </a>
         <a class="brand-link-card" href="./onboarding-checklist.html">
           <span>Checklist</span>

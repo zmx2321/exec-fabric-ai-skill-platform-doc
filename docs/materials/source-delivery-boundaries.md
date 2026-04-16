@@ -27,8 +27,8 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="./service-packages.html">看服务包与启动方式</a>
-        <a class="cta-button" href="../product/deliverables.html">看交付物页</a>
-        <a class="cta-button" href="../product/customer-flow.html">看客户流程 / 交付</a>
+        <a class="cta-button" href="../product/deliverables.html">看客户交付说明与文档入口</a>
+        <a class="cta-button" href="../product/customer-flow.html">看客户交付与使用说明</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">

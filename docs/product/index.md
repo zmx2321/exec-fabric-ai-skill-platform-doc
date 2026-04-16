@@ -198,7 +198,7 @@ lastUpdated: false
           <td>标准团队版</td>
           <td>开始进入多人协作的团队</td>
           <td>当前由共享 SaaS 正式租户入口承接，不再默认复制一套新前端工程</td>
-          <td><a href="./customer-flow.html">客户流程 / 交付</a></td>
+          <td><a href="./customer-flow.html">客户交付与使用说明</a></td>
         </tr>
         <tr>
           <td>企业交付</td>
@@ -367,7 +367,7 @@ lastUpdated: false
       </a>
       <a class="brand-link-card" href="./customer-flow.html">
         <span>Step 03</span>
-        <strong>客户流程 / 交付</strong>
+        <strong>客户交付与使用说明</strong>
         <p>直接看客户怎么用、平台怎么交付，以及脚本热更新当前如何闭环。</p>
       </a>
       <a class="brand-link-card" href="./personal-billing-membership.html">
@@ -409,7 +409,7 @@ lastUpdated: false
       </a>
       <a class="brand-link-card" href="./deliverables.html">
         <span>Deliverables</span>
-        <strong>交付物 / 文档入口</strong>
+        <strong>客户交付说明与文档入口</strong>
         <p>适合正式交付沟通，明确客户到底会拿到哪些入口、说明和结果物。</p>
       </a>
       <a class="brand-link-card" href="./onboarding-checklist.html">
@@ -460,7 +460,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="./customer-flow.html">
           <span>Delivery</span>
-          <strong>客户流程 / 交付</strong>
+          <strong>客户交付与使用说明</strong>
         </a>
         <a class="brand-link-card" href="./personal-billing-membership.html">
           <span>Billing</span>

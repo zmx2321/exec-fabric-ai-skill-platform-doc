@@ -455,7 +455,7 @@ features:
       </a>
       <a class="link-panel" href="./product/deliverables.html">
         <span class="link-panel-label">Deliverables</span>
-        <strong>交付物 / 文档入口</strong>
+        <strong>客户交付说明与文档入口</strong>
         <p>适合正式交付沟通，明确客户会拿到什么网址、什么账号、什么说明和什么结果入口。</p>
       </a>
       <a class="link-panel" href="./product/onboarding-checklist.html">
@@ -465,7 +465,7 @@ features:
       </a>
     </div>
     <div class="landing-inline-links">
-      <a href="./product/customer-flow.html">客户流程 / 交付</a>
+      <a href="./product/customer-flow.html">客户交付与使用说明</a>
       <a href="./product/file-results.html">文件上传 / 结果下载</a>
       <a href="./product/onboarding-checklist.html">客户接入准备清单</a>
     </div>
@@ -520,7 +520,7 @@ features:
       </article>
     </div>
     <div class="landing-inline-links">
-      <a href="./product/deployment.html">查看部署方式</a>
+      <a href="./product/deployment.html">查看部署方式与交付边界</a>
       <a href="./product/scenarios.html">查看应用场景</a>
       <a href="./product/cli.html">查看 CLI 指引</a>
     </div>
@@ -585,7 +585,7 @@ features:
     </a>
     <a class="link-panel" href="./product/customer-flow.html">
       <span class="link-panel-label">Delivery</span>
-      <strong>客户流程 / 交付</strong>
+      <strong>客户交付与使用说明</strong>
       <p>单独看客户怎么使用平台、平台怎么交付，以及脚本热更新如何形成正式闭环。</p>
     </a>
     <a class="link-panel" href="./product/personal-billing-membership.html">
@@ -600,7 +600,7 @@ features:
     </a>
     <a class="link-panel" href="./product/deliverables.html">
       <span class="link-panel-label">Deliverables</span>
-      <strong>交付物 / 文档入口</strong>
+      <strong>客户交付说明与文档入口</strong>
       <p>把客户最终拿到的入口、说明和结果物单独讲清楚，方便交付和后续使用。</p>
     </a>
     <a class="link-panel" href="./product/onboarding-checklist.html">

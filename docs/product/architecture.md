@@ -30,7 +30,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通架构与接入</a>
-        <a class="cta-button" href="./deployment.html">查看部署方式</a>
+        <a class="cta-button" href="./deployment.html">查看部署方式与交付边界</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -131,7 +131,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3><code>docs</code></h3>
-        <p>公开说明文档、版本路线和入口页，方便自己和客户都能快速对齐。</p>
+        <p>公开说明文档、版本阶段与升级路径和入口页，方便自己和客户都能快速对齐。</p>
       </article>
     </div>
   </section>
@@ -259,7 +259,7 @@ lastUpdated: false
       </a>
       <a class="brand-link-card" href="./deliverables.html">
         <span>Deliverables</span>
-        <strong>交付物 / 文档入口</strong>
+        <strong>客户交付说明与文档入口</strong>
         <p>客户需要长期使用平台时，正式架构必须承接说明文档、结果入口和交付边界，而不是只画系统图。</p>
       </a>
       <a class="brand-link-card" href="./onboarding-checklist.html">
@@ -348,7 +348,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="./deliverables.html">
           <span>Deliverables</span>
-          <strong>交付物 / 文档入口</strong>
+          <strong>客户交付说明与文档入口</strong>
         </a>
         <a class="brand-link-card" href="./onboarding-checklist.html">
           <span>Checklist</span>

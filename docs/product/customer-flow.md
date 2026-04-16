@@ -7,8 +7,8 @@ lastUpdated: false
 <div class="brand-page-shell">
   <section class="brand-hero">
     <div>
-      <p class="brand-kicker">Customer Flow &amp; Delivery</p>
-      <h1>客户使用流程 / 交付</h1>
+      <p class="brand-kicker">Customer Delivery &amp; Usage</p>
+      <h1>客户交付与使用说明</h1>
       <div class="brand-hero__panel">
         <span class="brand-pill">Practical View</span>
         <strong>交付不是把页面上线就结束，而是让客户后续还能继续安全地新增、更新和使用能力。</strong>
@@ -28,7 +28,7 @@ lastUpdated: false
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="../contact.html#lead-form">沟通团队版 / 企业交付</a>
         <a class="cta-button" href="./hot-update.html">查看热更新说明</a>
-        <a class="cta-button" href="./implementation-training.html">查看培训与实施安排</a>
+        <a class="cta-button" href="./implementation-training.html">查看培训与实施服务说明</a>
       </div>
     </div>
     <div class="brand-hero__media brand-hero__media--compact">
@@ -270,7 +270,7 @@ lastUpdated: false
       </tr>
       <tr>
         <td>希望直接买标准团队产品</td>
-        <td>优先看璇络标准 SaaS 共享租户路径，再结合 <a href="./editions.html">版本路线</a> 判断是否够用</td>
+        <td>优先看璇络标准 SaaS 共享租户路径，再结合 <a href="./editions.html">版本阶段与升级路径</a> 判断是否够用</td>
         <td>当前已有共享租户骨架，仍在继续收口</td>
         <td>如果只是标准能力和较轻协作，可先走共享 SaaS；如果要专属页面、专属品牌或更重隔离，再转单租户或私有化。</td>
       </tr>
@@ -411,7 +411,7 @@ lastUpdated: false
       </a>
       <a class="brand-link-card" href="./deliverables.html">
         <span>Deliverables</span>
-        <strong>交付物 / 文档入口</strong>
+        <strong>客户交付说明与文档入口</strong>
         <p>适合明确客户到底会拿到什么网址、什么账号、什么说明和什么结果入口。</p>
       </a>
       <a class="brand-link-card" href="./onboarding-checklist.html">
@@ -490,7 +490,7 @@ lastUpdated: false
         </a>
         <a class="brand-link-card" href="./deliverables.html">
           <span>Deliverables</span>
-          <strong>交付物 / 文档入口</strong>
+          <strong>客户交付说明与文档入口</strong>
         </a>
         <a class="brand-link-card" href="./deployment.html">
           <span>Deployment</span>
