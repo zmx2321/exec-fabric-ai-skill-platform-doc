@@ -89,9 +89,9 @@ lastUpdated: false
       <li>The platform already supports Skill action definition and a single-capability execution loop</li>
       <li>Tenant-level enable / disable and binding already exist</li>
       <li>A general resource layer and executor registry layer are now in place so that APIs, templates, and workflows can be onboarded later without restarting from zero</li>
-      <li>The first non-script sample is HTTP capability access inside the <code>public</code> super-admin domain, used to validate the resource model, executor path, and audit chain</li>
+      <li>The first non-script sample is HTTP capability access inside the platform governance console, used to validate the resource model, executor path, and audit chain</li>
       <li>Tenant-side users already have a read-only HTTP-resource ledger showing request summaries, authentication style, and write boundaries for resources they are authorized to view, but self-service configuration and dry runs are not opened to tenants</li>
-      <li>HTTP resources are still advanced only under a fixed-interface, explicit-authentication, write-whitelist model, and configuration authority plus credential governance remain in the <code>public</code> governance domain</li>
+      <li>HTTP resources are still advanced only under a fixed-interface, explicit-authentication, write-whitelist model, and configuration authority plus credential governance remain in the platform governance domain</li>
       <li>The platform may later support orchestration where one Skill chains multiple scripts or multiple capability nodes together inside rules, but that is a post-<code>2.0</code> productization direction rather than a finished <code>1.0 / 1.1</code> capability</li>
     </ul>
     <p>For current use, think in terms of trusted single-Skill execution first. More complex multi-capability orchestration is not yet a completed <code>1.0 / 1.1</code> feature. Before formal orchestration becomes a public product line, the platform still needs stronger runtime contracts, node-level confirmation, formal fallback / downgrade behavior, and recoverable partial-success governance.</p>

@@ -132,26 +132,26 @@ features:
           <strong>Bat(Cmd)</strong> is enabled only when the current cloud runtime is Windows.
           The public experience page deliberately shows
           <strong>Python <code>task_brief_demo.py</code> on the left and Shell <code>clean_log_demo.sh</code> on the right</strong>.
-          The real experience scripts come from <code>exec-fabric-ai-skill-platform-script/tenant_1000/experience/</code> and are hot-swapped through the manifest mapping.
+          The real experience scripts come from the <code>formal free-experience asset directory</code> and are hot-swapped through the manifest mapping.
         </p>
         <p class="landing-lead">
           The platform has already completed its first compatibility upgrade:
           a general resource layer and an executor registry layer are in place, and the first non-script sample,
-          <strong>HTTP capability access</strong>, has already landed in the <strong>public</strong> super-admin domain to verify the new path of
+          <strong>HTTP capability access</strong>, has already landed in the <strong>platform governance console</strong> to verify the new path of
           <strong>resource model + executor + audit chain</strong>.
           The tenant side currently exposes only a <strong>read-only ledger</strong> so users can see summaries of HTTP resources, authentication style, and write boundaries that have already been granted to them.
-          That does not mean tenants can already self-serve generic API onboarding. For now, configuration, credential governance, and dry-run verification still stay inside the <strong>public</strong> governance domain.
+          That does not mean tenants can already self-serve generic API onboarding. For now, configuration, credential governance, and dry-run verification still stay inside the <strong>platform governance domain</strong>.
           The more urgent commercial priority remains stabilizing the <strong>1.1</strong> low-support loop for registration, payment, renewal, and expiry recovery.
         </p>
         <p class="landing-lead">
-          That <strong>1.1</strong> line has already landed first on the <strong>public</strong> side:
+          That <strong>1.1</strong> line has already landed first in the <strong>platform governance console</strong>:
           order creation, payment confirmation, activation and renewal, renewal-reminder scans, and expiry shutdown scans all feed customer and tenant status updates back into the system.
           That still does not mean end users already have a complete self-service payment experience.
           Real third-party payment gateways, a user-facing billing center, and outbound reminder channels are still being added.
         </p>
         <p class="landing-lead">
           At the same time, the standard shared-SaaS tenant frontend has already been established.
-          From <strong>tenant_1003+</strong> onward, standard SaaS customers no longer default to cloning a dedicated frontend project per customer.
+          Once customers enter the <strong>standard shared-SaaS tenant range</strong>, they no longer default to cloning a dedicated frontend project per customer.
           They first enter the shared tenant frontend instead.
           It can already carry formal tenant entry, while branding, initialization, and finer menu boundaries are still being tightened.
         </p>
@@ -573,7 +573,7 @@ features:
       </article>
       <article class="mode-card">
         <h3>Standard shared-SaaS tenant</h3>
-        <p>From <code>tenant_1003+</code> onward, standard SaaS customers enter the shared tenant frontend first. What is shared is the release cadence, not tenant data, permissions, or results.</p>
+        <p>Once customers enter the standard shared-SaaS tenant range, they enter the shared tenant frontend first. What is shared is the release cadence, not tenant data, permissions, or results.</p>
       </article>
       <article class="mode-card">
         <h3>Platform-level governance</h3>

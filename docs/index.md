@@ -133,22 +133,22 @@ features:
           当前 Web 上传注册入口已经统一支持 <strong>Python / Shell / Bat(Cmd) / Node.js</strong> 文本脚本，并接受 <code>.py / .sh / .bash / .bat / .cmd / .js</code>；
           页面会按当前云端环境自动判断是否开放 <strong>Bat(Cmd)</strong>，非 Windows 云端会直接置灰；其中 <strong>Bat(Cmd) 在线执行依赖 Windows 运行时</strong>；公开体验页固定展示
           <strong>左侧 Python `task_brief_demo.py` + 右侧 Shell `clean_log_demo.sh`</strong>，
-          真实体验脚本来自 <code>exec-fabric-ai-skill-platform-script/tenant_1000/experience/</code>，
+          真实体验脚本来自 <code>正式免费线体验脚本目录</code>，
           由 manifest 做热插拔映射。
         </p>
         <p class="landing-lead">
           当前已经完成第一轮兼容式升级：平台新增了通用资源层和执行器注册层，第一种非脚本能力样板
-          <strong>HTTP 能力接入</strong> 已先在 <strong>public 超管</strong> 侧落地，用来验证“资源模型 + 执行器 + 审计链路”这条新路径。
+          <strong>HTTP 能力接入</strong> 已先在 <strong>平台治理控制台</strong> 落地，用来验证“资源模型 + 执行器 + 审计链路”这条新路径。
           当前租户侧只开放<strong>只读台账</strong>，用于查看自己已获授权的 HTTP 资源摘要、鉴权方式和写边界；
-          配置、凭据治理和试跑仍然只放在 <strong>public 超管治理域</strong>。
+          配置、凭据治理和试跑仍然只放在 <strong>平台治理域</strong>。
           这并不意味着平台已经对租户开放通用 API 自助接入；现阶段更高优先级仍然是把 <strong>1.1 自动注册、支付、续费和停开恢复</strong> 做成低客服闭环。
         </p>
         <p class="landing-lead">
-          这条 <strong>1.1</strong> 路线已经先落到 <strong>public 超管</strong> 侧：订单创建、确认支付、开通 / 续费、续费提醒扫描、到期停开扫描都会回写客户与租户状态。
+          这条 <strong>1.1</strong> 路线已经先落到 <strong>平台治理控制台</strong>：订单创建、确认支付、开通 / 续费、续费提醒扫描、到期停开扫描都会回写客户与租户状态。
           但这并不等于终端用户已经可以完整自助支付。真实第三方支付网关、用户账单中心和外发提醒渠道仍在后续阶段。
         </p>
         <p class="landing-lead">
-          同时，璇络标准 SaaS 共享租户前端骨架也已经建立：从 <strong>tenant_1003+</strong> 开始，标准 SaaS 客户不再默认一客户复制一套前端工程，
+          同时，璇络标准 SaaS 共享租户前端骨架也已经建立：进入<strong>标准 SaaS 共享租户号段</strong>后，标准 SaaS 客户不再默认一客户复制一套前端工程，
           而是优先走共享租户前端。它当前已经能承接正式租户入口，但品牌化、初始化和更细菜单边界仍在继续收口。
         </p>
         <div class="landing-brand__chips">
@@ -558,7 +558,7 @@ features:
       </article>
       <article class="mode-card">
         <h3>璇络标准 SaaS 共享租户</h3>
-        <p>从 <code>tenant_1003+</code> 开始，标准 SaaS 客户优先进入共享租户前端。共享的是正式发版节奏，不共享租户数据、权限和结果。</p>
+        <p>进入标准 SaaS 共享租户号段后，标准 SaaS 客户优先进入共享租户前端。共享的是正式发版节奏，不共享租户数据、权限和结果。</p>
       </article>
       <article class="mode-card">
         <h3>平台总控治理</h3>

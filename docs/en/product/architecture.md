@@ -88,7 +88,7 @@ lastUpdated: false
       the general resource layer and executor registry layer have landed,
       and the first non-script capability sample,
       <code>HTTP capability access</code>,
-      has already been validated in the <code>public</code> super-admin domain.
+      has already been validated in the platform governance console.
       That means the foundation is no longer limited to "run a script file,"
       even though tenant-side delivery is still most mature and most stable on the script path.
     </p>
@@ -221,7 +221,7 @@ lastUpdated: false
       <p class="brand-kicker">Shared Tenant Front</p>
       <h2>Shared-SaaS tenant frontend</h2>
       <ul class="brand-list">
-        <li>Starting from <code>tenant_1003+</code>, standard SaaS customers first enter the shared-tenant frontend skeleton</li>
+        <li>Once customers enter the standard shared-SaaS tenant range, they first enter the shared-tenant frontend skeleton</li>
         <li>What is shared is the frontend project and release rhythm, not tenant data, menu permissions, or execution results</li>
         <li>Runtime still switches into the corresponding schema by Host</li>
         <li>This path fits standard capabilities and lighter team collaboration</li>

@@ -184,7 +184,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>What should the experience page help me judge</h3>
-        <p>It should help you feel the execution chain, understand the platform position, and decide whether you belong on the free path, local script-slot expansion, the standard team edition, or enterprise consultation. The current experience page shows Python <code>task_brief_demo.py</code> on the left and Shell <code>clean_log_demo.sh</code> on the right, sourced from <code>exec-fabric-ai-skill-platform-script/tenant_1000/experience/</code>.</p>
+        <p>It should help you feel the execution chain, understand the platform position, and decide whether you belong on the free path, local script-slot expansion, the standard team edition, or enterprise consultation. The current experience page shows Python <code>task_brief_demo.py</code> on the left and Shell <code>clean_log_demo.sh</code> on the right, sourced from the formal free-experience asset directory.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>Where do I go after signup succeeds</h3>

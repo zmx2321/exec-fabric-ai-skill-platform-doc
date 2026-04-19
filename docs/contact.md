@@ -265,7 +265,7 @@ async function submitLeadForm() {
           <td>准备进入多人协作、正式账号和更稳定周期</td>
           <td>先走团队版月租 / 年租方案入口</td>
           <td>当前标准团队版由共享 SaaS 前端承接，先判断标准路径和开通方式是否够用</td>
-          <td><a href="./product/personal-billing-membership.html">支付与会员说明</a></td>
+          <td><a href="./product/personal-billing-membership.html">支付与会员说明</a> / <a href="./product/team-tenant-payment.html">标准租户支付说明</a></td>
         </tr>
         <tr>
           <td>涉及内网、本地桥接、更强隔离或正式项目验收</td>

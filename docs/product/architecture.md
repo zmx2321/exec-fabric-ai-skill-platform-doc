@@ -24,7 +24,7 @@ lastUpdated: false
       </p>
       <div class="brand-chip-list">
         <span class="brand-chip">统一后端</span>
-        <span class="brand-chip">public 超管</span>
+        <span class="brand-chip">平台治理</span>
         <span class="brand-chip">tenant 前端</span>
         <span class="brand-chip">CLI 接入</span>
       </div>
@@ -78,16 +78,16 @@ lastUpdated: false
     </div>
     <p class="brand-lead">
       当前这层已经往前走了一步：平台新增了通用资源层和执行器注册层，
-      第一种非脚本能力样板 <code>HTTP 能力接入</code> 已先在 <code>public</code> 超管侧验证。
+      第一种非脚本能力样板 <code>HTTP 能力接入</code> 已先在平台治理控制台验证。
       这说明底座已经不是只能“跑脚本文件”，但租户侧当前最成熟、最稳定的交付能力仍然是脚本优先。
     </p>
     <p class="brand-lead">
       这轮还把平台治理边界收得更清楚了：
-      <code>HTTP 能力接入</code> 的配置、凭据治理和试跑仍然只放在 <code>public</code> 超管治理域；
+      <code>HTTP 能力接入</code> 的配置、凭据治理和试跑仍然只放在平台治理域；
       白名单租户 admin 只保留最小跨租户控制台入口，租户侧只做只读查看，不把平台治理入口直接摊给租户。
     </p>
     <p class="brand-lead">
-      从 <code>1.1</code> 看，当前也已经先把订单、支付确认、续费提醒扫描和到期停开扫描收在 <code>public</code> 治理域里，
+      从 <code>1.1</code> 看，当前也已经先把订单、支付确认、续费提醒扫描和到期停开扫描收在平台治理域里，
       避免一开始就把收费与生命周期逻辑散进租户前台。后面再继续补用户自助链路和真实支付网关。
     </p>
     <p class="brand-lead">
@@ -139,7 +139,7 @@ lastUpdated: false
   <section class="brand-grid brand-grid--two">
     <article class="brand-card">
       <p class="brand-kicker">Governance Domain</p>
-      <h2><code>public</code> 负责什么</h2>
+      <h2>平台治理域负责什么</h2>
       <ul class="brand-list">
         <li>平台超管</li>
         <li>客户台账</li>
@@ -195,8 +195,8 @@ lastUpdated: false
         <p>当前运行时会按访问 Host 绑定租户并切换 schema，所以“一个客户一个网址”不是营销说法，而是运行时边界的一部分。</p>
       </article>
       <article class="brand-card brand-card--nested">
-        <h3><code>public</code> 不等于普通租户</h3>
-        <p><code>public</code> 负责平台治理与共享底座，客户不会直接把它当成自己的业务租户来用。</p>
+        <h3>平台治理域不等于普通租户</h3>
+        <p>平台治理域负责平台治理与共享底座，客户不会直接把它当成自己的业务租户来用。</p>
       </article>
     </div>
   </section>
@@ -206,7 +206,7 @@ lastUpdated: false
       <p class="brand-kicker">Shared Tenant Front</p>
       <h2>共享 SaaS 租户前端</h2>
       <ul class="brand-list">
-        <li>从 <code>tenant_1003+</code> 开始，标准 SaaS 客户会优先进入共享租户前端骨架</li>
+        <li>进入标准 SaaS 共享租户号段后，标准 SaaS 客户会优先进入共享租户前端骨架</li>
         <li>共享的是前端工程和发版节奏，不共享租户数据、菜单权限和执行结果</li>
         <li>运行时仍按访问 Host 切到对应 schema</li>
         <li>这条路径适合标准能力和较轻团队协作场景</li>

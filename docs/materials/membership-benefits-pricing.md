@@ -44,7 +44,7 @@ lastUpdated: false
           <ul class="brand-list">
             <li>璇络个人免费版已经有本地脚本位自助增购，固定套餐和价格已明确。</li>
             <li>团队版月租 / 年租已经有方案入口，会把用户引导到标准 SaaS 正式租户登记 / 演示页，当前由共享租户前端承接。</li>
-            <li><code>public</code> 超管订单生命周期已经跑通最小闭环，支付、开通、续费提醒和停开恢复都不是纯样板展示。</li>
+            <li>平台治理控制台的订单生命周期已经跑通最小闭环，支付、开通、续费提醒和停开恢复都不是纯样板展示。</li>
           </ul>
         </article>
         <article class="brand-hero__panel">

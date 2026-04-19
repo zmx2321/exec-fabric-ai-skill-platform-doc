@@ -32,7 +32,7 @@ lastUpdated: false
         As of the current version, <code>1.0</code> has already completed its first compatibility-oriented upgrade:
         the general resource layer and executor registry layer have landed,
         and the first non-script capability sample is
-        <code>HTTP capability access</code> in the <code>public</code> super-admin domain.
+        <code>HTTP capability access</code> in the platform governance console.
         The next priority is still not to spread horizontally into more capability types.
         It is to make <code>1.1</code> auto-registration, payment, renewal, and shutdown-recovery into a lower-support loop first.
       </p>
@@ -50,7 +50,7 @@ lastUpdated: false
       </p>
       <p class="brand-lead">
         The shared-SaaS tenant frontend skeleton is also in place:
-        starting from <code>tenant_1003+</code>, standard SaaS customers no longer default to cloning one frontend project per customer.
+        once customers enter the standard shared-SaaS tenant range, standard SaaS customers no longer default to cloning one frontend project per customer.
         They first go through the shared tenant frontend instead.
         It can already carry the formal tenant entry, but dynamic branding, initialization, and finer customization boundaries are still being tightened.
       </p>

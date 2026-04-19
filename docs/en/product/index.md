@@ -33,10 +33,10 @@ lastUpdated: false
         it now has a general resource layer and an executor registry layer,
         and the first non-script capability sample,
         <code>HTTP capability access</code>,
-        has already landed inside the <code>public</code> super-admin domain.
+        has already landed inside the platform governance console.
         Tenant-side users also already have a read-only ledger where they can see the summary of the HTTP resources they are currently authorized to view, the authentication style, and the write boundary.
         That still does not mean tenant-side self-service onboarding of multiple capability types is fully open, and it definitely does not mean the product has already become a generic API platform.
-        Configuration, credential governance, and dry-run for this type of resource still stay inside the <code>public</code> governance domain.
+        Configuration, credential governance, and dry-run for this type of resource still stay inside the platform governance domain.
       </p>
       <p>
         This round also tightened the security boundary further:
@@ -52,7 +52,7 @@ lastUpdated: false
       </p>
       <p>
         At the same time, the shared-SaaS tenant frontend skeleton has already been built:
-        from <code>tenant_1003+</code> onward, standard SaaS customers no longer default to cloning one new frontend project per customer.
+        once customers enter the standard shared-SaaS tenant range, they no longer default to cloning one new frontend project per customer.
         They first go through the shared tenant frontend instead.
         It can already carry the formal tenant entry, but branding, initialization, and finer menu boundaries are still being tightened.
       </p>
@@ -165,10 +165,10 @@ lastUpdated: false
         <li>Under the surface, ExecFabric is a multi-tenant governance and execution foundation that treats Python scripts as the first mature execution asset.</li>
         <li>Externally, it is currently better to enter from script governance, file handling, and local automation flows that can already land.</li>
         <li>The most mature capability shape today is script-shaped onboarding, execution, audit, and continuous update.</li>
-        <li>The platform already has a general resource layer and executor registry layer. The first non-script sample is HTTP capability access in the <code>public</code> super-admin domain, and tenant-side users already have a read-only ledger.</li>
-        <li>HTTP resources currently move only through "fixed interfaces, explicit authentication, and write whitelists." Configuration authority remains on the <code>public</code> side, and this is not being packaged as a generic API platform.</li>
-        <li>The first segment of the <code>1.1</code> order and lifecycle skeleton already exists on the <code>public</code> side, and the personal free frontend already has a real first-version billing center. That still does not mean the product publicly promises a complete general subscription or auto-renewal capability.</li>
-        <li>From <code>tenant_1003+</code> onward, standard SaaS customers currently go through the shared tenant frontend first. Stronger isolation or deeper customization can still move into single-tenant delivery or private deployment later.</li>
+        <li>The platform already has a general resource layer and executor registry layer. The first non-script sample is HTTP capability access in the platform governance console, and tenant-side users already have a read-only ledger.</li>
+        <li>HTTP resources currently move only through "fixed interfaces, explicit authentication, and write whitelists." Configuration authority remains in the platform governance console, and this is not being packaged as a generic API platform.</li>
+        <li>The first segment of the <code>1.1</code> order and lifecycle skeleton already exists in the platform governance console, and the personal free frontend already has a real first-version billing center. That still does not mean the product publicly promises a complete general subscription or auto-renewal capability.</li>
+        <li>Once customers enter the standard shared-SaaS tenant range, they currently go through the shared tenant frontend first. Stronger isolation or deeper customization can still move into single-tenant delivery or private deployment later.</li>
         <li><code>execfabric-hack</code> is mainly used for local multi-entry aggregation, joint debugging, and sync. It is not the long-term formal runtime entry for customers.</li>
         <li>The platform may later expand into APIs, templates, connectors, approval flows, and other capability types, but only step by step under real demand.</li>
       </ul>
@@ -383,7 +383,7 @@ lastUpdated: false
       <a class="brand-link-card" href="./architecture.html">
         <span>Step 05</span>
         <strong>Architecture</strong>
-        <p>Understand how the backend, super-admin domain, free edition, delivery frontend, and local onboarding fit together.</p>
+        <p>Understand how the backend, governance console, free edition, delivery frontend, and local onboarding fit together.</p>
       </a>
       <a class="brand-link-card" href="./cli.html">
         <span>Step 06</span>

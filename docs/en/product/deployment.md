@@ -167,7 +167,7 @@ lastUpdated: false
   <div class="brand-grid brand-grid--two">
     <article class="brand-card brand-card--nested">
       <h3>How it runs today</h3>
-      <p>From <code>tenant_1003+</code> onward, standard SaaS customers first enter the shared-tenant frontend skeleton. Runtime still binds schemas by Host, so tenant isolation remains real rather than collapsing all customers into one shared backend account.</p>
+      <p>Once customers enter the standard shared-SaaS tenant range, they first enter the shared-tenant frontend skeleton. Runtime still binds schemas by Host, so tenant isolation remains real rather than collapsing all customers into one shared backend account.</p>
     </article>
     <article class="brand-card brand-card--nested">
       <h3>What it fits best</h3>

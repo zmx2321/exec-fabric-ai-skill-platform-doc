@@ -28,6 +28,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="https://execfabric.cn/">先看快速开始</a>
+        <a class="cta-button" href="./team-tenant-payment.html">看标准租户支付说明</a>
         <a class="cta-button" href="./editions.html">查看版本阶段与升级路径</a>
         <a class="cta-button" href="/contact.html#lead-form">沟通分流 / 升级</a>
       </div>
@@ -38,10 +39,10 @@ lastUpdated: false
           <span class="link-panel-label">Completed Now</span>
           <strong>支付这件事，当前已经完成到哪</strong>
           <ul class="brand-list">
-            <li>璇络个人免费版已支持本地脚本位自助建单、发起收银台、模拟支付成功和回调后自动开通。</li>
+            <li>璇络个人免费版已支持本地脚本位说明页、账单页、链动小铺付款入口、兑换码回站核销和人工兜底处理。</li>
             <li>账单页已经能看到当前订单、生命周期摘要、对账摘要和最近支付回调。</li>
-            <li><code>public</code> 超管侧已支持建单、确认支付、回调开通、续费提醒、到期停开和恢复。</li>
-            <li>免费页已开放团队版月租 / 年租方案入口，后续开通方式由目标租户端按当前商用配置承接。</li>
+            <li>平台治理控制台已支持建单、确认支付、订单留痕、续费提醒、到期停开和恢复。</li>
+            <li>免费页已开放团队版月租 / 年租方案入口；标准租户端也已单独拆出支付说明、开通登记、续费恢复和兑换码回站页面。</li>
           </ul>
         </article>
         <article class="brand-hero__panel">
@@ -66,7 +67,7 @@ lastUpdated: false
         <li><strong>本地脚本位 +1</strong>：<code>19.90 CNY</code></li>
         <li><strong>本地脚本位 +3</strong>：<code>49.90 CNY</code>，当前默认推荐</li>
         <li><strong>本地脚本位 +5</strong>：<code>79.90 CNY</code></li>
-        <li>付款成功后会直接回填本地脚本位额度。</li>
+        <li>付款完成后回本站凭兑换码或人工兜底继续处理，再把脚本位回填到账户。</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -105,16 +106,16 @@ lastUpdated: false
             <div class="step-item__desc">从 <code>+1 / +3 / +5</code> 三个本地脚本位套餐里选一个，当前推荐是 <code>+3</code>。</div>
           </div>
           <div class="step-item">
-            <div class="step-item__title">03. 创建订单并发起收银台</div>
-            <div class="step-item__desc">创建订单后，页面会生成支付会话、支付提供方和 Mock 收银台码。</div>
+            <div class="step-item__title">03. 创建订单并跳链动小铺</div>
+            <div class="step-item__desc">确认套餐后，当前支付入口会统一跳到链动小铺外部支付页，不再把 Mock 收银台当成对外入口。</div>
           </div>
           <div class="step-item">
-            <div class="step-item__title">04. 完成支付</div>
-            <div class="step-item__desc">当前默认走 Mock 收银台；如果当前环境不方便走 Mock，也可以走人工确认兜底。</div>
+            <div class="step-item__title">04. 付款后回站处理</div>
+            <div class="step-item__desc">拿到兑换码后，回到脚本位兑换页继续核销；如果当前环境暂时不走兑换码，也保留人工确认兜底。</div>
           </div>
           <div class="step-item">
             <div class="step-item__title">05. 回填额度并继续使用</div>
-            <div class="step-item__desc">支付完成后，系统会自动确认订单、增加本地脚本位，并把订单标记为已开通。</div>
+            <div class="step-item__desc">核销或确认完成后，脚本位会回填到账户，账单页、结果页和个人空间都会继续保留当前状态。</div>
           </div>
         </div>
       </article>
@@ -138,7 +139,7 @@ lastUpdated: false
         <h3>月租怎么走</h3>
         <ul class="brand-list">
           <li>从璇络个人免费版的“升级正式版”页面点击<strong>看月租方案入口</strong>。</li>
-          <li>系统会带着 <code>source=personal_free_upgrade</code> 和月租方案参数跳到标准 SaaS 正式租户登记页。</li>
+          <li>系统会带着 <code>source=personal_free_upgrade</code> 和月租方案参数跳到标准 SaaS 正式租户登记页；当前租户端已经单独拆出支付说明页。</li>
           <li>适合先验证一个月真实团队使用，再决定是否长期续用。</li>
           <li>后续仍可继续续费，或切换到更稳定的年租节奏。</li>
         </ul>
@@ -147,7 +148,7 @@ lastUpdated: false
         <h3>年租怎么走</h3>
         <ul class="brand-list">
           <li>从同一页点击<strong>看年租方案入口</strong>。</li>
-          <li>同样会跳到标准 SaaS 正式租户登记页，但带的是年租方案参数。</li>
+          <li>同样会跳到标准 SaaS 正式租户登记页，但带的是年租方案参数；后续继续按租户端支付说明页处理付款与回站核销。</li>
           <li>适合已经明确会长期使用 璇络(ExecFabric)的团队。</li>
           <li>优点是正式服务周期更稳定，也减少月度反复处理续期开通动作。</li>
         </ul>
@@ -190,12 +191,12 @@ lastUpdated: false
     <p class="brand-kicker">Current Boundary</p>
     <h2>当前支付这条线，应该怎么对外描述</h2>
     <ul class="brand-list">
-      <li>可以说：璇络个人免费版本地脚本位支付已经完成最小闭环，<code>public</code> 超管订单生命周期也已经完成最小闭环。</li>
-      <li>可以说：免费页已经开放团队版月租 / 年租方案入口，并明确引导到标准 SaaS 正式租户入口。</li>
+      <li>可以说：璇络个人免费版已经把链动小铺付款入口、脚本位兑换页和人工兜底收成一条当前可用的最小闭环。</li>
+      <li>可以说：免费页已经开放团队版月租 / 年租方案入口，并明确引导到标准 SaaS 正式租户的支付说明、开通登记、续费恢复和兑换码页。</li>
       <li>不能说：整个系统已经有完整通用自助订阅中心。</li>
       <li>不能说：所有支付都已经接通正式第三方网关。</li>
       <li>不能说：免费页内部已经把正式团队租户的注册、付款、开通、续费全部闭合。</li>
-      <li>更准确的公开口径是：<strong>个人账单中心第一版 + 正式团队方案入口已经成立，正式公开支付仍按当前商用配置逐步确认。</strong></li>
+      <li>更准确的公开口径是：<strong>个人免费线和标准租户端都已经把“链动小铺付款 -> 回站核销 / 继续处理”的说明拆清，正式自动开通和完整在线支付仍按当前商用配置逐步确认。</strong></li>
     </ul>
   </section>
 
@@ -207,6 +208,10 @@ lastUpdated: false
         <p class="brand-lead">这页主要讲实现边界、付款路径和真实现状；如果你要对客户、免费线体验用户或售前同事讲“该怎么卖、怎么分层、怎么报价”，更适合继续看单独的会员权益与价格说明。</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
+        <a class="brand-link-card" href="./team-tenant-payment.html">
+          <span>Tenant</span>
+          <strong>标准租户支付说明</strong>
+        </a>
         <a class="brand-link-card" href="../materials/membership-benefits-pricing.html">
           <span>Sales</span>
           <strong>会员权益与价格说明</strong>

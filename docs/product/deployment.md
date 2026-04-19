@@ -171,7 +171,7 @@ lastUpdated: false
         <li>客户不需要把所有脚本统一放到某个固定盘符。</li>
         <li>同一个客户的不同脚本，可以分别登记不同绝对路径。</li>
         <li>如果客户只有一个租户，就只在自己的租户下登记本机路径即可。</li>
-        <li>免费版当前默认对应 <code>tenant_1000</code>，但本地路径仍按用户自己的机器来定。</li>
+        <li>免费版当前默认对应个人免费版正式租户，但本地路径仍按用户自己的机器来定。</li>
       </ul>
     </article>
     <article class="brand-card brand-card--nested">
@@ -192,7 +192,7 @@ lastUpdated: false
   <div class="brand-grid brand-grid--two">
     <article class="brand-card brand-card--nested">
       <h3>当前怎么运行</h3>
-      <p>从 <code>tenant_1003+</code> 开始，标准 SaaS 客户会优先进入共享租户前端骨架。运行时按访问 Host 绑定 schema，所以仍然是租户隔离，不是把所有客户塞进同一个后台账号里混用。</p>
+      <p>进入标准 SaaS 共享租户号段后，标准 SaaS 客户会优先进入共享租户前端骨架。运行时按访问 Host 绑定 schema，所以仍然是租户隔离，不是把所有客户塞进同一个后台账号里混用。</p>
     </article>
     <article class="brand-card brand-card--nested">
       <h3>适合什么场景</h3>

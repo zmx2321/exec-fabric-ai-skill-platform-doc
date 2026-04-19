@@ -30,6 +30,7 @@ lastUpdated: false
       </div>
       <div class="brand-actions">
         <a class="cta-button cta-button--brand" href="https://execfabric.cn/">Read Getting Started first</a>
+        <a class="cta-button" href="./team-tenant-payment.html">Read the tenant payment guide</a>
         <a class="cta-button" href="./editions.html">View the roadmap</a>
         <a class="cta-button" href="/en/contact.html#lead-form">Discuss routing or upgrade</a>
       </div>
@@ -40,10 +41,10 @@ lastUpdated: false
           <span class="link-panel-label">Completed Now</span>
           <strong>How far the payment line has landed already</strong>
           <ul class="brand-list">
-            <li>The personal free edition already supports self-serve order creation for local script slots, checkout-session creation, mock-payment success, and auto-activation after callback.</li>
+            <li>The personal free edition already exposes a payment guide, billing page, LDXP external payment entry, redeem-code return path, and manual fallback handling for local script-slot expansion.</li>
             <li>The billing page can already show the current order, lifecycle summary, reconciliation summary, and recent payment callbacks.</li>
-            <li>The <code>public</code> super-admin side already supports order creation, payment confirmation, callback activation, renewal reminders, expiry shutdown, and recovery.</li>
-            <li>The free path already exposes monthly and annual team-plan entries, while the onboarding mode on the target tenant side follows the current commercial configuration.</li>
+            <li>The <code>public</code> super-admin side already supports order creation, payment confirmation, order traces, renewal reminders, expiry shutdown, and recovery.</li>
+            <li>The free path already exposes monthly and annual team-plan entries, and the target tenant side now has separate pages for tenant payment guidance, onboarding, renewal, and redeem-code return.</li>
           </ul>
         </article>
         <article class="brand-hero__panel">
@@ -68,7 +69,7 @@ lastUpdated: false
         <li><strong>Local script slots +1</strong>: <code>19.90 CNY</code></li>
         <li><strong>Local script slots +3</strong>: <code>49.90 CNY</code>, currently the default recommendation</li>
         <li><strong>Local script slots +5</strong>: <code>79.90 CNY</code></li>
-        <li>After payment succeeds, the local script-slot quota is written back immediately.</li>
+        <li>After payment, users return to the site with a redeem code or the current manual fallback to write the quota back.</li>
       </ul>
     </article>
     <article class="brand-card">
@@ -107,16 +108,16 @@ lastUpdated: false
             <div class="step-item__desc">Pick one package from <code>+1 / +3 / +5</code>. The current recommendation is <code>+3</code>.</div>
           </div>
           <div class="step-item">
-            <div class="step-item__title">03. Create an order and launch checkout</div>
-            <div class="step-item__desc">After the order is created, the page generates a payment session, payment-provider summary, and mock-checkout code.</div>
+            <div class="step-item__title">03. Create an order and jump to LDXP</div>
+            <div class="step-item__desc">After the order is created, the current public payment entry jumps to the LDXP external payment page instead of exposing mock checkout as the public route.</div>
           </div>
           <div class="step-item">
-            <div class="step-item__title">04. Finish payment</div>
-            <div class="step-item__desc">The default path is the mock checkout. If the current environment is not convenient for mock payment, manual confirmation remains as a fallback.</div>
+            <div class="step-item__title">04. Return to the site for processing</div>
+            <div class="step-item__desc">After payment, the user returns with a redeem code. If the environment still needs a fallback, manual confirmation remains available.</div>
           </div>
           <div class="step-item">
             <div class="step-item__title">05. Quota is written back and usage continues</div>
-            <div class="step-item__desc">After payment completes, the system confirms the order automatically, increases the local script-slot quota, and marks the order as activated.</div>
+            <div class="step-item__desc">After redeem or manual confirmation, the quota is written back and the billing page, result page, and personal space keep the current state visible.</div>
           </div>
         </div>
       </article>
@@ -209,6 +210,10 @@ lastUpdated: false
         <p class="brand-lead">This page is mainly about implementation boundary, payment paths, and current reality. If you need to explain how to sell it, how to layer it, or how to quote it to customers, free-path users, or presales teammates, the separate membership and pricing page is a better next step.</p>
       </div>
       <div class="brand-link-grid brand-link-grid--compact">
+        <a class="brand-link-card" href="./team-tenant-payment.html">
+          <span>Tenant</span>
+          <strong>Tenant Payment Guide</strong>
+        </a>
         <a class="brand-link-card" href="../materials/membership-benefits-pricing.html">
           <span>Sales</span>
           <strong>Membership and Pricing</strong>

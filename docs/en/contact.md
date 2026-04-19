@@ -264,7 +264,7 @@ async function submitLeadForm() {
           <td>You are preparing for multi-user collaboration, formal accounts, and a steadier usage cycle</td>
           <td>Move into the team-edition monthly or annual entry first</td>
           <td>The current standard team edition is handled through the shared-SaaS frontend, so the standard path and onboarding mode should be validated before anything custom</td>
-          <td><a href="./product/personal-billing-membership.html">Billing & Membership</a></td>
+          <td><a href="./product/personal-billing-membership.html">Billing & Membership</a> / <a href="./product/team-tenant-payment.html">Tenant Payment Guide</a></td>
         </tr>
         <tr>
           <td>You involve intranet deployment, local bridging, stronger isolation, or formal project acceptance</td>
