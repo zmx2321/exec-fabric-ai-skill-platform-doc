@@ -104,7 +104,11 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>对话执行的大模型地址和 Token 是统一一套吗</h3>
-        <p>不是只能统一一套。平台可以维护默认配置，正式租户也可以维护自己的本地配置；如果租户本地配置不完整，运行时会继续回退平台默认配置。为了避免敏感信息横向暴露，完整 Token 只对配置方可见，另一侧只显示遮罩。</p>
+        <p>不是只能统一一套。平台可以维护默认配置，正式租户也可以维护自己的本地配置；如果租户本地配置不完整，运行时会继续回退平台默认配置。平台治理侧还支持按单租户或批量维护租户的大模型地址与 Token，批量时既可以覆盖所选租户，也可以只补本地空缺租户。为了避免敏感信息横向暴露，完整 Token 只对配置方可见，另一侧只显示遮罩。</p>
+      </article>
+      <article class="brand-card brand-card--nested">
+        <h3>为什么代码里会看到 <code>intelligent_brain</code>，但页面写的是对话执行</h3>
+        <p><code>intelligent_brain</code> 是当前代码、目录和接口层继续保留的兼容技术标识，现阶段不做整库重命名；页面、菜单、官网和交付资料统一显示为“对话执行”。两者指向的是同一套能力域。</p>
       </article>
     </div>
   </section>

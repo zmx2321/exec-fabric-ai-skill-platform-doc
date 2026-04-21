@@ -4,6 +4,8 @@
 
 命名说明：`ExecFabric = Execution + Fabric`。中文名统一为 `璇络`；这里的 `Fabric` 强调把能力、流程和治理边界编织成稳定、可靠、可交付的自动化网络。
 
+补充命名规则：代码里的 `intelligent_brain` 继续作为兼容技术标识保留；官网和对外文档里的统一显示名写“对话执行”。
+
 ## 线上地址
 
 - 自定义域名: `https://docs.execfabric.cn/`
