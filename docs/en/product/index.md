@@ -368,7 +368,7 @@ lastUpdated: false
       <a class="brand-link-card" href="./capabilities.html">
         <span>Step 02</span>
         <strong>Capabilities</strong>
-        <p>Then see how multi-tenancy, trusted execution, template distribution, announcement governance, and the CLI bridge form one closed loop.</p>
+        <p>Then see how multi-tenancy, trusted execution, the platform model library, announcement governance, and the CLI bridge form one closed loop.</p>
       </a>
       <a class="brand-link-card" href="./customer-flow.html">
         <span>Step 03</span>

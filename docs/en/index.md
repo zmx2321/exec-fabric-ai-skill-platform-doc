@@ -555,7 +555,7 @@ features:
       </article>
       <article class="landing-card">
         <h3>Platform operators</h3>
-        <p>They need to manage templates, announcements, audit, customer ledgers, and release rollback centrally while keeping tenant boundaries explicit.</p>
+        <p>They need to manage platform governance, the platform model library, announcements, audit, customer ledgers, and release rollback centrally while keeping tenant boundaries explicit.</p>
       </article>
       <article class="landing-card">
         <h3>Developers and small teams</h3>
@@ -580,7 +580,7 @@ features:
       </article>
       <article class="mode-card">
         <h3>Platform-level governance</h3>
-        <p>Manage tenants, templates, announcements, and logs centrally while keeping the isolation line between customers explicit.</p>
+        <p>Manage tenants, the platform model library, announcements, and logs centrally while keeping the isolation line between customers explicit.</p>
       </article>
       <article class="mode-card">
         <h3>Free experience entry</h3>
@@ -649,7 +649,7 @@ features:
     <a class="link-panel" href="./product/capabilities.html">
       <span class="link-panel-label">Capabilities</span>
       <strong>Core capabilities</strong>
-      <p>See multi-tenancy, trusted execution, template distribution, announcement governance, and the CLI bridge on one page.</p>
+      <p>See multi-tenancy, trusted execution, the platform model library, announcement governance, and the CLI bridge on one page.</p>
     </a>
     <a class="link-panel" href="./product/cli.html">
       <span class="link-panel-label">CLI</span>

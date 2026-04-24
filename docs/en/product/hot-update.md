@@ -152,7 +152,7 @@ lastUpdated: false
         <tr>
           <td>Whether AI can call it</td>
           <td>Recommended</td>
-          <td>Determines whether the intelligent brain may recommend it</td>
+          <td>Determines whether dialog execution may recommend it</td>
           <td>Not every script enters AI recommendation scope by default.</td>
         </tr>
         <tr>

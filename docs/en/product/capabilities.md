@@ -70,15 +70,17 @@ lastUpdated: false
     </article>
     <article class="brand-card">
       <p class="brand-kicker">02</p>
-      <h2>Execution closure through the intelligent brain</h2>
+      <h2>Dialog execution closure</h2>
       <ul class="brand-list">
         <li>Intent recognition</li>
         <li>Plan generation</li>
         <li>Manual confirmation</li>
         <li>Capability execution, result callback, audit trail, and reviewability</li>
-        <li>Dialog execution can use either a platform-default upstream model config or a tenant-local config</li>
-        <li>Both the platform super-admin side and tenant-admin side can now maintain their own model lists</li>
-        <li>Public models can be granted to tenants or specific users, and the user sees the model in dialog execution only after confirming the announcement</li>
+        <li>Dialog execution can use either a platform-default upstream model configuration or a tenant-local configuration</li>
+        <li>The platform super-admin side now maintains the platform model library, and tenant admins maintain their own tenant-local model lists</li>
+        <li>Platform models are granted first to tenants and then to specific users, and the model appears in dialog execution only after the user confirms the announcement</li>
+        <li>The platform governance side can maintain tenant model URLs and tokens per tenant or in batch</li>
+        <li>Batch maintenance can either overwrite the selected tenants or fill only tenants whose local configuration is still incomplete</li>
         <li>The full value of a sensitive token is shown only to the side that configured it; the other side sees a masked preview</li>
         <li>Personal-free regular users do not need a separate model-list page in order to switch among the models already authorized to them inside dialog execution</li>
         <li>The session model now participates in Skill-gate checks instead of blindly following only a default model</li>

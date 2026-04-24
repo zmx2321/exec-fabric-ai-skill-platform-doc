@@ -116,7 +116,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>04. The customer starts using it</h3>
-        <p>The customer either triggers capabilities manually through the page or describes the request in the intelligent brain, where the platform recommends capabilities inside the current tenant.</p>
+        <p>The customer either triggers capabilities manually through the page or describes the request in dialog execution, where the platform recommends capabilities inside the current tenant.</p>
       </article>
       <article class="brand-card brand-card--nested">
         <h3>05. Continuous feedback during operation</h3>
@@ -303,7 +303,7 @@ lastUpdated: false
       </article>
       <article class="brand-card brand-card--nested">
         <h3>3. Choose manual execution or AI-assisted execution</h3>
-        <p>Customers can trigger a capability directly, or they can describe a request in the intelligent brain and let the platform recommend a capability inside the current tenant and permission scope.</p>
+        <p>Customers can trigger a capability directly, or they can describe a request in dialog execution and let the platform recommend a capability inside the current tenant and permission scope.</p>
       </article>
     </div>
   </section>

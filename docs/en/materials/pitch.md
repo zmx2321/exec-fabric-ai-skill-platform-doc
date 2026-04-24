@@ -161,7 +161,7 @@ lastUpdated: false
         <tr>
           <td>07</td>
           <td>Current landed capabilities</td>
-          <td>Multi-tenancy, capability onboarding, the intelligent brain, hot update, and the CLI already have a real base</td>
+          <td>Multi-tenancy, capability onboarding, dialog execution, hot update, and the CLI already have a real base</td>
           <td>A wall of capability cards</td>
         </tr>
         <tr>
